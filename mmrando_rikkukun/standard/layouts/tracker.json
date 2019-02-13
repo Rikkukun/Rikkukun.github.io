@@ -1,0 +1,225 @@
+﻿{
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+		"item_size": 32,
+		"margin": "0,0",
+        "item_margin": "3,4",
+        "rows": [
+          [ "stick", "nut", "bow", "firearrow", "icearrow", "lightarrow", "ocarina", "shield" ],
+          [ "bomb", "bombchu", "keg", "hookshot", "lens", "magic", "fairysword", "kokirisword" ],
+          [ "songoftime_check", "healing_check", "epona_check", "soaring_check", "storms_check", "skulltulla_woodfall", "bottle1", "wallet" ],
+          [ "sonata_check", "lullaby_check", "bossanova_check", "elegy_check", "oath_check", "skulltulla_greatbay", "bottle2", "moontear" ],
+          [ "postman", "allnight", "blast", "stone", "fairymask", "deku", "bottle3", "roomkey" ],
+          [ "keaton", "bremen", "bunny", "dongero", "scents", "goron", "bottle4", "pendant" ],
+          [ "romanimask", "troupe", "kafeimask", "couple", "mot", "zora", "bottle5", "box" ],
+          [ "kamaro", "gibdo", "garo", "captain", "giant", "fiercedeity", "bottle6", "beans" ]
+        ]
+      },
+	  {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "item",
+                "item": "woodfall",
+                "margin": "3,4",
+                "width": 32,
+                "height": 32
+              },
+			  {
+				"type": "item",
+				"item": "woodfall_stray_fairies",
+                "margin": "3,4",
+				"width": 32,
+				"height": 32
+			  },
+              {
+                "type": "item",
+                "item": "snowhead",
+                "margin": "3,4",
+                "width": 32,
+                "height": 32
+              },
+			  {
+				"type": "item",
+				"item": "snowhead_stray_fairies",
+                "margin": "3,4",
+				"width": 32,
+				"height": 32
+			  },
+              {
+                "type": "item",
+                "item": "greatbay",
+                "margin": "3,4",
+                "width": 32,
+                "height": 32
+              },
+			  {
+				"type": "item",
+				"item": "greatbay_stray_fairies",
+                "margin": "3,4",
+				"width": 32,
+				"height": 32
+			  },
+              {
+                "type": "item",
+                "item": "stonetower",
+                "margin": "3,4",
+                "width": 32,
+                "height": 32
+              },
+			  {
+				"type": "item",
+				"item": "stonetower_stray_fairies",
+                "margin": "3,4",
+				"width": 32,
+				"height": 32
+			  }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"margin": "5,0",
+					"content": [
+					  {
+						"type": "item",
+						"item": "woodfall_boss_key",
+						"margin": "0,2",
+						"width": 16,
+						"height": 16
+					  },
+					  {
+						"type": "item",
+						"item": "woodfall_label",
+						"margin": "0,2",
+						"width": 32,
+						"height": 12
+					  },
+					  {
+						"type": "item",
+						"item": "woodfall_small_keys",
+						"margin": "1,2",
+						"width": 16,
+						"height": 16
+					  }
+					]
+				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"margin": "5,0",
+					"content": [
+					  {
+						"type": "item",
+						"item": "snowhead_boss_key",
+						"margin": "0,2",
+						"width": 16,
+						"height": 16
+					  },
+					  {
+						"type": "item",
+						"item": "snowhead_label",
+						"margin": "0,2",
+						"width": 32,
+						"height": 12
+					  },
+					  {
+						"type": "item",
+						"item": "snowhead_small_keys",
+						"margin": "1,2",
+						"width": 16,
+						"height": 16
+					  }
+					]
+				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"margin": "5,0",
+					"content": [
+					  {
+						"type": "item",
+						"item": "greatbay_boss_key",
+						"margin": "0,2",
+						"width": 16,
+						"height": 16
+					  },
+					  {
+						"type": "item",
+						"item": "greatbay_label",
+						"margin": "0,2",
+						"width": 32,
+						"height": 12
+					  },
+					  {
+						"type": "item",
+						"item": "greatbay_small_keys",
+						"margin": "1,2",
+						"width": 16,
+						"height": 16
+					  }
+					]
+				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"margin": "5,0",
+					"content": [
+					  {
+						"type": "item",
+						"item": "stonetower_boss_key",
+						"margin": "0,2",
+						"width": 16,
+						"height": 16
+					  },
+					  {
+						"type": "item",
+						"item": "stonetower_label",
+						"margin": "0,2",
+						"width": 32,
+						"height": 12
+					  },
+					  {
+						"type": "item",
+						"item": "stonetower_small_keys",
+						"margin": "1,2",
+						"width": 16,
+						"height": 16
+					  }
+					]
+				}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tracker_default": {
+  "type": "container",
+  "width": 320,
+  //"height": 350,
+  "background": "#212121",
+  "content": {
+		"type": "layout",
+		"dropshadow": true,
+		"margin": 10,
+		"key": "shared_item_grid"
+	}
+  }
+}

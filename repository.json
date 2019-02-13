@@ -1,0 +1,25 @@
+{
+  "name": "EmoTracker Official Packages",
+  "packages": [
+    {
+      "name": "MM Rando Item Tracker",
+      "author": "Rikkukun",
+      "game_name": "Majora's Mask Randomizer",
+      "version": "1.0.0",
+      "flags": [ "map", "pins", "chathud" ],
+      "required_app_version": "2.2.0.6",
+      "uid": "mmrando_rikkukun",
+      "link": "https://emotracker.net/service/packages/alttpr_emotracker_emosaru.zip",
+      "variants": [
+        {
+          "name": "Standard",
+          "flags": [ "chathud" ]
+        },
+        {
+          "name": "Minimal",
+          "flags": [ "chathud" ]
+        }
+      ]
+    }
+  ]
+}
