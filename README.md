@@ -19,9 +19,9 @@ If you have doubts on what a certain icon represents, hover your mouse on it for
 
 * ![Woodfall Skulltulla](http://puu.sh/CLLLk/d86abe03e1.png) / ![Great Bay Skulltulla](http://puu.sh/CLLKX/70c5dda9f0.png) are to keep track respectively of Woodfall skulltullas and Great Bay skulltullas.
 
-You can cycle through bottle items, I purposely omitted two or three items because they don't unlock any check, this could change based on feedback.
+* You can cycle through bottle items, I purposely omitted two or three items because they don't unlock any check, this could change based on feedback.
 
-* **Minimal** has some combined items that could be confusing: here's their explainations:
+* **Minimal** layout has some combined items that could be confusing: here's their explainations:
 
 * ![Bombs and Blast Mask](http://puu.sh/CLLKB/9650b27006.png) is meant to be marked when you find Bombs *or* Blast Mask, since they open the same checks.
 
