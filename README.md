@@ -35,7 +35,7 @@ If you have doubts on what a certain icon represents, hover your mouse on it for
 
 ## Questions or Suggestions
 
-You can keep an eye on my to-do list and future ideas for the pack I wrote down in my [TODO and ideas list](../blob/master/ideasTODO.md "ideasTODO").
+You can keep an eye on my to-do list and future ideas for the pack I wrote down in my [TODO and ideas list](../blob/master/ideasTODO "ideasTODO").
 
 If you have any questions or suggestions regarding the pack or the trackers, feel free to send me a message **@Rikkukun#8349** in the [EmoTracker Discord](https://emotracker.net/community/ "EmoTracker Discord") or [MMR Discord](https://discord.gg/2xpZYQq "Majora's Mask Randomizer Discord") or open an issue on Github.
 

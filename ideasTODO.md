@@ -1,4 +1,4 @@
-# Standard layout
+# Standard Layout
 
 ## Ideas
 
@@ -11,7 +11,7 @@
 
 * A five digit number to keep track of Bombers code
 
-# Minimal layout
+# Minimal Layout
 
 ## Ideas
 
@@ -21,6 +21,6 @@
 
 ## To-do
 
-# More layouts
+# More Layouts
 
-## I'll wait for players' feedback to create more tracker layouts
+I'll wait for players' feedback to create more tracker layouts
