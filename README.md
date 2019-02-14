@@ -2,7 +2,7 @@
 
 ## Content
 
-This is a pack for EmoTracker designed for Majora's Mask Randomizer, it is available for download in the [EmoTracker Link](https://emotracker.net/ "EmoTracker application").
+This is a pack for EmoTracker designed for Majora's Mask Randomizer, it is available for download in the [EmoTracker application](https://emotracker.net/).
 
 This pack will be updated based on players' feedback and usage after playing the new 2019 version of Deathbasket's MM randomizer.
 
@@ -35,8 +35,8 @@ If you have doubts on what a certain icon represents, hover your mouse on it for
 
 ## Questions or Suggestions
 
-You can keep an eye on my to-do list and future ideas for the pack I wrote down in my [TODO and ideas list](../blob/master/ideasTODO "ideasTODO").
+You can keep an eye on my to-do list and future ideas for the pack I wrote down in my [ideasTODO](https://github.com/Rikkukun/Rikkukun.github.io/blob/master/ideasTODO.md).
 
-If you have any questions or suggestions regarding the pack or the trackers, feel free to send me a message **@Rikkukun#8349** in the [EmoTracker Discord](https://emotracker.net/community/ "EmoTracker Discord") or [MMR Discord](https://discord.gg/2xpZYQq "Majora's Mask Randomizer Discord") or open an issue on Github.
+If you have any questions or suggestions regarding the pack or the trackers, feel free to send me a message **@Rikkukun#8349** in the [EmoTracker Discord](https://emotracker.net/community/) or [Majora's Mask Randomizer Discord](https://discord.gg/2xpZYQq) or open an issue on Github.
 
 *special thanks to ChibiValy who helped me with some custom icons, EmoSaru, Hamsda and JRJathome who helped me setup the tracker and everyone for the feedback!*
