@@ -1,6 +1,7 @@
 ﻿{
   "tracker_broadcast": {
     "type": "array",
+	"dropshadow": true,
     "orientation": "vertical",
     "content": [
       {
@@ -15,7 +16,7 @@
           [ "songoftime_check", "healing_check", "epona_check", "soaring_check", "storms_check", "skulltulla_woodfall", "bottle1", "wallet" ],
           [ "sonata_check", "lullaby_check", "bossanova_check", "elegy_check", "oath_check", "skulltulla_greatbay", "bottle2", "moontear" ],
           [ "postman", "allnight", "blast", "stone", "fairymask", "deku", "bottle3", "roomkey" ],
-          [ "keaton", "bremen", "bunny", "dongero", "scents", "goron", "bottle4", "pendant" ],
+          [ "keaton", "bremen", "bunny", "dongero", "scents", "goron", "bottle4", "letter" ],
           [ "romanimask", "troupe", "kafeimask", "couple", "mot", "zora", "bottle5", "box" ],
           [ "kamaro", "gibdo", "garo", "captain", "giant", "fiercedeity", "bottle6", "beans" ]
         ]
@@ -24,6 +25,87 @@
         "type": "array",
         "orientation": "vertical",
         "content": [
+		  {
+            "type": "array",
+			"h_alignment": "center",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "right",
+					"margin": "3,4",
+					"content": [
+					  {
+						"type": "item",
+						"item": "bomber",
+						"margin": "0,0",
+						"width": 32,
+						"height": 32
+					  }
+					]
+				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "right",
+					"margin": "3,4",
+					"content": [
+					  {
+						"type": "item",
+						"item": "bombers_code1",
+						"margin": "1,4",
+						"width": 12,
+						"height": 16
+					  },
+					  {
+						"type": "item",
+						"item": "bombers_code2",
+						"margin": "1,4",
+						"width": 12,
+						"height": 16
+					  },
+					  {
+						"type": "item",
+						"item": "bombers_code3",
+						"margin": "1,4",
+						"width": 12,
+						"height": 16
+					  },
+					  {
+						"type": "item",
+						"item": "bombers_code4",
+						"margin": "1,4",
+						"width": 12,
+						"height": 16
+					  },
+					  {
+						"type": "item",
+						"item": "bombers_code5",
+						"margin": "1,4",
+						"width": 12,
+						"height": 16
+					  },
+					]
+				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "left",
+					"margin": "3,4",
+					"content": [
+					  {
+						"type": "item",
+						"item": "clocktown_strayfairy",
+						"margin": "0,0",
+						"width": 32,
+						"height": 32
+					  }
+					]
+				},
+			]
+		  },
           {
             "type": "array",
             "orientation": "horizontal",

@@ -5,7 +5,7 @@
       "name": "MM Rando Item Tracker",
       "author": "Rikkukun",
       "game_name": "Majora's Mask Randomizer",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "flags": [ "chathud" ],
       "required_app_version": "2.2.0.6",
       "uid": "mmrando_rikkukun",

@@ -2,10 +2,7 @@
 
 ## To-do
 
-* Implement Markdown Items EmoTracker functionality to keep track of items from different cycles
-* A five digit number to keep track of Bombers code
 * Broadcast view beauty changes
-* Clock Town Stray Fairy
 
 ## Ideas
 
@@ -18,8 +15,6 @@
 
 ## To-do
 
-* Implement Markdown Items EmoTracker functionality to keep track of items from different cycles
-* Remove Magic Meter
 * Broadcast view beauty changes
 
 ## Ideas

@@ -1,6 +1,7 @@
 ﻿{
   "tracker_broadcast": {
     "type": "array",
+    "dropshadow": true,
     "orientation": "vertical",
     "content": [
       {
@@ -10,9 +11,9 @@
 		"margin": "0,0",
         "item_margin": "8,6",
         "rows": [
-          [ "bow_minimal", "fireicearrows", "lightarrow", "magic", "lens" ],
-          [ "hookshot", "bombs_blastmask", "gibdo_garo", "mirror", "keg" ],
-          [ "deku", "goron", "zora", "epona_check", "bottle1" ],
+          [ "bow_minimal", "fireicearrows", "lightarrow", "mirror", "lens" ],
+          [ "hookshot", "bombs_blastmask", "gibdo_garo", "bottle1", "keg" ],
+          [ "deku", "goron", "zora", "epona_check", "songofstorms_check" ],
 		  [ "sonata_check", "lullaby_check", "bossanova_check", "elegy_check", "oath_check" ]
         ]
       },
