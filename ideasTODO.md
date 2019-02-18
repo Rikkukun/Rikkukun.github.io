@@ -1,4 +1,4 @@
-# *Map Tracker*
+# **Map Tracker**
 
 * I'm actually working hard with EpicYoshi on a map tracker. 15% completion.
 
