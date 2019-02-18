@@ -1,3 +1,7 @@
+# *Map Tracker*
+
+* I'm actually working hard with EpicYoshi on a map tracker. 15% completion.
+
 # Standard Layout
 
 ## To-do
@@ -22,7 +26,3 @@
 * Add Bombchus
 * Merge Light Arrows and Mirror Shield
 * Add missing songs
-
-# More Layouts
-
-I'll wait for players' feedback to create more tracker layouts
