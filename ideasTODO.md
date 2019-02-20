@@ -1,6 +1,6 @@
 # **Map Tracker**
 
-* I'm actually working hard with EpicYoshi on a map tracker. 15% completion.
+* I'm actually working hard with EpicYoshi on a map tracker. 90% completion.
 
 # Standard Layout
 
