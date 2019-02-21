@@ -8,11 +8,11 @@
       {
         "img": "images/bow.png",
         "img_mods": "@disabled",
-		"codes": "bow"
       },
       {
         "img": "images/bow.png",
-        "img_mods": "overlay|images/overlay_30.png"
+        "img_mods": "overlay|images/overlay_30.png",
+		"codes": "bow"
       },
       {
         "img": "images/bow.png",
@@ -81,12 +81,12 @@
     "stages": [
       {
         "img": "images/bomb.png",
-        "img_mods": "@disabled",
-	    "codes": "bombs,bombbag,bomb"
+        "img_mods": "@disabled"
       },
       {
         "img": "images/bomb.png",
-        "img_mods": "overlay|images/overlay_20.png"
+        "img_mods": "overlay|images/overlay_20.png",
+	    "codes": "bombs,bombbag,bomb"
       },
       {
         "img": "images/bomb.png",
@@ -349,7 +349,8 @@
         "codes": "shield,shield1,heroshield,hylianshield"
       },
       {
-        "img": "images/mirror.png"
+        "img": "images/mirror.png",
+		"codes": "mirror,mirrorshield,mirror_shield,shield2"
       }
     ]
   },
@@ -374,6 +375,12 @@
         "codes": "bottle,bottle1,emptybottle"
       },
       {
+        "img": "images/dust.png"
+      },
+      {
+        "img": "images/bigpoe.png"
+      },
+      {
         "img": "images/zoraegg.png"
       },
       {
@@ -384,9 +391,6 @@
       },
       {
         "img": "images/bluepotion.png"
-      },
-      {
-        "img": "images/dust.png"
       },
       {
         "img": "images/seahorse.png"
@@ -408,9 +412,6 @@
       },
       {
         "img": "images/fairy.png"
-      },
-      {
-        "img": "images/bigpoe.png"
       },
       {
         "img": "images/chateau.png"
@@ -431,6 +432,12 @@
         "codes": "bottle,bottle2,emptybottle"
       },
       {
+        "img": "images/dust.png"
+      },
+      {
+        "img": "images/bigpoe.png"
+      },
+      {
         "img": "images/zoraegg.png"
       },
       {
@@ -441,9 +448,6 @@
       },
       {
         "img": "images/bluepotion.png"
-      },
-      {
-        "img": "images/dust.png"
       },
       {
         "img": "images/seahorse.png"
@@ -465,9 +469,6 @@
       },
       {
         "img": "images/fairy.png"
-      },
-      {
-        "img": "images/bigpoe.png"
       },
       {
         "img": "images/chateau.png"
@@ -488,6 +489,12 @@
         "codes": "bottle,bottle3,emptybottle"
       },
       {
+        "img": "images/dust.png"
+      },
+      {
+        "img": "images/bigpoe.png"
+      },
+      {
         "img": "images/zoraegg.png"
       },
       {
@@ -498,9 +505,6 @@
       },
       {
         "img": "images/bluepotion.png"
-      },
-      {
-        "img": "images/dust.png"
       },
       {
         "img": "images/seahorse.png"
@@ -522,9 +526,6 @@
       },
       {
         "img": "images/fairy.png"
-      },
-      {
-        "img": "images/bigpoe.png"
       },
       {
         "img": "images/chateau.png"
@@ -545,6 +546,12 @@
         "codes": "bottle,bottle4,emptybottle"
       },
       {
+        "img": "images/dust.png"
+      },
+      {
+        "img": "images/bigpoe.png"
+      },
+      {
         "img": "images/zoraegg.png"
       },
       {
@@ -555,9 +562,6 @@
       },
       {
         "img": "images/bluepotion.png"
-      },
-      {
-        "img": "images/dust.png"
       },
       {
         "img": "images/seahorse.png"
@@ -579,9 +583,6 @@
       },
       {
         "img": "images/fairy.png"
-      },
-      {
-        "img": "images/bigpoe.png"
       },
       {
         "img": "images/chateau.png"
@@ -602,6 +603,12 @@
         "codes": "bottle,bottle5,emptybottle"
       },
       {
+        "img": "images/dust.png"
+      },
+      {
+        "img": "images/bigpoe.png"
+      },
+      {
         "img": "images/zoraegg.png"
       },
       {
@@ -612,9 +619,6 @@
       },
       {
         "img": "images/bluepotion.png"
-      },
-      {
-        "img": "images/dust.png"
       },
       {
         "img": "images/seahorse.png"
@@ -636,9 +640,6 @@
       },
       {
         "img": "images/fairy.png"
-      },
-      {
-        "img": "images/bigpoe.png"
       },
       {
         "img": "images/chateau.png"
@@ -659,6 +660,12 @@
 		"codes": "bottle,bottle6,emptybottle"
       },
       {
+        "img": "images/dust.png"
+      },
+      {
+        "img": "images/bigpoe.png"
+      },
+      {
         "img": "images/zoraegg.png"
       },
       {
@@ -669,9 +676,6 @@
       },
       {
         "img": "images/bluepotion.png"
-      },
-      {
-        "img": "images/dust.png"
       },
       {
         "img": "images/seahorse.png"
@@ -693,9 +697,6 @@
       },
       {
         "img": "images/fairy.png"
-      },
-      {
-        "img": "images/bigpoe.png"
       },
       {
         "img": "images/chateau.png"
@@ -738,11 +739,13 @@
       },
       {
         "img": "images/wallet.png",
-        "img_mods": "overlay|images/overlay_200.png"
+        "img_mods": "overlay|images/overlay_200.png",
+		"codes": "adultwallet"
       },
       {
         "img": "images/giantwallet.png",
-        "img_mods": "overlay|images/overlay_500_green.png"
+        "img_mods": "overlay|images/overlay_500_green.png",
+		"codes": "giantwallet"
       }
     ]
   },
@@ -1007,19 +1010,23 @@
       },
       {
         "img": "images/deed1.png",
-        "codes": "deed1,towndeed,clockdeed,clocktowndeed"
+        "codes": "deed1,towndeed,clockdeed,clocktowndeed",
+        "inherit_codes": false
       },
 	  {
         "img": "images/deed2.png",
-        "codes": "deed2,dekudeed,woodfalldeed,woodfall_deed"
+        "codes": "deed2,dekudeed,woodfalldeed,woodfall_deed",
+        "inherit_codes": false
       },
 	  {
         "img": "images/deed3.png",
-        "codes": "deed3,snowheaddeed,snowhead_deed"
+        "codes": "deed3,snowheaddeed,snowhead_deed",
+        "inherit_codes": false
       },
 	  {
         "img": "images/deed4.png",
-        "codes": "deed4,baydeed,greatbaydeed,great_bay_deed,zoradeed"
+        "codes": "deed4,baydeed,greatbaydeed,great_bay_deed,zoradeed",
+        "inherit_codes": false
       },
     ]
   },
@@ -1034,7 +1041,9 @@
         "codes": "roomkey,anjukey,room_key"
       },
       {
-        "img": "images/delivery.png"
+        "img": "images/delivery.png",
+		"codes": "delivery,deliverytomama,delivery_to_mama,specialdelivery,special_delivery",
+        "inherit_codes": false
       }
     ]
   },
@@ -1049,7 +1058,9 @@
         "codes": "letter,letterkafei,lettertokafei,anjuletter,anjusletter,letter_to_kafei"
       },
       {
-        "img": "images/pendant.png"
+        "img": "images/pendant.png",
+		"codes": "pendant,pendantofmemories,pom,pendant_of_memories,kafeipendant,pendantkafei",
+        "inherit_codes": false
       }
     ]
   },
@@ -1614,7 +1625,7 @@
     "name": "Mirror Shield",
     "type": "toggle",
     "img": "images/mirror.png",
-    "codes": "mirror,mirrorshield,mirror_shield,shield2"
+    "codes": "mirror_static,mirrorshield_static,mirror_shield_static,shield2_static"
   },
   
   // Kokiri Sword Static
@@ -1752,7 +1763,7 @@
     "name": "Special Delivery",
     "type": "toggle",
     "img": "images/delivery.png",
-    "codes": "delivery,deliverytomama,delivery_to_mama,specialdelivery,special_delivery"
+    "codes": "delivery_static,deliverytomama_static,delivery_to_mama_static,specialdelivery_static,special_delivery_static"
   },
   
   // Letter to Kafei Static
@@ -1768,7 +1779,7 @@
     "name": "Pendant of Memories",
     "type": "toggle",
     "img": "images/pendant.png",
-    "codes": "pendant,pendantofmemories,pom,pendant_of_memories,kafeipendant,pendantkafei"
+    "codes": "pendant_static,pendantofmemories_static,pom_static,pendant_of_memories_static,kafeipendant_static,pendantkafei_static"
   }
   
 ]

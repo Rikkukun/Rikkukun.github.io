@@ -1,0 +1,416 @@
+[
+  {
+    "name": "Woodfall Temple",
+    "short_name": "WFT",
+    "parent": "Poison Swamp Area",
+    "access_rules": [
+      "ocarina,sonata,deku"
+    ],
+    "sections": [
+      {
+        "name": "Small Key Chest",
+        "short_name": "Small Key",
+        "access_rules": [
+          "dekumask",
+          "{hookshot}"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Map Chest",
+        "short_name": "Map",
+        "access_rules": [
+          "goron",
+          "$has_explosives",
+          "deku"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+	  
+      {
+        "name": "Compass Chest",
+        "short_name": "Compass",
+        "access_rules": [
+          "woodfall_small_keys:1,$can_deal_damage,stick",
+          "hookshot,bow,stick",
+          "$has_fire",
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Hero's Bow Chest",
+        "short_name": "Bow",
+        "access_rules": [
+          "bow,$can_deal_damage",
+          "woodfall_small_keys:1,stick"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Boss Key Chest",
+        "short_name": "Boss Key",
+        "access_rules": [
+          "$can_deal_damage,bow",
+          "$can_deal_damage,zora"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Odolwa",
+        "access_rules": [
+          "woodfall_boss_key,$can_deal_damage"
+        ],
+        "hosted_item": "woodfall",
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Oath to Order",
+        "access_rules": [
+          "woodfall"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      }
+
+    ],
+    "map_locations": [
+      {
+        "map": "termina",
+        "x": 542,
+        "y": 478
+      }
+    ]
+  },
+
+  {
+    "name": "Snowhead Temple",
+    "short_name": "SHT",
+    "parent": "Snowhead Area",
+    "sections": [
+
+      {
+        "name": "Map Chest",
+        "short_name": "Map",
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Small Key Chest 1F West",
+        "short_name": "Small Key 1",
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Compass Chest",
+        "short_name": "Compass",
+        "access_rules": [
+			"snowhead_small_keys:1"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Small Key Chest 2F",
+        "short_name": "Small Key 2",
+        "access_rules": [
+          "$can_break_rocks,snowhead_small_keys:1",
+		  "bow,firearrows,snowhead_small_keys:1"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Fire Arrows Chest",
+        "short_name": "Fire Arrows",
+        "access_rules": [
+          "$can_deal_damage,snowhead_small_keys:2",
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Small Key Chest 1 East",
+        "short_name": "Small Key 3",
+        "access_rules": [
+          "bow,firearrows,snowhead_small_keys:2",
+          "bottle,hookshot,snowhead_small_keys:2"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Boss Key Chest",
+        "short_name": "Boss Key",
+        "access_rules": [
+          "$can_deal_damage,bow,snowhead_small_keys:3",
+          "$can_deal_damage,zora,snowhead_small_keys:3"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Goht",
+        "access_rules": [
+          "snowhead_boss_key,snowhead_small_keys:3,$can_deal_damage"
+        ],
+        "hosted_item": "snowhead",
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Oath to Order",
+        "access_rules": [
+          "snowhead"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      }
+
+    ],
+    "map_locations": [
+      {
+        "map": "termina",
+        "x": 488,
+        "y": 35
+      }
+    ]
+  },
+
+  {
+    "name": "Great Bay Temple",
+    "short_name": "GBT",
+    "parent": "GB Easy To Swim To",
+    "access_rules": [
+      "zora,ocarina,bossanova,[hookshot]"
+    ],
+    "sections": [
+      {
+        "name": "Map Chest",
+        "short_name": "Map",
+        "access_rules": [
+          "hookshot",
+          "bow,icearrow",
+          "[zora]"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Compass Chest",
+        "short_name": "Compass",
+        "access_rules": [
+          "deku",
+          "bow,magic,icearrow"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Small Key Chest",
+        "short_name": "Small Key",
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Boss Key Chest",
+        "short_name": "Boss Key",
+        "access_rules": [
+          "$has_fire,icearrow",
+          "bow,icearrow,magic,zora",
+          "[zora]"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Ice Arrows Chest",
+        "short_name": "Ice Arrows",
+        "access_rules": [
+          "greatbay_small_keys:1"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Gyorg",
+        "hosted_item": "greatbay",
+        "access_rules": [
+          "greatbay_boss_key,[$has_fire],[icearrow]"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Oath to Order",
+        "access_rules": [
+          "greatbay"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      }
+
+    ],
+    "map_locations": [
+      {
+        "map": "termina",
+        "x": 100,
+        "y": 350
+      }
+    ]
+  },
+
+  {
+    "name": "Stone Tower Temple",
+    "short_name": "STT",
+    "parent": "Stone Tower",
+    "sections": [
+
+      {
+        "name": "Stone Tower Temple Map Chest",
+        "short_name": "Map",
+        "access_rules": [
+          "mirrorshield",
+		  "$can_LA"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Stone Tower Temple Small Key Chest B2",
+        "short_name": "Stone Tower Small Key 1",
+        "access_rules": [
+          "mirrorshield",
+		  "$can_LA"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Stone Tower Temple Small Key Chest 1F",
+        "short_name": "Stone Tower Small Key 2",
+        "access_rules": [
+			"stonetower_small_keys:1"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Stone Tower Temple Compass Chest",
+        "short_name": "Compass",
+        "access_rules": [
+          "mirrorshield",
+          "$can_LA"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Stone Tower Temple Light Arrows Chest",
+        "short_name": "Light Arrows",
+        "access_rules": [
+          "deku,$can_deal_damage,mirrorshield,stonetower_small_keys:2",
+          "deku,$can_LA,stonetower_small_keys:1"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Inverted Stone Tower Temple Small Key Chest 2F",
+        "short_name": "Inverted Tower Small Key 3",
+        "access_rules": [
+          "$can_LA,deku"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Inverted Stone Tower Temple Small Key Chest 1F",
+        "short_name": "Inverted Tower Small Key 4",
+        "access_rules": [
+          "$can_LA,deku,stonetower_small_keys:1"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Giant's Mask Chest",
+        "short_name": "Giant's Mask",
+        "access_rules": [
+          "$can_LA,stonetower_small_keys:1"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Inverted Stone Tower Temple Boss Key Chest",
+        "short_name": "Boss Key",
+        "access_rules": [
+          "$can_LA,deku,stonetower_small_keys:1"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Twinmold",
+        "access_rules": [
+          "$can_LA,stonetower_boss_key,stonetower_small_keys:1"
+        ],
+        "hosted_item": "stonetower",
+        "capture_item": true,
+        "item_count": 1
+      },
+
+      {
+        "name": "Oath to Order",
+        "access_rules": [
+          "stonetower"
+        ],
+        "capture_item": true,
+        "item_count": 1
+      }
+
+    ],
+    "map_locations": [
+      {
+        "map": "termina",
+        "x": 956,
+        "y": 223
+      }
+    ]
+  }
+
+]

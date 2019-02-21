@@ -2,15 +2,19 @@
   "name": "Majora's Mask Item Trackers by Rikkukun",
   "packages": [
     {
-      "name": "MM Rando Item Tracker",
-      "author": "Rikkukun",
+      "name": "MM Randomizer Map Tracker",
+      "author": "Rikkukun & epicYoshi",
       "game_name": "Majora's Mask Randomizer",
-      "version": "1.2.0",
-      "flags": [ "chathud" ],
+      "version": "2.0.0",
+      "flags": [ "map", "pins", "chathud" ],
       "required_app_version": "2.2.0.6",
       "uid": "mmrando_rikkukun",
       "link": "https://Rikkukun.github.io/mmrando_rikkukun.zip",
       "variants": [
+        {
+          "name": "Map Tracker",
+          "flags": [ "map", "pins", "chathud" ]
+        },
         {
           "name": "Standard",
           "flags": [ "chathud" ]

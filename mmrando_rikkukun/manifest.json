@@ -1,14 +1,17 @@
 ﻿{
-  "name": "MM Rando Item Tracker",
+  "name": "MM Randomizer Map Tracker",
   "game_name": "Majora's Mask Randomizer",
-  "package_version": "1.2.0",
+  "package_version": "2.0.0",
   "package_uid": "mmrando_rikkukun",
-  "author": "Rikkukun",
+  "author": "Rikkukun & epicYoshi",
   "variants": {
-    "standard": {
+	"var_maptracker": {
+      "display_name": "Map Tracker"
+    },
+    "var_standard": {
       "display_name": "Standard"
     },
-	"minimal": {
+	"var_minimal": {
       "display_name": "Minimal"
     }
   }

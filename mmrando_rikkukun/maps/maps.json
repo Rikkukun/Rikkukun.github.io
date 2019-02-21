@@ -1,0 +1,14 @@
+﻿[
+  {
+    "name": "termina",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/terminamap.png"
+  },
+  {
+    "name": "clocktown",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/clocktownmap.png"
+  }
+]

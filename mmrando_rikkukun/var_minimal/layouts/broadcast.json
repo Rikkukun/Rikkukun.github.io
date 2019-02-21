@@ -1,6 +1,7 @@
 ﻿{
-  "shared_item_grid": {
+  "tracker_broadcast": {
     "type": "array",
+    "dropshadow": true,
     "orientation": "vertical",
     "content": [
       {
@@ -10,7 +11,7 @@
 		"margin": "0,0",
         "item_margin": "8,6",
         "rows": [
-          [ "bow_minimal", "fireicearrows", "lightarrow", "mirror", "lens" ],
+          [ "bow_minimal", "fireicearrows", "lightarrow", "mirrorshield_static", "lens" ],
           [ "hookshot", "bombs_blastmask", "gibdo_garo", "bottle1", "keg" ],
           [ "deku", "goron", "zora", "epona_check", "songofstorms_check" ],
 		  [ "sonata_check", "lullaby_check", "bossanova_check", "elegy_check", "oath_check" ]
@@ -217,62 +218,5 @@
       }
 	  
     ]
-  },
-  "tracker_capture_item": {
-		"type": "container",
-		"content": {
-			"type": "itemgrid",
-			"dropshadow": true,
-			"h_alignment": "center",
-			"item_margin": "3,4",
-			"rows": [
-				[
-				  "bownoammo",
-				  "bombsnoammo",
-				  "bombchu",
-				  "keg",
-				  "hookshot"
-				],
-				[
-				  "kokirisword_static",
-				  "razorsword",
-				  "gildedsword",
-				  "shield_static",
-				  "mirror"
-				],
-				[
-				  "generic_small_key",
-				  "generic_boss_key",
-				  "soaring",
-				  "lens",
-				  "beans"
-				],
-				[
-				  "moontear_static",
-				  "roomkey_static",
-				  "deliverytomama",
-				  "letter_static",
-				  "pendant"
-				],
-				[
-				  "redpotion",
-				  "dekuprincess",
-				  "hotspringwater",
-				  "golddust",
-				  "zoraegg"
-				]
-			]
-		}
-  },
-  "tracker_default": {
-  "type": "container",
-  "width": 270,
-  "background": "#212121",
-  "content": {
-		"type": "layout",
-		"dropshadow": true,
-		"margin": 10,
-		"key": "shared_item_grid"
-	}
   }
 }

@@ -1,0 +1,3234 @@
+[
+  {
+    "name": "World",
+    "chest_unopened_img": "images/chest_brown_closed.png",
+    "chest_opened_img": "images/chest_brown_open.png",
+    "children": [
+
+      {
+        "name": "Clock Town",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Clock Town South",
+            "children": [
+              {
+                "name": "Clock Tower Balcony",
+                "short_name": "Clock Tower Balcony",
+                "sections": [
+                  {
+                    "name": "Clock Tower HP",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 472,
+                    "y": 330
+                  }
+                ]
+              },
+              {
+                "name": "Keaton Grass Circle",
+                "short_name": "Keaton",
+                "sections": [
+                  {
+                    "name": "Keaton Quiz Reward",
+                    "access_rules": [
+                      "keaton,sword1",
+					  "keaton,fairysword",
+					  "keaton,deku",
+					  "keaton,goron",
+					  "keaton,zora",
+					  "keaton,$has_explosives"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 537,
+                    "y": 20
+                  },
+                  {
+                    "map": "termina",
+                    "x": 457,
+                    "y": 367
+                  },
+                  {
+                    "map": "termina",
+                    "x": 524,
+                    "y": 146
+                  },
+                  {
+                    "map": "termina",
+                    "x": 524,
+                    "y": 446
+                  }
+                ]
+              },
+              {
+                "name": "Clock Town Mailboxes",
+                "short_name": "Mailbox",
+                "sections": [
+                  {
+                    "name": "Postbox Item",
+                    "access_rules": [
+                      "postman"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 556,
+                    "y": 148
+                  },
+                  {
+                    "map": "clocktown",
+                    "x": 758,
+                    "y": 439
+                  },
+                  {
+                    "map": "clocktown",
+                    "x": 556,
+                    "y": 290
+                  }
+                ]
+              },
+              {
+                "name": "Clock Town Business Scrub",
+                "short_name": "CT Scrub",
+                "sections": [
+                  {
+                    "name": "Give him Moon's Tear",
+                    "access_rules": [
+                      "moontear"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 403,
+                    "y": 402
+                  }
+                ]
+              },
+              {
+                "name": "South Clock Town Nook",
+                "sections": [
+                  {
+                    "name": "South Clock Town Lower Chest",
+                    "access_rules": [
+                      "moontear,deku",
+                      "hookshot"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 530,
+                    "y": 542
+                  }
+                ]
+              },
+              {
+                "name": "Carnival Tower Chest",
+                "short_name": "Carnival Tower",
+                "sections": [
+                  {
+                    "name": "Open On Final Day",
+                    "access_rules": [
+                      "moontear,deku",
+                      "hookshot"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 475,
+                    "y": 477
+                  }
+                ]
+              },
+              {
+                "name": "Clock Town Tingle Maps",
+                "short_name": "Town Tingle",
+                "sections": [
+                  {
+                    "name": "Map: Clock Town",
+                    "access_rules": [
+                      "$has_projectile"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Map: Swamp",
+                    "access_rules": [
+                      "$has_projectile"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 481,
+                    "y": 82
+                  }
+                ]
+              },
+              {
+                "name": "North Clock Town",
+                "short_name": "NCT",
+                "sections": [
+                  {
+                    "name": "Save The Old Lady - N1 12:20",
+                    "access_rules": [
+                      "$can_deal_damage",
+                      "deku"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 540,
+                    "y": 169
+                  }
+                ]
+              },
+              {
+                "name": "Red Bomber",
+                "short_name": "Jimmie",
+                "sections": [
+                  {
+                    "name": "Catch The Bombers",
+                    "access_rules": [
+                      "$has_projectile"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 423,
+                    "y": 130
+                  }
+                ]
+              },
+              {
+                "name": "North Clock Town Tree",
+                "short_name": "NCT Tree",
+                "sections": [
+                  {
+                    "name": "North Clock Town Tree HP",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 561,
+                    "y": 55
+                  }
+                ]
+              },
+              {
+                "name": "Deku Playground",
+                "short_name": "Deku Playground",
+                "sections": [
+                  {
+                    "name": "Beat All Three Days",
+                    "access_rules": [
+                      "deku"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 327,
+                    "y": 177
+                  }
+                ]
+              },
+              {
+                "name": "Clock Town Great Fairy",
+                "short_name": "CT Fairy",
+                "sections": [
+                  {
+                    "name": "Have Deku Mask",
+                    "access_rules": [
+					  "{deku}",
+                      "deku,clocktown_strayfairy"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 283,
+                    "y": 129
+                  }
+                ]
+              },
+              {
+                "name": "East Clock Town",
+                "short_name": "ECT",
+                "sections": [
+                  {
+                    "name": "East Clock Town Chest",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 613,
+                    "y": 545
+                  }
+                ]
+              },
+              {
+                "name": "Stock Pot Inn",
+                "short_name": "Inn",
+                "sections": [
+                  {
+                    "name": "Inn Employee Room Chest - Final Night",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Room Reservation Mixup - Day 1 2 - 4pm",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Inn Guest Room Chest",
+                    "access_rules": [
+                      "roomkey"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Midnight Item From Anju - Night 1",
+                    "access_rules": [
+                      "deku,kafeimask",
+                      "roomkey,kafeimask",
+                      "deku,kafeimask",
+                      "[zora],kafeimask",
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Grandma Story Time - Day 1/2",
+                    "access_rules": [
+                      "allnightmask"
+                    ],
+                    "capture_item": true,
+                    "item_count": 2
+                  },
+                  {
+                    "name": "Toilet Hand Gift - Night 1/2 After Midnight",
+                    "access_rules": [
+                      "towndeed",
+                      "woodfall_deed",
+                      "snowhead_deed",
+                      "great_bay_deed",
+                      "lettertokafei",
+                      "deliverytomama",
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Couple's Mask - Final Night 4:30 AM",
+                    "access_rules": [
+                      "{maskoftruth}",
+                      "kafeimask,lettertokafei",
+                      "kafeimask,pendantofmemories"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 655,
+                    "y": 295
+                  }
+                ]
+              },
+              {
+                "name": "Milk Bar",
+                "sections": [
+                  {
+                    "name": "Milk Bar Performance - Night 1/2 10 PM - 6 AM",
+                    "access_rules": [
+                      "deku,goron,zora,romanimask"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Delivery To Madame Aroma - Final Night",
+                    "access_rules": [
+                      "kafeimask,deliverytomama"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 738,
+                    "y": 285
+                  }
+                ]
+              },
+              {
+                "name": "Mayor's Residence - Open 10 AM - 10 PM",
+                "sections": [
+                  {
+                    "name": "Gift From Madame Aroma",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Calm The Council - Day 1/2",
+                    "access_rules": [
+                      "couple"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 732,
+                    "y": 94
+                  }
+                ]
+              },
+              {
+                "name": "Honey and Darling - Open 6 AM - 10 PM",
+                "sections": [
+                  {
+                    "name": "Beat All Three Days",
+                    "access_rules": [
+                      "bomb,bow"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 787,
+                    "y": 406
+                  }
+                ]
+              },
+              {
+                "name": "Town Shooting Gallery - Open 6 AM - 10 PM",
+                "short_name": "Town Archery",
+                "sections": [
+                  {
+                    "name": "40 Points Prize",
+                    "access_rules": [
+                      "bow"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Perfect Score",
+                    "access_rules": [
+                      "bow"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 727,
+                    "y": 500
+                  }
+                ]
+              },
+              {
+                "name": "Treasure Box Shop - Open 6 AM - 10 PM",
+                "sections": [
+                  {
+                    "name": "Treasure Chest Game Goron Prize",
+                    "access_rules": [
+                      "goron"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 627,
+                    "y": 425
+                  }
+                ]
+              },
+              {
+                "name": "Bomber's Secret Tunnel",
+                "short_name": "Bomber Tunnel",
+                "sections": [
+                  {
+                    "name": "Bombers' Hidden Treasure",
+                    "access_rules": [
+                      "$has_explosives,goron,[$has_projectile]",
+                      "$has_explosives,deku,[$has_projectile]",
+					  "$has_explosives,$has_projectile"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 792,
+                    "y": 133
+                  }
+                ]
+              },
+              {
+                "name": "West Clock Town",
+                "short_name": "WCT",
+                "sections": [
+                  {
+                    "name": "Rosa Sisters Gift - Night 1/2",
+                    "access_rules": [
+                      "kamaro"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 264,
+                    "y": 280
+                  }
+                ]
+              },
+              {
+                "name": "Clock Town Bank",
+                "short_name": "Bank",
+                "sections": [
+                  {
+                    "name": "200 Rupee Deposit",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "1000 Rupee Deposit",
+                    "access_rules": [
+                      "[adultwallet]"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 292,
+                    "y": 394
+                  }
+                ]
+              },
+              {
+                "name": "Swordsman's School",
+                "sections": [
+                  {
+                    "name": "Expert Swordsman Prize",
+                    "access_rules": [
+                      "sword1"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 242,
+                    "y": 225
+                  }
+                ]
+              },
+              {
+                "name": "Post Office",
+                "sections": [
+                  {
+                    "name": "Postman Counting Game - Day 1: 3 PM - Midnight, Day 2: 5 PM - Midnight",
+                    "access_rules": [
+                      "[bunnyhood]"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Top Priority Delivery - Final Night",
+                    "access_rules": [
+                      "deliverytomama"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 279,
+                    "y": 225
+                  }
+                ]
+              },
+              {
+                "name": "Bomb Shop",
+                "short_name": "Bomb Shop",
+                "sections": [
+                  {
+                    "name": "Buy Bombs",
+                    "access_rules": [
+                      "shopsanity_yes"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Buy Bombchus",
+                    "access_rules": [
+                      "shopsanity_yes"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Bomb Bag",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Big Bomb Bag",
+                    "access_rules": [
+                      "$can_deal_damage",
+					  "deku"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 212,
+                    "y": 384
+                  }
+                ]
+              },
+
+              {
+                "name": "Trading Post - Not Available Final Night",
+                "access_rules": [
+                  "shopsanity_yes"
+                ],
+                "sections": [
+                  {
+                    "name": "Red Potion (30 Rupees)",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Green Potion (30 Rupees)",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Hylian Shield (80 Rupees)",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Fairy (50 Rupees)",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Deku Sticks (10 Rupees)",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "30 Arrows (30 Rupees)",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Deku Nuts (20 Rupees)",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "50 Arrows (40 Rupees)",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 247,
+                    "y": 439
+                  }
+                ]
+              },
+              {
+                "name": "Curiosity Shop - Open 10 PM - 5 AM",
+                "short_name": "CS",
+                "sections": [
+                  {
+                    "name": "500 Rupee Purchase - Final Night",
+                    "access_rules": [
+                      "giantwallet"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 295,
+                    "y": 477
+                  }
+                ]
+              },
+              {
+                "name": "Listen To Guru Guru",
+                "short_name": "Guru Guru",
+                "sections": [
+                  {
+                    "name": "Night 1 or 2",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 295,
+                    "y": 560
+                  }
+                ]
+              },
+              {
+                "name": "Curiosity Shop Backroom",
+                "short_name": "Backroom",
+                "sections": [
+                  {
+                    "name": "Gift From Kafei - Night 2: 4:30 PM",
+                    "access_rules": [
+                      "lettertokafei"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Gift From Kafei - Final Day: 10 AM - 9 PM",
+                    "access_rules": [
+                      "lettertokafei"
+                    ],
+                    "capture_item": true,
+                    "item_count": 2
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "clocktown",
+                    "x": 217,
+                    "y": 447
+                  }
+                ]
+              },
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Termina Field",
+        "color": "#18a50e",
+        "children": [
+		
+          {
+            "name": "South East Termina Field",
+            "short_name": "SE Termina Field",
+            "sections": [
+              {
+                "name": "Chest in the grass",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Chest on a stump",
+                "access_rules": [
+				  "{songofstorms,ocarina}",
+				  "{bottle}",
+				  "beans,songofstorms,ocarina",
+				  "beans,bottle",
+                  "hookshot"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Grotto near stump",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 563,
+                "y": 352
+              }
+            ]
+          },
+		  
+          {
+            "name": "East Pillar Bombchu Chest",
+            "short_name": "East Pillar",
+            "sections": [
+              {
+                "name": "Climb the pillar",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 582,
+                "y": 302
+              }
+            ]
+          },
+		  
+          {
+            "name": "Underwater Chest",
+            "short_name": "Water Chest",
+            "sections": [
+              {
+                "name": "Open it",
+                "access_rules": [
+                  "zora"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 507,
+                "y": 339
+              }
+            ]
+          },
+		  
+          {
+            "name": "Butterflies In The Grass",
+            "short_name": "Peahat Grotto",
+            "sections": [
+              {
+                "name": "Kill Peahats (Daytime Only)",
+                "access_rules": [
+                  "$can_deal_damage"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 520,
+                "y": 355
+              }
+            ]
+          },
+
+          {
+            "name": "Termina Field North Grotto",
+            "short_name": "Dodongo Grotto",
+            "sections": [
+              {
+                "name": "Kill the Dodongos",
+                "access_rules": [
+                  "$can_deal_damage"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 525,
+                "y": 260
+              }
+            ]
+          },
+
+          {
+            "name": "West Termina Field Grotto",
+            "short_name": "Beehive Grotto",
+            "sections": [
+              {
+                "name": "Shoot the Beehives",
+                "access_rules": [
+                  "$can_break_rocks,zora"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 475,
+                "y": 310
+              }
+            ]
+          },
+
+          {
+            "name": "Learn Kamaro Dance",
+            "short_name": "Kamaro Dance",
+            "sections": [
+              {
+                "name": "Day 1/2: from 12PM to 4AM",
+                "access_rules": [
+                  "ocarina,songofhealing"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 513,
+                "y": 260
+              }
+            ]
+          },
+
+          {
+            "name": "Empty Grotto By Observatory",
+            "short_name": "Business Scrub Grotto",
+            "sections": [
+              {
+                "name": "Follow Scrub With Telescope",
+                "access_rules": [
+                  "$has_projectile,adultwallet",
+                  "[$has_projectile],deku,adultwallet",
+                  "[$has_projectile],goron,$has_explosives,adultwallet"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 590,
+                "y": 335
+              }
+            ]
+          },
+
+          {
+            "name": "Moon's Tear",
+            "short_name": "Moon's Tear",
+            "sections": [
+              {
+                "name": "Look at Skull Kid through the telescope",
+                "access_rules": [
+                  "$has_projectile",
+                  "[$has_projectile],deku",
+                  "[$has_projectile],goron,$has_explosives"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 590,
+                "y": 347
+              }
+            ]
+          },
+
+          {
+            "name": "Gossip Stones Puzzle Grottos",
+            "short_name": "Gossips Grottos",
+            "sections": [
+              {
+                "name": "Play Sonata/Lullaby/Bossanova in all four grottos",
+                "access_rules": [
+                  "$can_break_rocks,ocarina,deku,sonata",
+                  "$can_break_rocks,ocarina,zora,bossanova",
+                  "ocarina,goron,lullaby"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 536,
+                "y": 360
+              },
+              {
+                "map": "termina",
+                "x": 596,
+                "y": 326
+              },
+              {
+                "map": "termina",
+                "x": 550,
+                "y": 276
+              },
+              {
+                "map": "termina",
+                "x": 496,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "name": "Chest on Ikana Pillar",
+            "short_name": "Pillar Chest",
+            "sections": [
+              {
+                "name": "Hookshot it",
+                "access_rules": [
+                  "hookshot"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 636,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "name": "Road to Ikana Grotto",
+            "short_name": "Ikana Road Grotto",
+            "sections": [
+              {
+                "name": "Get in",
+                "access_rules": [
+                  "goron"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 684,
+                "y": 300
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "name": "Romani Ranch",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Milk Road Tingle Maps",
+            "short_name": "Ranch Tingle",
+            "sections": [
+              {
+                "name": "Map: Ranch",
+                "access_rules": [
+                  "$has_projectile"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Map: Ocean",
+                "access_rules": [
+                  "$has_projectile"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 469,
+                "y": 366
+              }
+            ]
+          },
+
+          {
+            "name": "Milk Road Gorman Brothers Race - Day 1/2",
+            "short_name": "Gorman Race",
+            "sections": [
+              {
+                "name": "Win the race",
+                "access_rules": [
+                  "ocarina,eponasong"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 470,
+                "y": 376
+              }
+            ]
+          },
+
+          {
+            "name": "Doggy Racetrack - Open 6AM to 8PM",
+            "short_name": "Doggo Racetrack",
+            "sections": [
+              {
+                "name": "Earn 150 Rupees From Racing",
+                "access_rules": [
+                  "[maskoftruth]"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Chest On Shed Roof",
+                "access_rules": [
+				  "{songofstorms,ocarina}",
+				  "{bottle}",
+				  "beans,songofstorms,ocarina",
+				  "beans,bottle",
+                  "hookshot"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 365,
+                "y": 369
+              }
+            ]
+          },
+          {
+            "name": "Romani Ranch Aliens Quest",
+            "short_name": "Romani Ranch Aliens",
+            "sections": [
+              {
+                "name": "Day 1 or 2 - Romani Ranch Archery Training",
+                "access_rules": [
+                  "goron,powderkeg"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Day 2: 2:30AM - Save the Cows",
+                "access_rules": [
+                  "goron,powderkeg,bow"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Day 2: 6PM - Escort Cremia after defeating Them",
+                "access_rules": [
+                  "goron,powderkeg,bow"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 393,
+                "y": 350
+              }
+            ]
+          },
+          {
+            "name": "Romani Ranch Cucco Shack",
+            "short_name": "Cucco Shack",
+            "sections": [
+              {
+                "name": "March with Bremen Mask",
+                "access_rules": [
+                  "bremenmask"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 369,
+                "y": 351
+              }
+            ]
+          }
+
+        ]
+      },
+
+      {
+        "name": "Swamp",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Swamp Path Bat Tree Heart Piece",
+            "short_name": "Bat Tree PoH",
+            "sections": [
+              {
+                "name": "Kill the bat and climb",
+                "access_rules": [
+                  "$has_projectile",
+                  "bombchus"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 537,
+                "y": 389
+              }
+            ]
+          },
+
+          {
+            "name": "Swamp Path Pit Chest",
+            "short_name": "Bat Tree PoH",
+            "sections": [
+              {
+                "name": "Get in",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 525,
+                "y": 389
+              }
+            ]
+          },
+
+          {
+            "name": "Swamp Tingle Maps",
+            "short_name": "Swamp Tingle",
+            "sections": [
+              {
+                "name": "Map: Swamp",
+                "access_rules": [
+                  "$has_projectile"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Map: Mountain",
+                "access_rules": [
+                  "$has_projectile"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 537,
+                "y": 401
+              }
+            ]
+          },
+
+          {
+            "name": "Swamp Shooting Gallery - Open 6 AM - 10 PM",
+            "short_name": "Swamp Shooting Gallery",
+            "sections": [
+              {
+                "name": "Perfect Score",
+                "access_rules": [
+                  "bow"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Perfect Score With Time Left Over",
+                "access_rules": [
+                  "bow"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 563,
+                "y": 414
+              }
+            ]
+          },
+
+          {
+            "name": "Swamp Business Scrub",
+            "short_name": "Swamp Business Scrub",
+            "sections": [
+              {
+                "name": "Give Land Title Deed",
+                "access_rules": [
+                  "towndeed"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Use Flower",
+                "access_rules": [
+                  "deku,towndeed",
+                  "goron,[deku],[towndeed]"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Buy Magic Beans",
+                "access_rules": [
+                  "deku"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 565,
+                "y": 438
+              }
+            ]
+          },
+
+          {
+            "name": "Swamp Tourist Center",
+            "short_name": "Tourist Center",
+            "sections": [
+              {
+                "name": "Show Photo of Tingle or Deku King",
+                "access_rules": [
+                  "pictobox"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Gift From Saving Koume",
+                "access_rules": [
+                  "bottle"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Post Woodfall Temple Archery Game",
+                "access_rules": [
+                  "bottle,woodfall"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 553,
+                "y": 438
+              }
+            ]
+          },
+
+          {
+            "name": "Kotake Red Potion Bottle",
+            "short_name": "Potion Bottle",
+            "sections": [
+              {
+                "name": "Talk to Kotake after seeing Koume in Woods",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 645,
+                "y": 423
+              }
+            ]
+          },
+
+          {
+            "name": "Kotake Magic Potion Shop",
+            "short_name": "Potion Shop",
+            "access_rules": [
+              "shopsanity_yes"
+            ],
+            "sections": [
+              {
+                "name": "Buy Red Potion",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Buy Green Potion",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Trade Shrooms For Blue Potion",
+                "access_rules": [
+                  "scents,bottle"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 633,
+                "y": 423
+              }
+            ]
+          },
+
+          {
+            "name": "Woods of Mystery Grotto",
+            "short_name": "Woods of Mystery Grotto",
+            "sections": [
+              {
+                "name": "Day 2",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 650,
+                "y": 440
+              }
+            ]
+          },
+
+          {
+            "name": "Poison Swamp Area",
+            "access_rules": [
+              "bow",
+              "bottle"
+            ],
+            "children": [
+              {
+                "name": "Deku Palace Area",
+                "access_rules": [
+                  "deku"
+                ],
+                "children": [
+                  {
+                    "name": "Monkey Teaching Sonata of Awakening",
+                    "short_name": "Sonata of Awakening",
+                    "sections": [
+                      {
+                        "name": "Use Deku Pipes in front of the monkey",
+                        "access_rules": [
+						  "{songofstorms,ocarina}",
+						  "{bottle}",
+						  "beans,songofstorms,ocarina",
+						  "beans,bottle"
+                        ],
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "termina",
+                        "x": 488,
+                        "y": 552
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Deku Palace Heart Piece",
+                    "short_name": "Deku Palace PoH",
+                    "sections": [
+                      {
+                        "name": "Get it",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "termina",
+                        "x": 514,
+                        "y": 558
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Magic Bean Seller Grotto",
+                    "short_name": "Bean Seller Grotto",
+                    "sections": [
+                      {
+                        "name": "Buy Magic Beans",
+                        "capture_item": true,
+                        "item_count": 1
+                      },
+                      {
+                        "name": "Get to the chest",
+                        "access_rules": [
+						  "{songofstorms,ocarina}",
+						  "{bottle}",
+						  "beans,songofstorms,ocarina",
+						  "beans,bottle"
+                        ],
+                        "capture_item": true,
+                        "item_count": 1
+                      },
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "termina",
+                        "x": 481,
+                        "y": 537
+                      }
+                    ]
+                  },
+                ]
+              },
+
+              {
+                "name": "Song of Soaring Engraving",
+                "short_name": "Soaring",
+                "sections": [
+                  {
+                    "name": "Learn it",
+                    "access_rules": [
+                      "deku"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 534,
+                    "y": 504
+                  }
+                ]
+              },
+              {
+                "name": "Southern Swamp Grotto",
+                "short_name": "Swamp Grotto",
+                "access_rules": [
+                  "deku",
+                  "zora,[deku]"
+                ],
+                "sections": [
+                  {
+                    "name": "Get in",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 482,
+                    "y": 506
+                  }
+                ]
+              },
+              {
+                "name": "Swamp Spider House",
+                "short_name": "Swamp Spiders",
+                "sections": [
+                  {
+                    "name": "Collect 30 Tokens",
+                    "access_rules": [
+                      "{maskoftruth}",
+                      "bottle,hookshot,deku,$has_fire",
+                      "bottle,hookshot,deku,sticks",
+                      "bottle,zora,$has_fire",
+                      "bottle,zora,sticks",
+                      "bottle,beans,$can_break_rocks,deku,$has_fire",
+                      "bottle,beans,$can_break_rocks,deku,sticks"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 494,
+                    "y": 518
+                  }
+                ]
+              },
+
+              {
+                "name": "Woodfall Chests",
+                "short_name": "Woodfall Chests",
+                "access_rules": [
+                  "deku"
+                ],
+                "sections": [
+                  {
+                    "name": "Open them",
+                    "capture_item": true,
+                    "item_count": 3
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 542,
+                    "y": 466
+                  }
+                ]
+              },
+              {
+                "name": "Woodfall Great Fairy Fountain",
+                "short_name": "Woodfall Great Fairy",
+                "sections": [
+                  {
+                    "name": "15 Stray Fairies in Woodfall Temple",
+                    "access_rules": [
+                      "{greatfairymask}",
+                      "woodfall_stray_fairies:15"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 554,
+                    "y": 466
+                  }
+                ]
+              },
+
+			  {
+				"name": "Deku Shrine Mask of Scents",
+				"short_name": "Deku Shrine",
+				"sections": [
+				  {
+					"name": "Race with Deku Butler",
+					"access_rules": [
+					  "bottle,woodfall"
+					],
+					"capture_item": true,
+					"item_count": 1
+				  }
+				],
+				"map_locations": [
+				  {
+					"map": "termina",
+					"x": 521,
+					"y": 556
+				  }
+				]
+			  }
+            ]
+          }
+        ]
+      },
+
+      {
+        "name": "Mountain",
+        "color": "#18a50e",
+        "access_rules": [
+          "bow,$can_break_rocks",
+          "bow,firearrows"
+        ],
+        "children": [
+
+          {
+            "name": "Mountain Smithy",
+            "short_name": "Mountain Smithy",
+            "sections": [
+              {
+                "name": "Melt the ice and buy it for 100 Rupees",
+                "access_rules": [
+                  "firearrows,adultwallet",
+                  "[lens],goron,adultwallet"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Show the Gold Dust",
+                "access_rules": [
+                  "bottle,goron,powderkeg"
+                  //"dust"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 532,
+                "y": 158
+              }
+            ]
+          },
+
+          {
+            "name": "Goron Graveyard",
+            "short_name": "Darmani",
+            "sections": [
+              {
+                "name": "Heal Darmani",
+                "access_rules": [
+                  "goron,ocarina,songofhealing,lens,magic"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 542,
+                "y": 182
+              }
+            ]
+          },
+          {
+            "name": "Deliver Rock Sirloin to hungry Goron",
+            "short_name": "Rock Sirloin",
+            "sections": [
+              {
+                "name": "Get it from Goron Shrine",
+                "access_rules": [
+                  "goron,sticks",
+                  "goron,$has_fire"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 531,
+                "y": 139
+              }
+            ]
+          },
+
+          {
+            "name": "Frog Choir",
+            "short_name": "Frogs",
+            "sections": [
+              {
+                "name": "Gather the 5 frogs and beat Snowhead Temple",
+                "access_rules": [
+                  "{maskoftruth}",
+                  "{dongero}",
+                  "dongero,snowhead,zora,bossanova,hookshot,deku,sonata,bow"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 529,
+                "y": 147
+              }
+            ]
+          },
+
+          {
+            "name": "Mountain Village Hidden Waterfall Chest",
+            "short_name": "Mountain Village Chest",
+            "sections": [
+              {
+                "name": "After beating Snowhead Temple",
+                "access_rules": [
+                  "snowhead,[lens],[magic]"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 510,
+                "y": 150
+              }
+            ]
+          },
+
+          {
+            "name": "Path to Goron Graveyard Grotto",
+            "short_name": "Path to Graveyard Grotto",
+            "sections": [
+              {
+                "name": "After beating Snowhead Temple",
+                "access_rules": [
+                  "snowhead"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 527,
+                "y": 184
+              }
+            ]
+          },
+
+          {
+            "name": "Mountain Tingle Maps",
+            "short_name": "Mountain Tingle",
+            "sections": [
+              {
+                "name": "Map: Mountain",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Map: Ranch",
+                "capture_item": true,
+                "item_count": 1
+              },
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 582,
+                "y": 165
+              }
+            ]
+          },
+
+          {
+            "name": "Twin Islands Hot Spring Water Grotto",
+            "short_name": "Twin Islands Grotto",
+            "sections": [
+              {
+                "name": "Melt the ice",
+                "access_rules": [
+                  "firearrows,$has_explosives",
+                  "bottle,$has_explosives"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 594,
+                "y": 165
+              }
+            ]
+          },
+
+          {
+            "name": "Twin Islands Ramps Secret Grotto",
+            "short_name": "Twin Islands Secret Grotto",
+            "sections": [
+              {
+                "name": "Bomb the tree near the ramps",
+                "access_rules": [
+                  "$has_explosives,goron"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 578,
+                "y": 155
+              }
+            ]
+          },
+
+          {
+            "name": "Twin Islands Spring Chests",
+            "short_name": "Twin Islands Chests",
+            "access_rules": [
+              "snowhead,zora"
+            ],
+            "sections": [
+              {
+                "name": "Gold Chest",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Chest Inside Nook",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 597,
+                "y": 155
+              }
+            ]
+          },
+
+          {
+            "name": "Goron Racetrack",
+            "short_name": "Goron Race",
+            "sections": [
+              {
+                "name": "Win Race After Beating Snowhead Temple",
+                "access_rules": [
+                  "snowhead,goron"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 578,
+                "y": 143
+              }
+            ]
+          },
+
+          {
+            "name": "Mountain Business Scrub",
+            "short_name": "Mountain Business Scrub",
+            "sections": [
+              {
+                "name": "Give Swamp Title Deed",
+                "access_rules": [
+                  "swampdeed,deku"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Use Flower",
+                "access_rules": [
+                  "swampdeed,deku"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Buy Bomb Bag",
+                "access_rules": [
+                  "goron"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 674,
+                "y": 144
+              }
+            ]
+          },
+          {
+            "name": "Lens Cave Chests",
+            "short_name": "Lens Grotto",
+            "sections": [
+              {
+                "name": "Lens chest",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Invisible chest",
+                "access_rules": [
+                  "[lens],[magic]"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Chest inside rock",
+                "access_rules": [
+                  "$has_explosives"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 697,
+                "y": 62
+              }
+            ]
+          },
+          {
+            "name": "Baby Goron Teaching Lullaby",
+            "short_name": "Goron Race",
+            "sections": [
+              {
+                "name": "Talk to Baby Goron",
+                "access_rules": [
+                  "goron"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 658,
+                "y": 140
+              }
+            ]
+          },
+
+          {
+            "name": "Goron Shrine Shop",
+            "short_name": "Goron Shop",
+            "access_rules": [
+              "shopsanity_yes"
+            ],
+            "sections": [
+              {
+                "name": "Buy Bombs",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Buy Arrows",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Buy Red Potion",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 646,
+                "y": 140
+              }
+            ]
+          },
+
+          {
+            "name": "Biggoron Powder Keg",
+            "short_name": "Biggoron",
+            "sections": [
+              {
+                "name": "Talk to him after opening the track",
+                "access_rules": [
+                  "firearrows,goron",
+                  "snowhead,goron"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 654,
+                "y": 129
+              }
+            ]
+          },
+
+          {
+            "name": "Road to Snowhead",
+            "short_name": "Road to Snowhead",
+            "sections": [
+              {
+                "name": "Get the PoH",
+                "access_rules": [
+                  "hookshot,ocarina,goron,[lens],[magic]"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Get in the secret grotto",
+                "access_rules": [
+                  "goron,$has_explosives"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 499,
+                "y": 138
+              }
+            ]
+          },
+
+          {
+            "name": "Snowhead Area",
+            "access_rules": [
+              "goron,ocarina,lullaby"
+            ],
+            "children": [
+
+              {
+                "name": "Snowhead Great Fairy Fountain",
+                "short_name": "Snowhead Great Fairy",
+                "sections": [
+                  {
+                    "name": "15 Stray Fairies in Snowhead Temple",
+                    "access_rules": [
+                      "{greatfairymask}",
+                      "snowhead_stray_fairies:15"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 503,
+                    "y": 42
+                  }
+                ]
+              }
+
+            ]
+          }
+
+        ]
+      },
+
+      {
+        "name": "Great Bay",
+        "color": "#18a50e",
+        "access_rules": [
+          "ocarina,eponasong"
+        ],
+        "children": [
+          {
+            "name": "Great Bay Coast Grotto",
+            "short_name": "Great Bay Grotto",
+            "sections": [
+              {
+                "name": "Grotto Behind Fisherman Hut",
+                "capture_item": true,
+                "item_count": 1
+              },
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 300,
+                "y": 360
+              }
+            ]
+          },
+
+          {
+            "name": "Oceanside Spider House",
+            "short_name": "Ocean Spiders",
+            "access_rules": [
+              "bomb"
+            ],
+            "sections": [
+              {
+                "name": "Collect 30 Tokens",
+                "access_rules": [
+                  "{maskoftruth}",
+                  "hookshot,bow,firearrow,goron"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Ocean Spider Treasure",
+                "access_rules": [
+                  "bow,captainshat"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 300,
+                "y": 340
+              }
+            ]
+          },
+
+          {
+            "name": "Great Bay Coast",
+            "short_name": "Coast",
+            "sections": [
+              {
+                "name": "Heal Mikau",
+                "access_rules": [
+                  "ocarina,songofhealing"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 260,
+                "y": 350
+              }
+            ]
+          },
+
+          {
+            "name": "GB Easy To Swim To",
+            "access_rules": [
+              "[zora]"
+            ],
+            "children": [
+              {
+                "name": "Great Bay Coast Ledge",
+                "short_name": "Coast Ledge",
+                "sections": [
+                  {
+                    "name": "Great Bay Coast HP",
+                    "access_rules": [
+                      "hookshot,bean,bottles",
+                      "hookshot,bean,songofstorms"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 320,
+                    "y": 300
+                  }
+                ]
+              },
+              {
+                "name": "Ocean Tingle Maps",
+                "short_name": "GB Tingle",
+                "sections": [
+                  {
+                    "name": "Map: Ocean",
+                    "access_rules": [
+                      "$has_projectile"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Map: Canyon",
+                    "access_rules": [
+                      "$has_projectile"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 205,
+                    "y": 300
+                  }
+                ]
+              },
+
+              {
+                "name": "Marine Lab",
+                "short_name": "Marine Lab",
+                "sections": [
+                  {
+                    "name": "Feed The Fish",
+                    "access_rules": [
+                      "bottle"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Song From Zora Eggs",
+                    "access_rules": [
+                      "ocarina,bow,hookshot,zora,bottle"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 218,
+                    "y": 282
+                  }
+                ]
+              },
+			  
+              {
+                "name": "Zora Hall Evan's (Keyboard) Room",
+                "short_name": "Evan's Room",
+                "sections": [
+                  {
+                    "name": "> > v A A v > A < < > v v > < v On Ocarina",
+                    "access_rules": [
+                      "ocarina"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 215,
+                    "y": 396
+                  }
+                ]
+              },
+              {
+                "name": "Ocean Business Scrub",
+                "short_name": "Ocean Scrub",
+                "access_rules": [
+                  "mountaindeed,goron"
+                ],
+                "sections": [
+                  {
+                    "name": "Give Him Mountain Title Deed",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Use His Flower",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 220,
+                    "y": 410
+                  }
+                ]
+              },
+              {
+                "name": "Zora Hall Shop",
+                "short_name": "Zora Shop",
+                "access_rules": [
+                  "shopsanity_yes"
+                ],
+                "sections": [
+                  {
+                    "name": "Buy Shield (90 Rupee)",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Buy Arrows (20 Rupees)",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Buy Red Potion (60 Rupees)",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 210,
+                    "y": 380
+                  }
+                ]
+              },
+            ]
+          },
+          {
+            "name": "GB Requires Zora",
+            "access_rules": [
+              "zora"
+            ],
+            "children": [
+              {
+                "name": "Pinnacle Rock",
+                "short_name": "PRock",
+                "sections": [
+                  {
+                    "name": "Reunite The Seahorses",
+                    "access_rules": [
+                      "pictobox"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Sea Snake Eggs",
+                    "capture_item": true,
+                    "item_count": 3
+                  },
+                  {
+                    "name": "Sea Snake Treasure",
+                    "capture_item": true,
+                    "item_count": 2
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 150,
+                    "y": 300
+                  }
+                ]
+              },
+              {
+                "name": "Pirates' Fortress Exterior",
+                "short_name": "PF Exterior",
+                "sections": [
+                  {
+                    "name": "PF Exterior Chests",
+                    "capture_item": true,
+                    "item_count": 3
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 300,
+                    "y": 250
+                  }
+                ]
+              },
+              {
+                "name": "Pirates' Fortress Tunnel",
+                "short_name": "PF Tunnel",
+                "access_rules": [
+                  "goron"
+                ],
+                "sections": [
+                  {
+                    "name": "PF Underwater Maze Chest",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "PF Jail Room Underwater Chests",
+                    "capture_item": true,
+                    "item_count": 2
+                  },
+                  {
+                    "name": "PF Jail Room HP",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 320,
+                    "y": 260
+                  }
+                ]
+              },
+              {
+                "name": "Pirates' Fortress",
+                "short_name": "PF",
+                "access_rules": [
+                  "goron",
+                  "hookshot"
+                ],
+                "sections": [
+                  {
+                    "name": "PF Lower Chest",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "PF Upper Chest",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "PF Hookshot",
+                    "access_rules": [
+                      "bow"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "PF Well Guarded Chest",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "PF Fish Tank Chest",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 330,
+                    "y": 240
+                  }
+                ]
+              },
+              {
+                "name": "Underwater Near Fairy Shrine",
+                "short_name": "ZC Water",
+                "sections": [
+                  {
+                    "name": "Zora Cape Underwater Chest",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 260,
+                    "y": 404
+                  }
+                ]
+              },
+              {
+                "name": "Under The Waterfall",
+                "short_name": "ZC Waterfall",
+                "sections": [
+                  {
+                    "name": "Zora Cape Like Like Treasure",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 370,
+                    "y": 405
+                  }
+                ]
+              },
+            ]
+          },
+          {
+            "name": "Zora Cape Grotto",
+            "short_name": "ZC Grotto",
+            "sections": [
+              {
+                "name": "Under The Rock By The Fairy Shrine",
+                "access_rules": [
+                  "bomb"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 270,
+                "y": 420
+              }
+            ]
+          },
+          {
+            "name": "Waterfall Rapids",
+            "short_name": "Rapids",
+            "access_rules": [
+              "zora,hookshot"
+            ],
+            "sections": [
+              {
+                "name": "Beaver Brothers Race Prize",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Beaver Brothers Race Rematch",
+                "capture_item": true,
+                "item_count": 1
+              },
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 350,
+                "y": 420
+              }
+            ]
+          },
+          {
+            "name": "Zora Cape Ledge",
+            "short_name": "Cape Ledge",
+            "access_rules": [
+              "hookshot"
+            ],
+            "sections": [
+              {
+                "name": "Zora Cape Ledge Chest",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Zora Cape Ledge From Flower Chest",
+                "access_rules": [
+                  "deku"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 340,
+                "y": 420
+              },
+            ]
+          },
+          {
+            "name": "Fisherman Island",
+            "short_name": "Fisherman Island",
+            "sections": [
+              {
+                "name": "Great Bay Grotto Chest",
+                "access_rules": [
+                  "greatbay"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 295,
+                "y": 300
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "name": "Ikana",
+        "color": "#18a50e",
+        "access_rules": [
+          "ocarina,eponasong"
+        ],
+        "children": [
+          {
+            "name": "Shiro the Invisible Soldier",
+            "short_name": "Invisible Soldier",
+            "sections": [
+              {
+                "name": "Give him a red potion",
+                "access_rules": [
+                  "lens,magic,bottle"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 681,
+                "y": 312
+              }
+            ]
+          },
+
+          {
+            "name": "Captain Keeta's Hat Chest",
+            "short_name": "Captain's Hat Chest",
+            "access_rules": [
+              "ocarina,sonata,$can_deal_damage"
+            ],
+            "sections": [
+              {
+                "name": "Defeat Captain Keeta",
+                "access_rules": [
+                  "[zora]",
+                  "[hookshot]"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 710,
+                "y": 226
+              }
+            ]
+          },
+
+          {
+            "name": "Ikana Graveyard Grotto",
+            "short_name": "Graveyard Grotto",
+            "sections": [
+              {
+                "name": "Bomb the circle of rocks",
+                "access_rules": [
+                  "$has_explosives"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 684,
+                "y": 235
+              }
+            ]
+          },
+
+          {
+            "name": "Ikana Graveyard Graves Night 1",
+            "short_name": "Graves Night 1",
+            "sections": [
+              {
+                "name": "Defeat all bats",
+                "access_rules": [
+                  "captainshat,$can_deal_damage"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Defeat Iron Knuckle",
+                "access_rules": [
+                  "captainshat,$can_deal_damage,ocarina"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 673,
+                "y": 253
+              }
+            ]
+          },
+
+          {
+            "name": "Ikana Graveyard Grave Night 2",
+            "short_name": "Graves Night 2",
+            "sections": [
+              {
+                "name": "Defeat Iron Knuckle",
+                "access_rules": [
+                  "captainshat,$can_deal_damage"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 696,
+                "y": 251
+              }
+            ]
+          },
+
+          {
+            "name": "Ikana Graveyard Graves Night 3",
+            "short_name": "Graves Night 3",
+            "sections": [
+              {
+                "name": "Defeat Big Poe",
+                "access_rules": [
+                  "captainshat,bow"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 678,
+                "y": 270
+              }
+            ]
+          },
+
+          {
+            "name": "Ikana Valley",
+            "access_rules": [
+              "gibdomask,hookshot",
+              "garomask,hookshot"
+            ],
+            "children": [
+
+              {
+                "name": "Ikana Canyon Business Scrub",
+                "short_name": "Ikana Business Scrub",
+                "sections": [
+                  {
+                    "name": "Give Ocean Title Deed",
+                    "access_rules": [
+                      "baydeed,zora"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Cross Canyon",
+                    "access_rules": [
+                      "baydeed,zora,deku"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 795,
+                    "y": 300
+                  }
+                ]
+              },
+              {
+                "name": "Ikana Canyon Grotto",
+                "short_name": "Canyon Grotto",
+                "sections": [
+                  {
+                    "name": "Behind the waterfall",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 790,
+                    "y": 220
+                  }
+                ]
+              },
+              {
+                "name": "Secret Shrine Miniboss Gauntlet",
+                "short_name": "Boss Gauntlet",
+                "access_rules": [
+                  "$can_LA,$can_deal_damage"
+                ],
+                "sections": [
+                  {
+                    "name": "Dinolfos",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Wizrobe",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Wart",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Garo Master",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Defeat all four minibosses",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "termina",
+                    "x": 777,
+                    "y": 228
+                  }
+                ]
+              },
+
+              {
+                "name": "Ikana Canyon",
+                "access_rules": [
+				  "hookshot,[bow],[icearrows]"
+                ],
+                "children": [
+
+                  {
+                    "name": "Ikana Canyon Tingle Maps",
+                    "short_name": "Canyon",
+                    "sections": [
+                      {
+                        "name": "Map: Canyon",
+                        "capture_item": true,
+                        "item_count": 1
+                      },
+                      {
+                        "name": "Map: Clock Town",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "termina",
+                        "x": 800,
+                        "y": 264
+                      }
+                    ]
+                  },
+
+                  {
+                    "name": "Music Box House",
+                    "short_name": "Music Box House",
+                    "sections": [
+                      {
+                        "name": "Heal Pamela's father",
+                        "access_rules": [
+                          "ocarina,songofhealing,songofstorms"
+                        ],
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "termina",
+                        "x": 846,
+                        "y": 256
+                      }
+                    ]
+                  },
+
+                  {
+                    "name": "Poe Shooting Game",
+                    "short_name": "Poe Shooting Game",
+                    "sections": [
+                      {
+                        "name": "Win it",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "termina",
+                        "x": 856,
+                        "y": 234
+                      }
+                    ]
+                  },
+
+                  {
+                    "name": "Ikana Great Fairy Fountain",
+                    "short_name": "Ikana Great Fairy",
+                    "sections": [
+                      {
+                        "name": "15 Stray Fairies in Stone Tower Temple",
+                        "access_rules": [
+                          "{greatfairymask}",
+                          "{maskoftruth}",
+                          "stonetower_stray_fairies:15"
+                        ],
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "termina",
+                        "x": 868,
+                        "y": 270
+                      }
+                    ]
+                  },
+
+                  {
+                    "name": "Bottom of the Well",
+                    "short_name": "Well",
+                    "sections": [
+                      {
+                        "name": "Mirror Shield Chest",
+                        "access_rules": [
+                          "gibdomask,beans,bottle,bow,firearrows"
+                        ],
+                        "capture_item": true,
+                        "item_count": 1
+                      },
+                      {
+                        "name": "Right Side Well Chest",
+                        "access_rules": [
+                          "gibdomask"
+                        ],
+                        "capture_item": true,
+                        "item_count": 1
+                      },
+                      {
+                        "name": "Left Side Well Chest",
+                        "access_rules": [
+                          "gibdomask"
+                        ],
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "termina",
+                        "x": 836,
+                        "y": 238
+                      }
+                    ]
+                  },
+
+                  {
+                    "name": "Ancient Castle of Ikana",
+                    "short_name": "Ikana Castle",
+                    "sections": [
+                      {
+                        "name": "Defeat Igos Du Ikana",
+                        "access_rules": [
+                          "firearrows,mirrorshield"
+                        ],
+                        "capture_item": true,
+                        "item_count": 1
+                      },
+                      {
+                        "name": "Castle PoH",
+                        "access_rules": [
+                          "deku,bow",
+                          "deku,hookshot",
+                          "[deku]"
+                        ],
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "termina",
+                        "x": 831,
+                        "y": 300
+                      }
+                    ]
+                  },
+
+                  {
+                    "name": "Stone Tower",
+                    "access_rules": [
+                      "ocarina,elegy,goron,[zora],hookshot",
+                      "ocarina,elegy,[goron],zora,hookshot"
+                    ],
+                    "children": [
+
+                      {
+                        "name": "Stone Tower Upper Chests",
+                        "short_name": "Stone Tower Chests",
+                        "sections": [
+                          {
+                            "name": "Get there with beans",
+                            "access_rules": [
+							  "{songofstorms,ocarina}",
+							  "{bottle}",
+							  "beans,songofstorms,ocarina",
+							  "beans,bottle"
+                            ],
+                            "capture_item": true,
+                            "item_count": 3
+                          }
+                        ],
+                        "map_locations": [
+                          {
+                            "map": "termina",
+                            "x": 952,
+                            "y": 240
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+
+              }
+
+            ]
+          }
+
+        ]
+      }
+
+      /*{
+        "name": "Moon",
+        "color": "#18a50e",
+        "access_rules": [
+          "oath,woodfall,snowhead,greatbay,ikana"
+        ],
+        "children": [
+
+          {
+            "name": "Odolwa Trial Piece of Heart",
+            "short_name": "Odolwa Trial PoH",
+            "sections": [
+              {
+                "name": "Give him the masks",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "termina",
+                "x": 538,
+                "y": 300
+              }
+            ]
+          }
+
+        ]
+        }*/
+
+    ]
+  }
+]

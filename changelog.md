@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.0
+
+* **Added the Map Tracker Layout**
+* epicYoshi joined the dev team
+* Added Shopsanity setting support
+* Improved Song of Storms icon
+
 ## 1.2.0
 
 * **You can now add notes and markdowns!** This functionality is designed to keep track of items that you could lose by resetting a cycle (Keys, Bottle items) or overwrited by downgrades (Bombs and Arrows capacity)
