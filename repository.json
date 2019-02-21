@@ -5,7 +5,7 @@
       "name": "MM Randomizer Map Tracker",
       "author": "Rikkukun & epicYoshi",
       "game_name": "Majora's Mask Randomizer",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "flags": [ "map", "pins", "chathud" ],
       "required_app_version": "2.2.0.6",
       "uid": "mmrando_rikkukun",

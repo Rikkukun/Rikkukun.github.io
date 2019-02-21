@@ -311,21 +311,28 @@
 				  "razorsword",
 				  "gildedsword",
 				  "shield_static",
-				  "mirror"
+				  "mirror_static"
 				],
 				[
 				  "generic_small_key",
 				  "generic_boss_key",
-				  "soaring",
-				  "lens",
+				  "purple_rupee",
+				  "silver_rupee",
+				  "giantwallet_static"
+				],
+				[
+				  "roomkey_static",
+				  "deliverytomama_static",
+				  "letter_static",
+				  "pendant_static",
 				  "beans"
 				],
 				[
 				  "moontear_static",
-				  "roomkey_static",
-				  "deliverytomama_static",
-				  "letter_static",
-				  "pendant_static"
+				  "deed1_static",
+				  "deed2_static",
+				  "deed3_static",
+				  "deed4_static"
 				],
 				[
 				  "redpotion",

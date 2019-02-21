@@ -97,8 +97,13 @@
                   },
                   {
                     "map": "clocktown",
-                    "x": 556,
-                    "y": 290
+                    "x": 721,
+                    "y": 194
+                  },
+                  {
+                    "map": "clocktown",
+                    "x": 418,
+                    "y": 518
                   }
                 ]
               },
@@ -327,7 +332,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Room Reservation Mixup - Day 1 2 - 4pm",
+                    "name": "Room Reservation Mixup - Day 1 2 - 4 PM",
                     "capture_item": true,
                     "item_count": 1
                   },
@@ -359,7 +364,7 @@
                     "item_count": 2
                   },
                   {
-                    "name": "Toilet Hand Gift - Night 1/2 After Midnight",
+                    "name": "Toilet Hand Gift - Midnight - 6 AM",
                     "access_rules": [
                       "towndeed",
                       "woodfall_deed",
@@ -375,8 +380,9 @@
                     "name": "Couple's Mask - Final Night 4:30 AM",
                     "access_rules": [
                       "{maskoftruth}",
-                      "kafeimask,lettertokafei",
-                      "kafeimask,pendantofmemories"
+                      //"kafeimask,lettertokafei",
+                      "kafeimask,pendantofmemories,gibdomask,hookshot",
+                      "kafeimask,pendantofmemories,garomask,hookshot"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -561,12 +567,12 @@
                 "short_name": "Bank",
                 "sections": [
                   {
-                    "name": "200 Rupee Deposit",
+                    "name": "200 Rupees Deposit",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
-                    "name": "1000 Rupee Deposit",
+                    "name": "1000 Rupees Deposit",
                     "access_rules": [
                       "[adultwallet]"
                     ],
@@ -635,7 +641,7 @@
                 "short_name": "Bomb Shop",
                 "sections": [
                   {
-                    "name": "Buy Bombs",
+                    "name": "10 Bombs (30 Rupees)",
                     "access_rules": [
                       "shopsanity_yes"
                     ],
@@ -643,7 +649,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Buy Bombchus",
+                    "name": "10 Bombchus (40 Rupees)",
                     "access_rules": [
                       "shopsanity_yes"
                     ],
@@ -651,12 +657,12 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Bomb Bag",
+                    "name": "Bomb Bag (50 Rupees)",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
-                    "name": "Big Bomb Bag",
+                    "name": "Big Bomb Bag (90 Rupees)",
                     "access_rules": [
                       "$can_deal_damage",
 					  "deku"
@@ -701,7 +707,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Deku Sticks (10 Rupees)",
+                    "name": "Deku Stick (10 Rupees)",
                     "capture_item": true,
                     "item_count": 1
                   },
@@ -711,7 +717,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Deku Nuts (20 Rupees)",
+                    "name": "10 Deku Nuts (30 Rupees)",
                     "capture_item": true,
                     "item_count": 1
                   },
@@ -734,7 +740,7 @@
                 "short_name": "CS",
                 "sections": [
                   {
-                    "name": "500 Rupee Purchase - Final Night",
+                    "name": "500 Rupees Purchase - Final Night",
                     "access_rules": [
                       "giantwallet"
                     ],
@@ -818,11 +824,9 @@
               {
                 "name": "Chest on a stump",
                 "access_rules": [
-				  "{songofstorms,ocarina}",
-				  "{bottle}",
-				  "beans,songofstorms,ocarina",
-				  "beans,bottle",
-                  "hookshot"
+				  "[beans],[songofstorms],[ocarina]",
+				  "[beans],[bottle]",
+                  "[hookshot]"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -954,7 +958,7 @@
             "short_name": "Kamaro Dance",
             "sections": [
               {
-                "name": "Day 1/2: from 12PM to 4AM",
+                "name": "From Midnight to 6 AM",
                 "access_rules": [
                   "ocarina,songofhealing"
                 ],
@@ -1177,7 +1181,10 @@
 				  "{bottle}",
 				  "beans,songofstorms,ocarina",
 				  "beans,bottle",
-                  "hookshot"
+                  "hookshot",
+				  "zoramask,[beans],[songofstorms],[ocarina]",
+				  "zoramask,[beans],[bottle]",
+				  "zoramask,[hookshot]"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1282,7 +1289,7 @@
 
           {
             "name": "Swamp Path Pit Chest",
-            "short_name": "Bat Tree PoH",
+            "short_name": "Swamp Pit",
             "sections": [
               {
                 "name": "Get in",
@@ -1463,12 +1470,12 @@
             ],
             "sections": [
               {
-                "name": "Buy Red Potion",
+                "name": "Red Potion (20 Rupees)",
                 "capture_item": true,
                 "item_count": 1
               },
               {
-                "name": "Buy Green Potion",
+                "name": "Green Potion (10 Rupees)",
                 "capture_item": true,
                 "item_count": 1
               },
@@ -1688,7 +1695,7 @@
                   }
                 ]
               },
-              {
+              /*{
                 "name": "Woodfall Great Fairy Fountain",
                 "short_name": "Woodfall Great Fairy",
                 "sections": [
@@ -1709,7 +1716,7 @@
                     "y": 466
                   }
                 ]
-              },
+              },*/
 
 			  {
 				"name": "Deku Shrine Mask of Scents",
@@ -2015,7 +2022,7 @@
               {
                 "name": "Give Swamp Title Deed",
                 "access_rules": [
-                  "swampdeed,deku"
+                  "woodfall_deed,deku"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2023,7 +2030,7 @@
               {
                 "name": "Use Flower",
                 "access_rules": [
-                  "swampdeed,deku"
+                  "woodfall_deed,deku"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2109,17 +2116,17 @@
             ],
             "sections": [
               {
-                "name": "Buy Bombs",
+                "name": "10 Bombs (40 Rupees)",
                 "capture_item": true,
                 "item_count": 1
               },
               {
-                "name": "Buy Arrows",
+                "name": "10 Arrows (40 Rupees)",
                 "capture_item": true,
                 "item_count": 1
               },
               {
-                "name": "Buy Red Potion",
+                "name": "Red Potion (80 Rupees)",
                 "capture_item": true,
                 "item_count": 1
               }
@@ -2191,7 +2198,7 @@
             "access_rules": [
               "goron,ocarina,lullaby"
             ],
-            "children": [
+            /*"children": [
 
               {
                 "name": "Snowhead Great Fairy Fountain",
@@ -2216,7 +2223,7 @@
                 ]
               }
 
-            ]
+            ]*/
           }
 
         ]
@@ -2317,8 +2324,10 @@
                   {
                     "name": "Great Bay Coast HP",
                     "access_rules": [
-                      "hookshot,bean,bottles",
-                      "hookshot,bean,songofstorms"
+                      "hookshot,beans,bottle",
+                      "hookshot,beans,songofstorms",
+                      "{hookshot,bottle}",
+                      "{hookshot,songofstorms}"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -2393,40 +2402,33 @@
               },
 			  
               {
-                "name": "Zora Hall Evan's (Keyboard) Room",
-                "short_name": "Evan's Room",
+                "name": "Zora Hall",
+                "short_name": "ZH",
+                "access_rules": [
+                  "zora"
+                ],
                 "sections": [
                   {
-                    "name": "> > v A A v > A < < > v v > < v On Ocarina",
+                    "name": "> > v A A v > A < < > v v > < v On Ocarina - Third Room Down",
                     "access_rules": [
                       "ocarina"
                     ],
                     "capture_item": true,
                     "item_count": 1
                   },
-                ],
-                "map_locations": [
                   {
-                    "map": "termina",
-                    "x": 215,
-                    "y": 396
-                  }
-                ]
-              },
-              {
-                "name": "Ocean Business Scrub",
-                "short_name": "Ocean Scrub",
-                "access_rules": [
-                  "mountaindeed,goron"
-                ],
-                "sections": [
-                  {
-                    "name": "Give Him Mountain Title Deed",
+                    "name": "Give Ocean Scrub The Mountain Title Deed - Fourth Room Down",
+                    "access_rules": [
+                      "snowhead_deed,goron"
+                    ],
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
-                    "name": "Use His Flower",
+                    "name": "Use Ocean Scrub Flower - Fourth Room Down",
+                    "access_rules": [
+                      "goron,snowhead_deed,deku"
+                    ],
                     "capture_item": true,
                     "item_count": 1
                   }
@@ -2439,6 +2441,7 @@
                   }
                 ]
               },
+
               {
                 "name": "Zora Hall Shop",
                 "short_name": "Zora Shop",
@@ -2447,17 +2450,17 @@
                 ],
                 "sections": [
                   {
-                    "name": "Buy Shield (90 Rupee)",
+                    "name": "Shield (90 Rupees)",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
-                    "name": "Buy Arrows (20 Rupees)",
+                    "name": "10 Arrows (20 Rupees)",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
-                    "name": "Buy Red Potion (60 Rupees)",
+                    "name": "Red Potion (60 Rupees)",
                     "capture_item": true,
                     "item_count": 1
                   },
@@ -2907,7 +2910,7 @@
                   {
                     "name": "Give Ocean Title Deed",
                     "access_rules": [
-                      "baydeed,zora"
+                      "great_bay_deed,zora"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -2915,7 +2918,7 @@
                   {
                     "name": "Cross Canyon",
                     "access_rules": [
-                      "baydeed,zora,deku"
+                      "great_bay_deed,zora,deku"
                     ],
                     "capture_item": true,
                     "item_count": 1

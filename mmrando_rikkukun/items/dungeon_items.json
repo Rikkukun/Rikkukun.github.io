@@ -54,7 +54,7 @@
     "name": "Magic Beans",
     "type": "toggle",
     "img": "images/bean.png",
-    "codes": "beans,magicbeans"
+    "codes": "bean,beans,magicbeans"
   },
   
   // Deku Sticks
@@ -1015,17 +1015,17 @@
       },
 	  {
         "img": "images/deed2.png",
-        "codes": "deed2,dekudeed,woodfalldeed,woodfall_deed",
+        "codes": "deed2,dekudeed,woodfalldeed,woodfall_deed,swampdeed",
         "inherit_codes": false
       },
 	  {
         "img": "images/deed3.png",
-        "codes": "deed3,snowheaddeed,snowhead_deed",
+        "codes": "deed3,snowheaddeed,snowhead_deed,mountaindeed",
         "inherit_codes": false
       },
 	  {
         "img": "images/deed4.png",
-        "codes": "deed4,baydeed,greatbaydeed,great_bay_deed,zoradeed",
+        "codes": "deed4,baydeed,greatbaydeed,great_bay_deed,zoradeed,oceandeed",
         "inherit_codes": false
       },
     ]
@@ -1750,6 +1750,38 @@
     "codes": "moontear_static,tear_static,moonstear_static,moon_tear_static"
   },
   
+  // Town Title Deed Static
+  {
+    "name": "Town Title Deed",
+    "type": "toggle",
+    "img": "images/deed1.png",
+    "codes": "deed1_static,towndeed_static,clockdeed_static,clocktowndeed_static"
+  },
+  
+  // Swamp Title Deed Static
+  {
+    "name": "Swamp Title Deed",
+    "type": "toggle",
+    "img": "images/deed2.png",
+    "codes": "deed2_static,dekudeed_static,woodfalldeed_static,woodfall_deed_static,swampdeed_static"
+  },
+  
+  // Mountain Title Deed Static
+  {
+    "name": "Mountain Title Deed",
+    "type": "toggle",
+    "img": "images/deed3.png",
+    "codes": "deed3_static,snowheaddeed_static,snowhead_deed_static,mountaindeed_static"
+  },
+  
+  // Ocean Title Deed Static
+  {
+    "name": "Ocean Title Deed",
+    "type": "toggle",
+    "img": "images/deed4.png",
+    "codes": "deed4_static,baydeed_static,greatbaydeed_static,great_bay_deed_static,zoradeed_static,oceandeed_static"
+  },
+  
   // Room Key Static
   {
     "name": "Room Key Static",
@@ -1780,6 +1812,38 @@
     "type": "toggle",
     "img": "images/pendant.png",
     "codes": "pendant_static,pendantofmemories_static,pom_static,pendant_of_memories_static,kafeipendant_static,pendantkafei_static"
+  },
+  
+  // Adult Wallet Static
+  {
+    "name": "Adult Wallet",
+    "type": "toggle",
+    "img": "images/wallet.png",
+    "codes": "adultwallet_static,adultwalletstatic,walletstatic"
+  },
+  
+  // Giant Wallet Static
+  {
+    "name": "Giant Wallet",
+    "type": "toggle",
+    "img": "images/giantwallet.png",
+    "codes": "giantwallet_static,giantwalletstatic"
+  },
+  
+  // Purple Rupee
+  {
+    "name": "Purple Rupee",
+    "type": "toggle",
+    "img": "images/purple.png",
+    "codes": "50rupees,50rupee,purplerupee,purple_rupee"
+  },
+  
+  // Silver Rupee
+  {
+    "name": "Silver Rupee",
+    "type": "toggle",
+    "img": "images/silver.png",
+    "codes": "100rupees,100rupee,silverrupee,silver_rupee"
   }
   
 ]
