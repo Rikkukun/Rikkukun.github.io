@@ -10,14 +10,14 @@ end
 
 function has_explosives()
   local bombs = Tracker:ProviderCountForCode("bombs")
-  local chus = Tracker:ProviderCountForCode("bombchu")
-  local blastmask = Tracker:ProviderCountForCode("blastmask")
   if bombs > 0 then
     return bombs
-  elseif chus > 0 then
-    return chus, AccessibilityLevel.SequenceBreak
-  elseif blastmask > 0 then
-    return blastmask, AccessibilityLevel.SequenceBreak
+  elseif has("blastmask") then
+    return 1
+  elseif has("bombchu") then
+    return 1, AccessibilityLevel.SequenceBreak
+  elseif (has("powderkeg") and has("goron")) then
+    return 1, AccessibilityLevel.SequenceBreak
   else
     return 0
   end
@@ -32,6 +32,8 @@ function can_deal_damage()
   or has("zoramask")
   then
     return 1
+  elseif (has("dekumask") and has("magic")) then
+    return 1, AccessibilityLevel.SequenceBreak
   else
     return has_explosives()
   end
@@ -46,10 +48,22 @@ function can_break_rocks()
   end
 end
 
+function has_projectile()
+   if has("hookshot")
+   or has("bow")
+   or has("zoramask")
+   or (has("dekumask") and has("magic"))
+  then
+    return 1
+  else
+    return 0
+  end
+end
+
 function can_LA()
    if has("magic")
   and has("bow")
-  and has("lightarrow")
+  and has("lightarrows")
   then
     return 1
   else
@@ -60,7 +74,18 @@ end
 function has_fire()
    if has("magic")
   and has("bow")
-  and has("firearrow")
+  and has("firearrows")
+  then
+    return 1
+  else
+    return 0
+  end
+end
+
+function can_IA()
+   if has("magic")
+  and has("bow")
+  and has("icearrows")
   then
     return 1
   else
@@ -74,19 +99,6 @@ function can_see_with_lens()
     return 1
   else
     return 1, AccessibilityLevel.SequenceBreak
-  end
-end
-
-
-function has_projectile()
-   if has("hookshot")
-   or has("bow")
-   or has("zoramask")
-   or (has("dekumask") and has("magic"))
-  then
-    return 1
-  else
-    return 0
   end
 end
 

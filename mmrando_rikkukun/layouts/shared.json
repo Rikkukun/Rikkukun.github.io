@@ -335,11 +335,11 @@
 				  "deed4_static"
 				],
 				[
-				  "redpotion",
-				  "dekuprincess",
-				  "hotspringwater",
-				  "golddust",
-				  "zoraegg"
+				  "redpotion_static",
+				  "dekuprincess_static",
+				  "hotspringwater_static",
+				  "golddust_static",
+				  "zoraegg_static"
 				]
 			]
 		}

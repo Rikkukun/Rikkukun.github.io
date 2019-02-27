@@ -24,9 +24,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 472,
-                    "y": 330
+                    "map": "termina",
+                    "x": 117,
+                    "y": 129
                   }
                 ]
               },
@@ -50,20 +50,20 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 537,
-                    "y": 20
+                    "map": "termina",
+                    "x": 143,
+                    "y": 16
                   },
                   {
                     "map": "termina",
                     "x": 457,
                     "y": 367
                   },
-                  {
+                  /*{
                     "map": "termina",
                     "x": 524,
                     "y": 146
-                  },
+                  },*/
                   {
                     "map": "termina",
                     "x": 524,
@@ -86,24 +86,29 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 556,
-                    "y": 148
+                    "map": "termina",
+                    "x": 210,
+                    "y": 77
                   },
                   {
-                    "map": "clocktown",
-                    "x": 758,
-                    "y": 439
+                    "map": "termina",
+                    "x": 225,
+                    "y": 170
                   },
                   {
-                    "map": "clocktown",
-                    "x": 721,
-                    "y": 194
+                    "map": "termina",
+                    "x": 97,
+                    "y": 206
                   },
                   {
-                    "map": "clocktown",
-                    "x": 418,
-                    "y": 518
+                    "map": "termina",
+                    "x": 148,
+                    "y": 116
+                  },
+                  {
+                    "map": "termina",
+                    "x": 157,
+                    "y": 58
                   }
                 ]
               },
@@ -122,9 +127,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 403,
-                    "y": 402
+                    "map": "termina",
+                    "x": 90,
+                    "y": 156
                   }
                 ]
               },
@@ -143,9 +148,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 530,
-                    "y": 542
+                    "map": "termina",
+                    "x": 138,
+                    "y": 209
                   }
                 ]
               },
@@ -165,9 +170,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 475,
-                    "y": 477
+                    "map": "termina",
+                    "x": 117,
+                    "y": 184
                   }
                 ]
               },
@@ -194,9 +199,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 481,
-                    "y": 82
+                    "map": "termina",
+                    "x": 120,
+                    "y": 35
                   }
                 ]
               },
@@ -216,9 +221,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 540,
-                    "y": 169
+                    "map": "termina",
+                    "x": 145,
+                    "y": 70
                   }
                 ]
               },
@@ -237,9 +242,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 423,
-                    "y": 130
+                    "map": "termina",
+                    "x": 98,
+                    "y": 55
                   }
                 ]
               },
@@ -255,9 +260,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 561,
-                    "y": 55
+                    "map": "termina",
+                    "x": 150,
+                    "y": 26
                   }
                 ]
               },
@@ -276,9 +281,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 327,
-                    "y": 177
+                    "map": "termina",
+                    "x": 62,
+                    "y": 72
                   }
                 ]
               },
@@ -298,9 +303,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 283,
-                    "y": 129
+                    "map": "termina",
+                    "x": 46,
+                    "y": 55
                   }
                 ]
               },
@@ -316,9 +321,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 613,
-                    "y": 545
+                    "map": "termina",
+                    "x": 170,
+                    "y": 210
                   }
                 ]
               },
@@ -390,9 +395,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 655,
-                    "y": 295
+                    "map": "termina",
+                    "x": 185,
+                    "y": 115
                   }
                 ]
               },
@@ -418,9 +423,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 738,
-                    "y": 285
+                    "map": "termina",
+                    "x": 216,
+                    "y": 111
                   }
                 ]
               },
@@ -433,7 +438,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Calm The Council - Day 1/2",
+                    "name": "Calm The Council",
                     "access_rules": [
                       "couple"
                     ],
@@ -443,9 +448,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 732,
-                    "y": 94
+                    "map": "termina",
+                    "x": 214,
+                    "y": 41
                   }
                 ]
               },
@@ -463,9 +468,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 787,
-                    "y": 406
+                    "map": "termina",
+                    "x": 235,
+                    "y": 157
                   }
                 ]
               },
@@ -492,9 +497,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 727,
-                    "y": 500
+                    "map": "termina",
+                    "x": 211,
+                    "y": 191
                   }
                 ]
               },
@@ -512,9 +517,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 627,
-                    "y": 425
+                    "map": "termina",
+                    "x": 175,
+                    "y": 166
                   }
                 ]
               },
@@ -535,9 +540,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 792,
-                    "y": 133
+                    "map": "termina",
+                    "x": 235,
+                    "y": 62
                   }
                 ]
               },
@@ -556,9 +561,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 264,
-                    "y": 280
+                    "map": "termina",
+                    "x": 38,
+                    "y": 111
                   }
                 ]
               },
@@ -582,9 +587,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 292,
-                    "y": 394
+                    "map": "termina",
+                    "x": 48,
+                    "y": 155
                   }
                 ]
               },
@@ -602,9 +607,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 242,
-                    "y": 225
+                    "map": "termina",
+                    "x": 30,
+                    "y": 91
                   }
                 ]
               },
@@ -630,9 +635,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 279,
-                    "y": 225
+                    "map": "termina",
+                    "x": 44,
+                    "y": 91
                   }
                 ]
               },
@@ -673,9 +678,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 212,
-                    "y": 384
+                    "map": "termina",
+                    "x": 22,
+                    "y": 148
                   }
                 ]
               },
@@ -729,9 +734,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 247,
-                    "y": 439
+                    "map": "termina",
+                    "x": 34,
+                    "y": 168
                   }
                 ]
               },
@@ -750,9 +755,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 295,
-                    "y": 477
+                    "map": "termina",
+                    "x": 51,
+                    "y": 181
                   }
                 ]
               },
@@ -768,9 +773,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 295,
-                    "y": 560
+                    "map": "termina",
+                    "x": 50,
+                    "y": 214
                   }
                 ]
               },
@@ -779,7 +784,7 @@
                 "short_name": "Backroom",
                 "sections": [
                   {
-                    "name": "Gift From Kafei - Night 2: 4:30 PM",
+                    "name": "Gift From Kafei - Day 2: 4:30 PM",
                     "access_rules": [
                       "lettertokafei"
                     ],
@@ -787,7 +792,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Gift From Kafei - Final Day: 10 AM - 9 PM",
+                    "name": "Gift From Kafei - Final Day: 1 PM - 9 PM",
                     "access_rules": [
                       "lettertokafei"
                     ],
@@ -797,9 +802,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "clocktown",
-                    "x": 217,
-                    "y": 447
+                    "map": "termina",
+                    "x": 21,
+                    "y": 173
                   }
                 ]
               },
@@ -825,7 +830,8 @@
                 "name": "Chest on a stump",
                 "access_rules": [
 				  "[beans],[songofstorms],[ocarina]",
-				  "[beans],[bottle]",
+				  "bottlesanity_no,[beans],[bottle]",
+				  "bottlesanity_yes,[beans],[water]",
                   "[hookshot]"
                 ],
                 "capture_item": true,
@@ -1178,12 +1184,15 @@
                 "name": "Chest On Shed Roof",
                 "access_rules": [
 				  "{songofstorms,ocarina}",
-				  "{bottle}",
+				  "bottlesanity_no,{bottle}",
+				  "bottlesanity_yes,{water}",
 				  "beans,songofstorms,ocarina",
-				  "beans,bottle",
+				  "bottlesanity_no,beans,bottle",
+				  "bottlesanity_yes,beans,water",
                   "hookshot",
 				  "zoramask,[beans],[songofstorms],[ocarina]",
-				  "zoramask,[beans],[bottle]",
+				  "zoramask,bottlesanity_no,[beans],[bottle]",
+				  "zoramask,bottlesanity_yes,[beans],[water]",
 				  "zoramask,[hookshot]"
                 ],
                 "capture_item": true,
@@ -1211,7 +1220,7 @@
                 "item_count": 1
               },
               {
-                "name": "Day 2: 2:30AM - Save the Cows",
+                "name": "Night 1: 2:30 AM - Save the Cows",
                 "access_rules": [
                   "goron,powderkeg,bow"
                 ],
@@ -1219,7 +1228,7 @@
                 "item_count": 1
               },
               {
-                "name": "Day 2: 6PM - Escort Cremia after defeating Them",
+                "name": "Night 2: 6 PM - Escort Cremia after defeating Them",
                 "access_rules": [
                   "goron,powderkeg,bow"
                 ],
@@ -1420,7 +1429,8 @@
               {
                 "name": "Gift From Saving Koume",
                 "access_rules": [
-                  "bottle"
+                  "bottlesanity_no,bottle",
+				  "bottlesanity_yes,redpotion"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1428,7 +1438,8 @@
               {
                 "name": "Post Woodfall Temple Archery Game",
                 "access_rules": [
-                  "bottle,woodfall"
+                  "bottlesanity_no,bottle,woodfall",
+				  "bottlesanity_yes,dekuprincess"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1482,7 +1493,8 @@
               {
                 "name": "Trade Shrooms For Blue Potion",
                 "access_rules": [
-                  "scents,bottle"
+                  "bottlesanity_no,scents,bottle",
+				  "bottlesanity_yes,mushroom"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1537,9 +1549,11 @@
                         "name": "Use Deku Pipes in front of the monkey",
                         "access_rules": [
 						  "{songofstorms,ocarina}",
-						  "{bottle}",
+						  "bottlesanity_no,{bottle}",
+						  "bottlesanity_yes,{water}",
 						  "beans,songofstorms,ocarina",
-						  "beans,bottle"
+						  "bottlesanity_no,beans,bottle",
+						  "bottlesanity_yes,beans,water"
                         ],
                         "capture_item": true,
                         "item_count": 1
@@ -1584,9 +1598,11 @@
                         "name": "Get to the chest",
                         "access_rules": [
 						  "{songofstorms,ocarina}",
-						  "{bottle}",
+						  "bottlesanity_no,{bottle}",
+						  "bottlesanity_yes,{water}",
 						  "beans,songofstorms,ocarina",
-						  "beans,bottle"
+						  "bottlesanity_no,beans,bottle",
+						  "bottlesanity_yes,beans,water"
                         ],
                         "capture_item": true,
                         "item_count": 1
@@ -1654,12 +1670,18 @@
                     "name": "Collect 30 Tokens",
                     "access_rules": [
                       "{maskoftruth}",
-                      "bottle,hookshot,deku,$has_fire",
-                      "bottle,hookshot,deku,sticks",
-                      "bottle,zora,$has_fire",
-                      "bottle,zora,sticks",
-                      "bottle,beans,$can_break_rocks,deku,$has_fire",
-                      "bottle,beans,$can_break_rocks,deku,sticks"
+                      "bottlesanity_no,bottle,hookshot,deku,bow,firearrows",
+                      "bottlesanity_no,bottle,hookshot,deku,sticks",
+                      //"bottlesanity_no,bottle,beans,$can_break_rocks,deku,bow,firearrows",
+                      //"bottlesanity_no,bottle,beans,$can_break_rocks,deku,sticks",
+                      "bottlesanity_no,bottle,zora,bow,firearrows",
+                      "bottlesanity_no,bottle,zora,sticks",
+                      "bottlesanity_yes,bugs,hookshot,deku,bow,firearrows",
+                      "bottlesanity_yes,bugs,hookshot,deku,sticks",
+                      //"bottlesanity_yes,bugs,water,beans,$can_break_rocks,deku,bow,firearrows",
+                      //"bottlesanity_yes,bugs,water,beans,$can_break_rocks,deku,sticks",
+                      "bottlesanity_yes,bugs,zora,bow,firearrows",
+                      "bottlesanity_yes,bugs,zora,sticks"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -1725,7 +1747,8 @@
 				  {
 					"name": "Race with Deku Butler",
 					"access_rules": [
-					  "bottle,woodfall"
+					  "bottlesanity_no,bottle,woodfall",
+					  "bottlesanity_yes,dekuprincess"
 					],
 					"capture_item": true,
 					"item_count": 1
@@ -1761,7 +1784,9 @@
                 "name": "Melt the ice and buy it for 100 Rupees",
                 "access_rules": [
                   "firearrows,adultwallet",
-                  "[lens],goron,adultwallet"
+				  "snowhead,adultwallet",
+                  "bottlesanity_no,$can_see_with_lens,bottle,goron,adultwallet",
+				  "bottlesanity_yes,hotspringwater,adultwallet"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1769,8 +1794,9 @@
               {
                 "name": "Show the Gold Dust",
                 "access_rules": [
-                  "bottle,goron,powderkeg"
-                  //"dust"
+                  //"bottlesanity_no,bottle,goron,powderkeg,snowhead",
+				  "bottlesanity_no,bottle,goron,snowhead",
+                  "bottlesanity_yes,golddust"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1814,7 +1840,7 @@
                 "name": "Get it from Goron Shrine",
                 "access_rules": [
                   "goron,sticks",
-                  "goron,$has_fire"
+                  "goron,bow,firearrows"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1860,7 +1886,7 @@
               {
                 "name": "After beating Snowhead Temple",
                 "access_rules": [
-                  "snowhead,[lens],[magic]"
+                  "snowhead,$can_see_with_lens"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1929,7 +1955,9 @@
                 "name": "Melt the ice",
                 "access_rules": [
                   "firearrows,$has_explosives",
-                  "bottle,$has_explosives"
+                  "bottlesanity_no,$can_see_with_lens,bottle,goron,$has_explosives",
+				  "bottlesanity_yes,hotspringwater,$has_explosives",
+				  "snowhead,$has_explosives"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2000,7 +2028,8 @@
               {
                 "name": "Win Race After Beating Snowhead Temple",
                 "access_rules": [
-                  "snowhead,goron"
+                  //"snowhead,goron,powderkeg"
+				  "snowhead,goron"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2058,13 +2087,17 @@
             "sections": [
               {
                 "name": "Lens chest",
+                "access_rules": [
+				  "[soaring]",
+                  "$can_see_with_lens"
+                ],
                 "capture_item": true,
                 "item_count": 1
               },
               {
                 "name": "Invisible chest",
                 "access_rules": [
-                  "[lens],[magic]"
+                  "$can_see_with_lens"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2072,7 +2105,8 @@
               {
                 "name": "Chest inside rock",
                 "access_rules": [
-                  "$has_explosives"
+                  "$has_explosives,[soaring]",
+                  "$has_explosives,[$can_see_with_lens]"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2141,8 +2175,8 @@
           },
 
           {
-            "name": "Biggoron Powder Keg",
-            "short_name": "Biggoron",
+            "name": "Medigoron Powder Keg",
+            "short_name": "Medigoron",
             "sections": [
               {
                 "name": "Talk to him after opening the track",
@@ -2170,7 +2204,7 @@
               {
                 "name": "Get the PoH",
                 "access_rules": [
-                  "hookshot,ocarina,goron,[lens],[magic]"
+                  "hookshot,ocarina,goron,$can_see_with_lens"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2324,9 +2358,11 @@
                   {
                     "name": "Great Bay Coast HP",
                     "access_rules": [
-                      "hookshot,beans,bottle",
+                      "bottlesanity_no,hookshot,beans,bottle",
+                      "bottlesanity_yes,hookshot,beans,water",
                       "hookshot,beans,songofstorms",
-                      "{hookshot,bottle}",
+                      "bottlesanity_no,{hookshot,bottle}",
+                      "bottlesanity_yes,{hookshot,water}",
                       "{hookshot,songofstorms}"
                     ],
                     "capture_item": true,
@@ -2378,7 +2414,8 @@
                   {
                     "name": "Feed The Fish",
                     "access_rules": [
-                      "bottle"
+                      "bottlesanity_no,bottle",
+                      "bottlesanity_yes,fish"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -2386,7 +2423,8 @@
                   {
                     "name": "Song From Zora Eggs",
                     "access_rules": [
-                      "ocarina,bow,hookshot,zora,bottle"
+                      "bottlesanity_no,ocarina,bow,hookshot,zora,bottle",
+                      "bottlesanity_yes,ocarina,zora,zoraegg"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -2488,7 +2526,8 @@
                   {
                     "name": "Reunite The Seahorses",
                     "access_rules": [
-                      "pictobox"
+                      "bottlesanity_no,bottle,pictobox",
+					  "bottlesanity_yes,seahorse"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -2566,21 +2605,24 @@
                 "short_name": "PF",
                 "access_rules": [
                   "goron",
-                  "hookshot"
+				  "hookshot"
                 ],
                 "sections": [
                   {
-                    "name": "PF Lower Chest",
+                    "name": "Lower Chest",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
-                    "name": "PF Upper Chest",
+                    "name": "Upper Chest",
+                    "access_rules": [
+                      "hookshot"
+                    ],
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
-                    "name": "PF Hookshot",
+                    "name": "Hookshot Chest",
                     "access_rules": [
                       "bow"
                     ],
@@ -2588,12 +2630,18 @@
                     "item_count": 1
                   },
                   {
-                    "name": "PF Well Guarded Chest",
+                    "name": "Well Guarded Chest",
+                    "access_rules": [
+                      "hookshot"
+                    ],
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
-                    "name": "PF Fish Tank Chest",
+                    "name": "Fish Tank Chest",
+                    "access_rules": [
+                      "hookshot"
+                    ],
                     "capture_item": true,
                     "item_count": 1
                   }
@@ -2758,7 +2806,8 @@
               {
                 "name": "Give him a red potion",
                 "access_rules": [
-                  "lens,magic,bottle"
+                  "bottlesanity_no,lens,magic,bottle",
+				  "bottlesanity_yes,lens,magic,redpotion"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -3089,13 +3138,16 @@
                   },
 
                   {
-                    "name": "Bottom of the Well",
+                    "name": "Beneath the Well",
                     "short_name": "Well",
                     "sections": [
                       {
                         "name": "Mirror Shield Chest",
                         "access_rules": [
-                          "gibdomask,beans,bottle,bow,firearrows"
+                          "bottlesanity_no,gibdomask,beans,bottle,bow,firearrows,[bombs],[nuts]",
+                          "bottlesanity_yes,gibdomask,beans,bigpoe,fish,milk,bow,firearrows",
+                          "bottlesanity_yes,gibdomask,beans,bigpoe,fish,chateau,bow,firearrows",
+						  "bow,lightarrows"
                         ],
                         "capture_item": true,
                         "item_count": 1
@@ -3103,7 +3155,8 @@
                       {
                         "name": "Right Side Well Chest",
                         "access_rules": [
-                          "gibdomask"
+                          "bottlesanity_no,gibdomask,beans,bottle,bow,firearrows",
+						  "bottlesanity_no,gibdomask,beans,bugs,bow,firearrows"
                         ],
                         "capture_item": true,
                         "item_count": 1
@@ -3111,7 +3164,8 @@
                       {
                         "name": "Left Side Well Chest",
                         "access_rules": [
-                          "gibdomask"
+                          "bottlesanity_no,gibdomask,bottle",
+						  "bottlesanity_yes,gibdomask,water,bluepotion,bugs"
                         ],
                         "capture_item": true,
                         "item_count": 1
@@ -3174,9 +3228,11 @@
                             "name": "Get there with beans",
                             "access_rules": [
 							  "{songofstorms,ocarina}",
-							  "{bottle}",
+							  "bottlesanity_no,{bottle}",
+							  "bottlesanity_yes,{water}",
 							  "beans,songofstorms,ocarina",
-							  "beans,bottle"
+							  "bottlesanity_no,beans,bottle",
+							  "bottlesanity_yes,beans,water"
                             ],
                             "capture_item": true,
                             "item_count": 3

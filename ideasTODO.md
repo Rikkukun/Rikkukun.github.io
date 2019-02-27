@@ -1,6 +1,16 @@
-# **Map Tracker**
+Keep track of what's in the works the the pack in [our Trello](https://trello.com/b/hH1ruzJO/majoras-mask-map-tracker).
 
-* I'm actually working hard with EpicYoshi on a map tracker. 90% completion.
+# Map Tracker
+
+## To-do
+
+* Adding Dungeon-specific Keys to the Item Capture
+* Adding custom check items for Chests, Songs, Heart pieces, Masks
+* Dungeon Entrance Rando support
+
+## Ideas
+
+* Adding the Moon checks
 
 # Standard Layout
 

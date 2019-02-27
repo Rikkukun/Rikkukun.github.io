@@ -1,6 +1,25 @@
 # Changelog
 
+## 2.1.0
+
+* Added Bottlesanity setting support
+* Merged Termina map and Clock Town map to minimize clicks
+* Added a lot of logic refinements, requirements and sequence breaks in all four dungeons (thanks to @youko#2646)
+* Added a new Shopsanity icon
+* Renamed Bottom of the Well to Beneath the Well and improved its logic considerably
+* Blast Mask is no longer considered sequence break when checking if the player has explosives
+* Powder Keg is now considered a sequence break explosive
+* Added Song of Soaring to Lens of Truth chests requirements and a sequence break if the player doesn't have it
+* Added a missing mail box location in Clock Town
+* Fixed some Pirate Fortress chests not considering Hookshot as requirement
+* Fixed Mountain Smithy and Hot Spring Water Grotto requirements
+* Fixed Mayor Couple Mask check showing obtainable only on day 1 or 2
+* Fixed Romani Quests time frames
+* Fixed Gift From Kafei checks time frames
+* Removed some unused files
+
 ## 2.0.1
+
 * Added Purple Rupee, Silver Rupee, all Title Deeds and Giant Wallet to the Item Capture grid
 * Added a sequence break for Chest on a Stump with no requirements
 * Added a sequence break for Chest on Shed Roof in Doggy Racetrack with Zora Mask

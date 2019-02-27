@@ -375,53 +375,84 @@
         "codes": "bottle,bottle1,emptybottle"
       },
       {
-        "img": "images/dust.png"
+        "img": "images/dust.png",
+		"codes": "bottle,bottle1,bottledust,bottle_dust,golddust,gold_dust,dust,bottle_golddust,bottle_golddust",
+		"inherit_codes": false
       },
       {
-        "img": "images/bigpoe.png"
+        "img": "images/bigpoe.png",
+		"codes": "bottle,bottle1,pigpoe,pig_poe",
+		"inherit_codes": false
       },
       {
-        "img": "images/zoraegg.png"
+        "img": "images/zoraegg.png",
+		"codes": "bottle,bottle1,zoraegg,zoraegg_bottle,bottle_egg,bottlezoraegg,bottleegg",
+		"inherit_codes": false
       },
       {
-        "img": "images/dekuprincess.png"
+        "img": "images/dekuprincess.png",
+		"codes": "bottle,bottle1,dekuprincess,bottledekuprincess,bottledeku,bottle_deku_princess",
+		"inherit_codes": false
       },
       {
-        "img": "images/redpotion.png"
+        "img": "images/redpotion.png",
+		"codes": "bottle,bottle1,redpotion,bottle_red,bottlered,bottle_red_potion,bottle_redpotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/bluepotion.png"
+        "img": "images/bluepotion.png",
+		"codes": "bottle,bottle1,bluepotion,bottle_blue,bottleblue,bottle_blue_potion,bottle_bluepotion,blupotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/seahorse.png"
+        "img": "images/seahorse.png",
+		"codes": "bottle,bottle1,seahorse,bottledseahorse,bottled_seahorse",
+		"inherit_codes": false
       },
       {
-        "img": "images/mushroom.png"
+        "img": "images/mushroom.png",
+		"codes": "bottle,bottle1,mushroom,mush,bottled_mushroom,bottledmushroom",
+		"inherit_codes": false
       },
       {
-        "img": "images/springwater.png"
+        "img": "images/springwater.png",
+		"codes": "bottle,bottle1,hotspringwater,hot_spring_water,hot,hotwater,hot_water,spring_water_hot",
+		"inherit_codes": false
       },
 	  {
-        "img": "images/water.png"
+        "img": "images/water.png",
+		"codes": "bottle,bottle1,water,bottledwater,bottled_water",
+		"inherit_codes": false
       },
       {
-        "img": "images/fish.png"
+        "img": "images/fish.png",
+		"codes": "bottle,bottle1,fish,bottledfish,bottled_fish",
+		"inherit_codes": false
       },
       {
-        "img": "images/bug.png"
+        "img": "images/bug.png",
+		"codes": "bottle,bottle1,bug,bugs,bottledbugs,bottled_bugs",
+		"inherit_codes": false
       },
       {
-        "img": "images/fairy.png"
+        "img": "images/fairy.png",
+		"codes": "bottle,bottle1,fairy,bottled_fairy,bottledfairy",
+		"inherit_codes": false
       },
       {
-        "img": "images/chateau.png"
+        "img": "images/chateau.png",
+		"codes": "bottle,bottle1,chateau,chateauromani,chateau_romani,goldmilk",
+		"inherit_codes": false
       },
       {
-        "img": "images/milk.png"
+        "img": "images/milk.png",
+		"codes": "bottle,bottle1,milk,bottledmilk,bottled_milk",
+		"inherit_codes": false
       }
     ]
   },
   
+  // Bottles
   {
     "name": "Bottle 2",
     "type": "progressive",
@@ -432,53 +463,84 @@
         "codes": "bottle,bottle2,emptybottle"
       },
       {
-        "img": "images/dust.png"
+        "img": "images/dust.png",
+		"codes": "bottle,bottle2,bottledust,bottle_dust,golddust,gold_dust,dust,bottle_golddust,bottle_golddust",
+		"inherit_codes": false
       },
       {
-        "img": "images/bigpoe.png"
+        "img": "images/bigpoe.png",
+		"codes": "bottle,bottle2,pigpoe,pig_poe",
+		"inherit_codes": false
       },
       {
-        "img": "images/zoraegg.png"
+        "img": "images/zoraegg.png",
+		"codes": "bottle,bottle2,zoraegg,zoraegg_bottle,bottle_egg,bottlezoraegg,bottleegg",
+		"inherit_codes": false
       },
       {
-        "img": "images/dekuprincess.png"
+        "img": "images/dekuprincess.png",
+		"codes": "bottle,bottle2,dekuprincess,bottledekuprincess,bottledeku,bottle_deku_princess",
+		"inherit_codes": false
       },
       {
-        "img": "images/redpotion.png"
+        "img": "images/redpotion.png",
+		"codes": "bottle,bottle2,redpotion,bottle_red,bottlered,bottle_red_potion,bottle_redpotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/bluepotion.png"
+        "img": "images/bluepotion.png",
+		"codes": "bottle,bottle2,bluepotion,bottle_blue,bottleblue,bottle_blue_potion,bottle_bluepotion,blupotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/seahorse.png"
+        "img": "images/seahorse.png",
+		"codes": "bottle,bottle2,seahorse,bottledseahorse,bottled_seahorse",
+		"inherit_codes": false
       },
       {
-        "img": "images/mushroom.png"
+        "img": "images/mushroom.png",
+		"codes": "bottle,bottle2,mushroom,mush,bottled_mushroom,bottledmushroom",
+		"inherit_codes": false
       },
       {
-        "img": "images/springwater.png"
+        "img": "images/springwater.png",
+		"codes": "bottle,bottle2,hotspringwater,hot_spring_water,hot,hotwater,hot_water,spring_water_hot",
+		"inherit_codes": false
       },
 	  {
-        "img": "images/water.png"
+        "img": "images/water.png",
+		"codes": "bottle,bottle2,water,bottledwater,bottled_water",
+		"inherit_codes": false
       },
       {
-        "img": "images/fish.png"
+        "img": "images/fish.png",
+		"codes": "bottle,bottle2,fish,bottledfish,bottled_fish",
+		"inherit_codes": false
       },
       {
-        "img": "images/bug.png"
+        "img": "images/bug.png",
+		"codes": "bottle,bottle2,bug,bugs,bottledbugs,bottled_bugs",
+		"inherit_codes": false
       },
       {
-        "img": "images/fairy.png"
+        "img": "images/fairy.png",
+		"codes": "bottle,bottle2,fairy,bottled_fairy,bottledfairy",
+		"inherit_codes": false
       },
       {
-        "img": "images/chateau.png"
+        "img": "images/chateau.png",
+		"codes": "bottle,bottle2,chateau,chateauromani,chateau_romani,goldmilk",
+		"inherit_codes": false
       },
       {
-        "img": "images/milk.png"
+        "img": "images/milk.png",
+		"codes": "bottle,bottle2,milk,bottledmilk,bottled_milk",
+		"inherit_codes": false
       }
     ]
   },
   
+  // Bottles
   {
     "name": "Bottle 3",
     "type": "progressive",
@@ -489,53 +551,84 @@
         "codes": "bottle,bottle3,emptybottle"
       },
       {
-        "img": "images/dust.png"
+        "img": "images/dust.png",
+		"codes": "bottle,bottle3,bottledust,bottle_dust,golddust,gold_dust,dust,bottle_golddust,bottle_golddust",
+		"inherit_codes": false
       },
       {
-        "img": "images/bigpoe.png"
+        "img": "images/bigpoe.png",
+		"codes": "bottle,bottle3,pigpoe,pig_poe",
+		"inherit_codes": false
       },
       {
-        "img": "images/zoraegg.png"
+        "img": "images/zoraegg.png",
+		"codes": "bottle,bottle3,zoraegg,zoraegg_bottle,bottle_egg,bottlezoraegg,bottleegg",
+		"inherit_codes": false
       },
       {
-        "img": "images/dekuprincess.png"
+        "img": "images/dekuprincess.png",
+		"codes": "bottle,bottle3,dekuprincess,bottledekuprincess,bottledeku,bottle_deku_princess",
+		"inherit_codes": false
       },
       {
-        "img": "images/redpotion.png"
+        "img": "images/redpotion.png",
+		"codes": "bottle,bottle3,redpotion,bottle_red,bottlered,bottle_red_potion,bottle_redpotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/bluepotion.png"
+        "img": "images/bluepotion.png",
+		"codes": "bottle,bottle3,bluepotion,bottle_blue,bottleblue,bottle_blue_potion,bottle_bluepotion,blupotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/seahorse.png"
+        "img": "images/seahorse.png",
+		"codes": "bottle,bottle3,seahorse,bottledseahorse,bottled_seahorse",
+		"inherit_codes": false
       },
       {
-        "img": "images/mushroom.png"
+        "img": "images/mushroom.png",
+		"codes": "bottle,bottle3,mushroom,mush,bottled_mushroom,bottledmushroom",
+		"inherit_codes": false
       },
       {
-        "img": "images/springwater.png"
+        "img": "images/springwater.png",
+		"codes": "bottle,bottle3,hotspringwater,hot_spring_water,hot,hotwater,hot_water,spring_water_hot",
+		"inherit_codes": false
       },
 	  {
-        "img": "images/water.png"
+        "img": "images/water.png",
+		"codes": "bottle,bottle3,water,bottledwater,bottled_water",
+		"inherit_codes": false
       },
       {
-        "img": "images/fish.png"
+        "img": "images/fish.png",
+		"codes": "bottle,bottle3,fish,bottledfish,bottled_fish",
+		"inherit_codes": false
       },
       {
-        "img": "images/bug.png"
+        "img": "images/bug.png",
+		"codes": "bottle,bottle3,bug,bugs,bottledbugs,bottled_bugs",
+		"inherit_codes": false
       },
       {
-        "img": "images/fairy.png"
+        "img": "images/fairy.png",
+		"codes": "bottle,bottle3,fairy,bottled_fairy,bottledfairy",
+		"inherit_codes": false
       },
       {
-        "img": "images/chateau.png"
+        "img": "images/chateau.png",
+		"codes": "bottle,bottle3,chateau,chateauromani,chateau_romani,goldmilk",
+		"inherit_codes": false
       },
       {
-        "img": "images/milk.png"
+        "img": "images/milk.png",
+		"codes": "bottle,bottle3,milk,bottledmilk,bottled_milk",
+		"inherit_codes": false
       }
     ]
   },
   
+  // Bottles
   {
     "name": "Bottle 4",
     "type": "progressive",
@@ -546,53 +639,84 @@
         "codes": "bottle,bottle4,emptybottle"
       },
       {
-        "img": "images/dust.png"
+        "img": "images/dust.png",
+		"codes": "bottle,bottle4,bottledust,bottle_dust,golddust,gold_dust,dust,bottle_golddust,bottle_golddust",
+		"inherit_codes": false
       },
       {
-        "img": "images/bigpoe.png"
+        "img": "images/bigpoe.png",
+		"codes": "bottle,bottle4,pigpoe,pig_poe",
+		"inherit_codes": false
       },
       {
-        "img": "images/zoraegg.png"
+        "img": "images/zoraegg.png",
+		"codes": "bottle,bottle4,zoraegg,zoraegg_bottle,bottle_egg,bottlezoraegg,bottleegg",
+		"inherit_codes": false
       },
       {
-        "img": "images/dekuprincess.png"
+        "img": "images/dekuprincess.png",
+		"codes": "bottle,bottle4,dekuprincess,bottledekuprincess,bottledeku,bottle_deku_princess",
+		"inherit_codes": false
       },
       {
-        "img": "images/redpotion.png"
+        "img": "images/redpotion.png",
+		"codes": "bottle,bottle4,redpotion,bottle_red,bottlered,bottle_red_potion,bottle_redpotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/bluepotion.png"
+        "img": "images/bluepotion.png",
+		"codes": "bottle,bottle4,bluepotion,bottle_blue,bottleblue,bottle_blue_potion,bottle_bluepotion,blupotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/seahorse.png"
+        "img": "images/seahorse.png",
+		"codes": "bottle,bottle4,seahorse,bottledseahorse,bottled_seahorse",
+		"inherit_codes": false
       },
       {
-        "img": "images/mushroom.png"
+        "img": "images/mushroom.png",
+		"codes": "bottle,bottle4,mushroom,mush,bottled_mushroom,bottledmushroom",
+		"inherit_codes": false
       },
       {
-        "img": "images/springwater.png"
+        "img": "images/springwater.png",
+		"codes": "bottle,bottle4,hotspringwater,hot_spring_water,hot,hotwater,hot_water,spring_water_hot",
+		"inherit_codes": false
       },
 	  {
-        "img": "images/water.png"
+        "img": "images/water.png",
+		"codes": "bottle,bottle4,water,bottledwater,bottled_water",
+		"inherit_codes": false
       },
       {
-        "img": "images/fish.png"
+        "img": "images/fish.png",
+		"codes": "bottle,bottle4,fish,bottledfish,bottled_fish",
+		"inherit_codes": false
       },
       {
-        "img": "images/bug.png"
+        "img": "images/bug.png",
+		"codes": "bottle,bottle4,bug,bugs,bottledbugs,bottled_bugs",
+		"inherit_codes": false
       },
       {
-        "img": "images/fairy.png"
+        "img": "images/fairy.png",
+		"codes": "bottle,bottle4,fairy,bottled_fairy,bottledfairy",
+		"inherit_codes": false
       },
       {
-        "img": "images/chateau.png"
+        "img": "images/chateau.png",
+		"codes": "bottle,bottle4,chateau,chateauromani,chateau_romani,goldmilk",
+		"inherit_codes": false
       },
       {
-        "img": "images/milk.png"
+        "img": "images/milk.png",
+		"codes": "bottle,bottle4,milk,bottledmilk,bottled_milk",
+		"inherit_codes": false
       }
     ]
   },
   
+  // Bottles
   {
     "name": "Bottle 5",
     "type": "progressive",
@@ -603,53 +727,84 @@
         "codes": "bottle,bottle5,emptybottle"
       },
       {
-        "img": "images/dust.png"
+        "img": "images/dust.png",
+		"codes": "bottle,bottle5,bottledust,bottle_dust,golddust,gold_dust,dust,bottle_golddust,bottle_golddust",
+		"inherit_codes": false
       },
       {
-        "img": "images/bigpoe.png"
+        "img": "images/bigpoe.png",
+		"codes": "bottle,bottle5,pigpoe,pig_poe",
+		"inherit_codes": false
       },
       {
-        "img": "images/zoraegg.png"
+        "img": "images/zoraegg.png",
+		"codes": "bottle,bottle5,zoraegg,zoraegg_bottle,bottle_egg,bottlezoraegg,bottleegg",
+		"inherit_codes": false
       },
       {
-        "img": "images/dekuprincess.png"
+        "img": "images/dekuprincess.png",
+		"codes": "bottle,bottle5,dekuprincess,bottledekuprincess,bottledeku,bottle_deku_princess",
+		"inherit_codes": false
       },
       {
-        "img": "images/redpotion.png"
+        "img": "images/redpotion.png",
+		"codes": "bottle,bottle5,redpotion,bottle_red,bottlered,bottle_red_potion,bottle_redpotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/bluepotion.png"
+        "img": "images/bluepotion.png",
+		"codes": "bottle,bottle5,bluepotion,bottle_blue,bottleblue,bottle_blue_potion,bottle_bluepotion,blupotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/seahorse.png"
+        "img": "images/seahorse.png",
+		"codes": "bottle,bottle5,seahorse,bottledseahorse,bottled_seahorse",
+		"inherit_codes": false
       },
       {
-        "img": "images/mushroom.png"
+        "img": "images/mushroom.png",
+		"codes": "bottle,bottle5,mushroom,mush,bottled_mushroom,bottledmushroom",
+		"inherit_codes": false
       },
       {
-        "img": "images/springwater.png"
+        "img": "images/springwater.png",
+		"codes": "bottle,bottle5,hotspringwater,hot_spring_water,hot,hotwater,hot_water,spring_water_hot",
+		"inherit_codes": false
       },
 	  {
-        "img": "images/water.png"
+        "img": "images/water.png",
+		"codes": "bottle,bottle5,water,bottledwater,bottled_water",
+		"inherit_codes": false
       },
       {
-        "img": "images/fish.png"
+        "img": "images/fish.png",
+		"codes": "bottle,bottle5,fish,bottledfish,bottled_fish",
+		"inherit_codes": false
       },
       {
-        "img": "images/bug.png"
+        "img": "images/bug.png",
+		"codes": "bottle,bottle5,bug,bugs,bottledbugs,bottled_bugs",
+		"inherit_codes": false
       },
       {
-        "img": "images/fairy.png"
+        "img": "images/fairy.png",
+		"codes": "bottle,bottle5,fairy,bottled_fairy,bottledfairy",
+		"inherit_codes": false
       },
       {
-        "img": "images/chateau.png"
+        "img": "images/chateau.png",
+		"codes": "bottle,bottle5,chateau,chateauromani,chateau_romani,goldmilk",
+		"inherit_codes": false
       },
       {
-        "img": "images/milk.png"
+        "img": "images/milk.png",
+		"codes": "bottle,bottle5,milk,bottledmilk,bottled_milk",
+		"inherit_codes": false
       }
     ]
   },
   
+   // Bottles
   {
     "name": "Bottle 6",
     "type": "progressive",
@@ -657,52 +812,82 @@
     "stages": [
       {
         "img": "images/bottle.png",
-		"codes": "bottle,bottle6,emptybottle"
+        "codes": "bottle,bottle6,emptybottle"
       },
       {
-        "img": "images/dust.png"
+        "img": "images/dust.png",
+		"codes": "bottle,bottle6,bottledust,bottle_dust,golddust,gold_dust,dust,bottle_golddust,bottle_golddust",
+		"inherit_codes": false
       },
       {
-        "img": "images/bigpoe.png"
+        "img": "images/bigpoe.png",
+		"codes": "bottle,bottle6,pigpoe,pig_poe",
+		"inherit_codes": false
       },
       {
-        "img": "images/zoraegg.png"
+        "img": "images/zoraegg.png",
+		"codes": "bottle,bottle6,zoraegg,zoraegg_bottle,bottle_egg,bottlezoraegg,bottleegg",
+		"inherit_codes": false
       },
       {
-        "img": "images/dekuprincess.png"
+        "img": "images/dekuprincess.png",
+		"codes": "bottle,bottle6,dekuprincess,bottledekuprincess,bottledeku,bottle_deku_princess",
+		"inherit_codes": false
       },
       {
-        "img": "images/redpotion.png"
+        "img": "images/redpotion.png",
+		"codes": "bottle,bottle6,redpotion,bottle_red,bottlered,bottle_red_potion,bottle_redpotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/bluepotion.png"
+        "img": "images/bluepotion.png",
+		"codes": "bottle,bottle6,bluepotion,bottle_blue,bottleblue,bottle_blue_potion,bottle_bluepotion,blupotion",
+		"inherit_codes": false
       },
       {
-        "img": "images/seahorse.png"
+        "img": "images/seahorse.png",
+		"codes": "bottle,bottle6,seahorse,bottledseahorse,bottled_seahorse",
+		"inherit_codes": false
       },
       {
-        "img": "images/mushroom.png"
+        "img": "images/mushroom.png",
+		"codes": "bottle,bottle6,mushroom,mush,bottled_mushroom,bottledmushroom",
+		"inherit_codes": false
       },
       {
-        "img": "images/springwater.png"
+        "img": "images/springwater.png",
+		"codes": "bottle,bottle6,hotspringwater,hot_spring_water,hot,hotwater,hot_water,spring_water_hot",
+		"inherit_codes": false
       },
 	  {
-        "img": "images/water.png"
+        "img": "images/water.png",
+		"codes": "bottle,bottle6,water,bottledwater,bottled_water",
+		"inherit_codes": false
       },
       {
-        "img": "images/fish.png"
+        "img": "images/fish.png",
+		"codes": "bottle,bottle6,fish,bottledfish,bottled_fish",
+		"inherit_codes": false
       },
       {
-        "img": "images/bug.png"
+        "img": "images/bug.png",
+		"codes": "bottle,bottle6,bug,bugs,bottledbugs,bottled_bugs",
+		"inherit_codes": false
       },
       {
-        "img": "images/fairy.png"
+        "img": "images/fairy.png",
+		"codes": "bottle,bottle6,fairy,bottled_fairy,bottledfairy",
+		"inherit_codes": false
       },
       {
-        "img": "images/chateau.png"
+        "img": "images/chateau.png",
+		"codes": "bottle,bottle6,chateau,chateauromani,chateau_romani,goldmilk",
+		"inherit_codes": false
       },
       {
-        "img": "images/milk.png"
+        "img": "images/milk.png",
+		"codes": "bottle,bottle6,milk,bottledmilk,bottled_milk",
+		"inherit_codes": false
       }
     ]
   },
@@ -1686,44 +1871,44 @@
     ]
   },
   
-  // Zora Egg
+  // Zora Egg Static
   {
     "name": "Zora Egg",
     "type": "toggle",
     "img": "images/zoraegg.png",
-    "codes": "zoraegg,zoraegg_bottle,bottle_egg,bottlezoraegg,bottleegg"
+    "codes": "zoraegg_static,zoraegg_bottle_static,bottle_egg_static,bottlezoraegg_static,bottleegg_static"
   },
   
-  // Red Potion
+  // Red Potion Static
   {
     "name": "Red Potion",
     "type": "toggle",
     "img": "images/redpotion.png",
-    "codes": "redpotion,bottle_red,bottlered,bottle_red_potion,bottle_redpotion"
+    "codes": "redpotion_static,bottle_red_static,bottlered_static,bottle_red_potion_static,bottle_redpotion_static"
   },
   
-  // Deku Princess
+  // Deku Princess Static
   {
     "name": "Deku Princess",
     "type": "toggle",
     "img": "images/dekuprincess.png",
-    "codes": "dekuprincess,bottledekuprincess,bottledeku,bottle_deku_princess"
+    "codes": "dekuprincess_static,bottledekuprincess_static,bottledeku_static,bottle_deku_princess_static"
   },
   
-  // Gold Dust
+  // Gold Dust Static
   {
     "name": "Gold Dust",
     "type": "toggle",
     "img": "images/dust.png",
-    "codes": "bottledust,bottle_dust,golddust,gold_dust,bottle_golddust,bottle_golddust"
+    "codes": "bottledust_static,bottle_dust_static,golddust_static,gold_dust_static"
   },
   
-  // Hot Spring Water
+  // Hot Spring Water Static
   {
     "name": "Hot Spring Water",
     "type": "toggle",
     "img": "images/springwater.png",
-    "codes": "hotspringwater,hot_spring_water,hot,hotwater,hot_water,spring_water_hot"
+    "codes": "hotspringwater_static,hot_spring_water_static,hot_static,hotwater_static,hot_water_static,spring_water_hot_static"
   },
   
   // Small Key Generic

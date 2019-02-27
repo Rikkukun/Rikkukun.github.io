@@ -11,8 +11,8 @@
         "name": "Small Key Chest",
         "short_name": "Small Key",
         "access_rules": [
-          "dekumask",
-          "{hookshot}"
+          "deku",
+          "hookshot"
         ],
         "capture_item": true,
         "item_count": 1
@@ -22,9 +22,9 @@
         "name": "Map Chest",
         "short_name": "Map",
         "access_rules": [
-          "goron",
-          "$has_explosives",
-          "deku"
+          "deku",
+          "hookshot,goron",
+          "hookshot,$has_explosives"
         ],
         "capture_item": true,
         "item_count": 1
@@ -34,9 +34,9 @@
         "name": "Compass Chest",
         "short_name": "Compass",
         "access_rules": [
-          "woodfall_small_keys:1,$can_deal_damage,stick",
-          "hookshot,bow,stick",
-          "$has_fire",
+		  "deku,bow",
+		  "deku,woodfall_small_keys:1",
+          "hookshot"
         ],
         "capture_item": true,
         "item_count": 1
@@ -46,8 +46,9 @@
         "name": "Hero's Bow Chest",
         "short_name": "Bow",
         "access_rules": [
-          "bow,$can_deal_damage",
-          "woodfall_small_keys:1,stick"
+          "deku,bow",
+          "deku,woodfall_small_keys:1",
+		  "hookshot"
         ],
         "capture_item": true,
         "item_count": 1
@@ -57,8 +58,7 @@
         "name": "Boss Key Chest",
         "short_name": "Boss Key",
         "access_rules": [
-          "$can_deal_damage,bow",
-          "$can_deal_damage,zora"
+          "deku,bow"
         ],
         "capture_item": true,
         "item_count": 1
@@ -67,7 +67,8 @@
       {
         "name": "Odolwa",
         "access_rules": [
-          "woodfall_boss_key,$can_deal_damage"
+          "woodfall_boss_key,bow,deku",
+		  "woodfall_boss_key,bow,hookshot"
         ],
         "hosted_item": "woodfall",
         "capture_item": true,
@@ -102,6 +103,10 @@
       {
         "name": "Map Chest",
         "short_name": "Map",
+        "access_rules": [
+			"goron",
+			"zora"
+        ],
         "capture_item": true,
         "item_count": 1
       },
@@ -109,6 +114,10 @@
       {
         "name": "Small Key Chest 1F West",
         "short_name": "Small Key 1",
+        "access_rules": [
+			"goron",
+			"zora"
+        ],
         "capture_item": true,
         "item_count": 1
       },
@@ -117,7 +126,9 @@
         "name": "Compass Chest",
         "short_name": "Compass",
         "access_rules": [
-			"snowhead_small_keys:1"
+			"goron,hookshot",
+			"goron,snowhead_small_keys:1",
+			"zora"
         ],
         "capture_item": true,
         "item_count": 1
@@ -127,8 +138,12 @@
         "name": "Small Key Chest 2F",
         "short_name": "Small Key 2",
         "access_rules": [
-          "$can_break_rocks,snowhead_small_keys:1",
-		  "bow,firearrows,snowhead_small_keys:1"
+          "goron,hookshot,$has_explosives",
+		  "goron,hookshot,snowhead_small_keys:1",
+		  "goron,$has_explosives,snowhead_small_keys:1",
+		  "goron,bow,firearrows,snowhead_small_keys:1",
+		  "zora,$has_explosives",
+		  "zora,bow,firearrows,snowhead_small_keys:1"
         ],
         "capture_item": true,
         "item_count": 1
@@ -138,7 +153,12 @@
         "name": "Fire Arrows Chest",
         "short_name": "Fire Arrows",
         "access_rules": [
-          "$can_deal_damage,snowhead_small_keys:2",
+          "goron,bow,firearrows",
+		  "goron,hookshot",
+		  "goron,$has_explosives,snowhead_small_keys:1,zora",
+		  "goron,$has_explosives,snowhead_small_keys:2",
+		  "zora,bow,firearrows",
+		  "zora,hookshot"
         ],
         "capture_item": true,
         "item_count": 1
@@ -148,8 +168,9 @@
         "name": "Small Key Chest 1 East",
         "short_name": "Small Key 3",
         "access_rules": [
-          "bow,firearrows,snowhead_small_keys:2",
-          "bottle,hookshot,snowhead_small_keys:2"
+          "goron,hookshot",
+          "goron,bow,firearrows",
+		  "zora"
         ],
         "capture_item": true,
         "item_count": 1
@@ -159,8 +180,8 @@
         "name": "Boss Key Chest",
         "short_name": "Boss Key",
         "access_rules": [
-          "$can_deal_damage,bow,snowhead_small_keys:3",
-          "$can_deal_damage,zora,snowhead_small_keys:3"
+          "goron,bow,firearrows",
+          "zora,bow,firearrows,snowhead_small_keys:1"
         ],
         "capture_item": true,
         "item_count": 1
@@ -169,7 +190,7 @@
       {
         "name": "Goht",
         "access_rules": [
-          "snowhead_boss_key,snowhead_small_keys:3,$can_deal_damage"
+          "snowhead_boss_key,goron,bow,firearrows"
         ],
         "hosted_item": "snowhead",
         "capture_item": true,
@@ -207,9 +228,7 @@
         "name": "Map Chest",
         "short_name": "Map",
         "access_rules": [
-          "hookshot",
-          "bow,icearrow",
-          "[zora]"
+          "zora,hookshot"
         ],
         "capture_item": true,
         "item_count": 1
@@ -219,8 +238,7 @@
         "name": "Compass Chest",
         "short_name": "Compass",
         "access_rules": [
-          "deku",
-          "bow,magic,icearrow"
+          "zora,hookshot"
         ],
         "capture_item": true,
         "item_count": 1
@@ -229,6 +247,9 @@
       {
         "name": "Small Key Chest",
         "short_name": "Small Key",
+        "access_rules": [
+          "zora,hookshot"
+        ],
         "capture_item": true,
         "item_count": 1
       },
@@ -237,9 +258,7 @@
         "name": "Boss Key Chest",
         "short_name": "Boss Key",
         "access_rules": [
-          "$has_fire,icearrow",
-          "bow,icearrow,magic,zora",
-          "[zora]"
+          "bow,icearrows,[firearrows],zora,hookshot"
         ],
         "capture_item": true,
         "item_count": 1
@@ -249,7 +268,7 @@
         "name": "Ice Arrows Chest",
         "short_name": "Ice Arrows",
         "access_rules": [
-          "greatbay_small_keys:1"
+          "zora,hookshot,greatbay_small_keys:1"
         ],
         "capture_item": true,
         "item_count": 1
@@ -259,7 +278,9 @@
         "name": "Gyorg",
         "hosted_item": "greatbay",
         "access_rules": [
-          "greatbay_boss_key,[$has_fire],[icearrow]"
+          "greatbay_boss_key,bow,icearrows,zora,hookshot,deku,[soaring]",
+		  "greatbay_boss_key,bow,icearrows,zora,hookshot,deku,goron",
+		  "greatbay_boss_key,bow,icearrows,zora,hookshot,firearrows"
         ],
         "capture_item": true,
         "item_count": 1
@@ -294,8 +315,9 @@
         "name": "Stone Tower Temple Map Chest",
         "short_name": "Map",
         "access_rules": [
-          "mirrorshield",
-		  "$can_LA"
+          "goron,elegy,mirrorshield,$has_explosives",
+          "goron,elegy,bow,lightarrows,$has_explosives",
+		  "zora,stonetower_small_keys:1,bow,lightarrows"
         ],
         "capture_item": true,
         "item_count": 1
@@ -305,8 +327,9 @@
         "name": "Stone Tower Temple Small Key Chest B2",
         "short_name": "Stone Tower Small Key 1",
         "access_rules": [
-          "mirrorshield",
-		  "$can_LA"
+          "goron,elegy,mirrorshield,$has_explosives",
+          "goron,elegy,bow,lightarrows,$has_explosives",
+		  "zora,stonetower_small_keys:1,bow,lightarrows"
         ],
         "capture_item": true,
         "item_count": 1
@@ -316,7 +339,9 @@
         "name": "Stone Tower Temple Small Key Chest 1F",
         "short_name": "Stone Tower Small Key 2",
         "access_rules": [
-			"stonetower_small_keys:1"
+          "goron,elegy,stonetower_small_keys:1,zora,$has_explosives",
+          "goron,elegy,stonetower_small_keys:1,[soaring],$has_explosives",
+		  "zora,bow,lightarrows"
         ],
         "capture_item": true,
         "item_count": 1
@@ -326,8 +351,8 @@
         "name": "Stone Tower Temple Compass Chest",
         "short_name": "Compass",
         "access_rules": [
-          "mirrorshield",
-          "$can_LA"
+          "goron,zora,stonetower_small_keys:1,elegy,mirrorshield",
+          "bow,lightarrows"
         ],
         "capture_item": true,
         "item_count": 1
@@ -337,8 +362,8 @@
         "name": "Stone Tower Temple Light Arrows Chest",
         "short_name": "Light Arrows",
         "access_rules": [
-          "deku,$can_deal_damage,mirrorshield,stonetower_small_keys:2",
-          "deku,$can_LA,stonetower_small_keys:1"
+          "goron,$has_explosives,zora,mirrorshield,deku,stonetower_small_keys:2",
+          "bow,lightarrows,stonetower_small_keys:1,[deku]"
         ],
         "capture_item": true,
         "item_count": 1
@@ -348,7 +373,7 @@
         "name": "Inverted Stone Tower Temple Small Key Chest 2F",
         "short_name": "Inverted Tower Small Key 3",
         "access_rules": [
-          "$can_LA,deku"
+          "bow,lightarrows,[deku]"
         ],
         "capture_item": true,
         "item_count": 1
@@ -358,7 +383,7 @@
         "name": "Inverted Stone Tower Temple Small Key Chest 1F",
         "short_name": "Inverted Tower Small Key 4",
         "access_rules": [
-          "$can_LA,deku,stonetower_small_keys:1"
+          "bow,lightarrows,deku,stonetower_small_keys:1,hookshot,[elegy]"
         ],
         "capture_item": true,
         "item_count": 1
@@ -368,7 +393,7 @@
         "name": "Giant's Mask Chest",
         "short_name": "Giant's Mask",
         "access_rules": [
-          "$can_LA,stonetower_small_keys:1"
+          "bow,lightarrows,firearrows,stonetower_small_keys:2,hookshot,deku"
         ],
         "capture_item": true,
         "item_count": 1
@@ -378,7 +403,7 @@
         "name": "Inverted Stone Tower Temple Boss Key Chest",
         "short_name": "Boss Key",
         "access_rules": [
-          "$can_LA,deku,stonetower_small_keys:1"
+          "bow,lightarrows,deku,stonetower_small_keys:1,hookshot"
         ],
         "capture_item": true,
         "item_count": 1
@@ -387,7 +412,7 @@
       {
         "name": "Twinmold",
         "access_rules": [
-          "$can_LA,stonetower_boss_key,stonetower_small_keys:1"
+          "bow,lightarrows,hookshot,deku,stonetower_boss_key,stonetower_small_keys:2"
         ],
         "hosted_item": "stonetower",
         "capture_item": true,
