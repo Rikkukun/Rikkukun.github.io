@@ -15,7 +15,7 @@
 
 * Added Bottlesanity setting support
 * Merged Termina map and Clock Town map to minimize clicks
-* Added a lot of logic refinements, requirements and sequence breaks in all four dungeons (thanks to @youko#2646)
+* Added a lot of logic refinements, requirements and sequence breaks in all four dungeons (thanks to @Amazing Ampharos#3068 and @youko#2646)
 * Added a new Shopsanity icon
 * Renamed Bottom of the Well to Beneath the Well and improved its logic considerably
 * Blast Mask is no longer considered sequence break when checking if the player has explosives
