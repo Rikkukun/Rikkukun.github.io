@@ -381,7 +381,7 @@
       },
       {
         "img": "images/bigpoe.png",
-		"codes": "bottle,bottle1,pigpoe,pig_poe",
+		"codes": "bottle,bottle1,bigpoe,big_poe",
 		"inherit_codes": false
       },
       {
@@ -469,7 +469,7 @@
       },
       {
         "img": "images/bigpoe.png",
-		"codes": "bottle,bottle2,pigpoe,pig_poe",
+		"codes": "bottle,bottle2,bigpoe,big_poe",
 		"inherit_codes": false
       },
       {
@@ -557,7 +557,7 @@
       },
       {
         "img": "images/bigpoe.png",
-		"codes": "bottle,bottle3,pigpoe,pig_poe",
+		"codes": "bottle,bottle3,bigpoe,big_poe",
 		"inherit_codes": false
       },
       {
@@ -645,7 +645,7 @@
       },
       {
         "img": "images/bigpoe.png",
-		"codes": "bottle,bottle4,pigpoe,pig_poe",
+		"codes": "bottle,bottle4,bigpoe,big_poe",
 		"inherit_codes": false
       },
       {
@@ -733,7 +733,7 @@
       },
       {
         "img": "images/bigpoe.png",
-		"codes": "bottle,bottle5,pigpoe,pig_poe",
+		"codes": "bottle,bottle5,bigpoe,big_poe",
 		"inherit_codes": false
       },
       {
@@ -821,7 +821,7 @@
       },
       {
         "img": "images/bigpoe.png",
-		"codes": "bottle,bottle6,pigpoe,pig_poe",
+		"codes": "bottle,bottle6,bigpoe,big_poe",
 		"inherit_codes": false
       },
       {
@@ -1284,7 +1284,7 @@
   {
     "name": "Woodfall Boss Key",
     "type": "toggle",
-    "img": "images/boss_key.png",
+    "img": "images/bosskey_woodfall.png",
     "codes": "woodfall_boss_key,woodfallboss,woodfallbk"
   },
   
@@ -1425,7 +1425,7 @@
   {
     "name": "Great Bay Boss Key",
     "type": "toggle",
-    "img": "images/boss_key.png",
+    "img": "images/bosskey_greatbay.png",
     "codes": "greatbay_boss_key,greatbayboss,greatbaybk,great_bay_boss_key,great_bay_bk"
   },
   
@@ -1494,7 +1494,7 @@
   {
     "name": "Stone Tower Boss Key",
     "type": "toggle",
-    "img": "images/boss_key.png",
+    "img": "images/bosskey_stonetower.png",
     "codes": "stonetower_boss_key,stonetowerboss,stonetowerbk,stone_tower_boss_key,stone_tower_boss"
   },
   
@@ -1911,6 +1911,14 @@
     "codes": "hotspringwater_static,hot_spring_water_static,hot_static,hotwater_static,hot_water_static,spring_water_hot_static"
   },
   
+  // Big Poe Static
+  {
+    "name": "Big Poe",
+    "type": "toggle",
+    "img": "images/bigpoe.png",
+    "codes": "bigpoe_static,big_poe_static"
+  },
+  
   // Small Key Generic
   {
     "name": "Small Keys",
@@ -1925,6 +1933,70 @@
     "type": "toggle",
     "img": "images/boss_key.png",
     "codes": "generic_boss_key,boss_key_generic,bosskey_generic,generic_bosskey"
+  },
+  
+  // Woodfall Small Keys Static
+  {
+    "name": "Woodfall Small Keys",
+    "type": "toggle",
+	"img": "images/smallkey_woodfall.png",
+	"codes": "woodfall_small_keys_static,woodfallsmall_static,woodfallsk_static"
+  },
+  
+  // Woodfall Boss Key Static
+  {
+    "name": "Woodfall Boss Key",
+    "type": "toggle",
+    "img": "images/bosskey_woodfall.png",
+    "codes": "woodfall_boss_key_static,woodfallboss_static,woodfallbk_static"
+  },
+  
+  // Snowhead Small Keys Static
+  {
+    "name": "Snowhead Small Keys",
+    "type": "toggle",
+	"img": "images/smallkey_snowhead.png",
+	"codes": "snowhead_small_keys_static,snowheadsmall_static,snowheadsk_static"
+  },
+  
+  // Snowhead Boss Key Static
+  {
+    "name": "Snowhead Boss Key",
+    "type": "toggle",
+    "img": "images/boss_key.png",
+    "codes": "snowhead_boss_key_static,snowheadboss_static,snowheadbk_static"
+  },
+  
+  // Great Bay Small Keys Static
+  {
+    "name": "Great Bay Small Keys",
+    "type": "toggle",
+	"img": "images/smallkey_greatbay.png",
+	"codes": "greatbay_small_keys_static,greatbaysmall_static,greatbaysk_static,great_bay_small_keys_static,great_bay_small_static"
+  },
+  
+  // Great Bay Boss Key Static
+  {
+    "name": "Great Bay Boss Key",
+    "type": "toggle",
+    "img": "images/bosskey_greatbay.png",
+    "codes": "greatbay_boss_key_static,greatbayboss_static,greatbaybk_static,great_bay_boss_key_static,great_bay_bk_static"
+  },
+  
+  // Stone Tower Small Keys Static
+  {
+    "name": "Stone Tower Small Keys",
+    "type": "toggle",
+	"img": "images/smallkey_stonetower.png",
+	"codes": "stonetower_small_keys_static,stonetowersmall_static,stonetowersk_static,stone_tower_small_keys_static,stone_tower_small_static"
+  },
+  
+  // Stone Tower Boss Key Static
+  {
+    "name": "Stone Tower Boss Key",
+    "type": "toggle",
+    "img": "images/bosskey_stonetower.png",
+    "codes": "stonetower_boss_key_static,stonetowerboss_static,stonetowerbk_static,stone_tower_boss_key_static,stone_tower_boss_static"
   },
   
   // Moon Tear Static

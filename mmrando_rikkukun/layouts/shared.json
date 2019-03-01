@@ -301,33 +301,38 @@
 			"rows": [
 				[
 				  "bownoammo",
+				  "hookshot",
 				  "bombsnoammo",
 				  "bombchu",
 				  "keg",
-				  "hookshot"
-				],
-				[
-				  "kokirisword_static",
-				  "razorsword",
-				  "gildedsword",
-				  "shield_static",
-				  "mirror_static"
-				],
-				[
-				  "generic_small_key",
-				  "generic_boss_key",
-				  "purple_rupee",
-				  "silver_rupee",
 				  "giantwallet_static"
 				],
 				[
-				  "roomkey_static",
-				  "deliverytomama_static",
-				  "letter_static",
-				  "pendant_static",
-				  "beans"
+				  "razorsword",
+				  "gildedsword",
+				  "shield_static",
+				  "mirror_static",
+				  "purple_rupee",
+				  "silver_rupee"
 				],
 				[
+				  "woodfall_small_keys_static",
+				  "snowhead_small_keys_static",
+				  "greatbay_small_keys_static",
+				  "stonetower_small_keys_static",
+				  "roomkey_static",
+				  "deliverytomama_static"
+				],
+				[
+				  "woodfall_boss_key_static",
+				  "snowhead_boss_key_static",
+				  "greatbay_boss_key_static",
+				  "stonetower_boss_key_static",
+				  "letter_static",
+				  "pendant_static"
+				],
+				[
+				  "beans",
 				  "moontear_static",
 				  "deed1_static",
 				  "deed2_static",
@@ -335,11 +340,12 @@
 				  "deed4_static"
 				],
 				[
-				  "redpotion_static",
-				  "dekuprincess_static",
-				  "hotspringwater_static",
 				  "golddust_static",
-				  "zoraegg_static"
+				  "bigpoe_static",
+				  "zoraegg_static",
+				  "dekuprincess_static",
+				  "redpotion_static",
+				  "hotspringwater_static"
 				]
 			]
 		}

@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.1.1
+
+* Added Dungeon-Specific keys to the Item Capture grid!
+* Added Big Poe Bottle to the Item Capture grid
+* Blue Potion now considered for rescuing Koume and Shiro (Bottlesanity)
+* Fixed Darmani Goron Mask check not showing up
+* Fixed Mountain Deku Scrub Bomb Bag check requirements (added Adult Wallet to the requirements)
+* Fixed Big Poe not being considered in requirements for Beneath the Well (Bottlesanity)
+* Fixed Room Reservation Mixup time frame
+* Fixed Save the Old Lady check name
+
 ## 2.1.0
 
 * Added Bottlesanity setting support

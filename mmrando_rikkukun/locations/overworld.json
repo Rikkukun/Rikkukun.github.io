@@ -206,11 +206,11 @@
                 ]
               },
               {
-                "name": "North Clock Town",
-                "short_name": "NCT",
+                "name": "Save The Old Lady",
+                "short_name": "Old Lady",
                 "sections": [
                   {
-                    "name": "Save The Old Lady - N1 12:20",
+                    "name": "Night 1: 12:20",
                     "access_rules": [
                       "$can_deal_damage",
                       "deku"
@@ -337,7 +337,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Room Reservation Mixup - Day 1 2 - 4 PM",
+                    "name": "Room Reservation Mixup - Day 1: from 1 PM to 4 PM",
                     "capture_item": true,
                     "item_count": 1
                   },
@@ -350,12 +350,11 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Midnight Item From Anju - Night 1",
+                    "name": "Midnight Item From Anju - Night 1: 11:30 PM",
                     "access_rules": [
+                      //"[zora],kafeimask",
                       "deku,kafeimask",
-                      "roomkey,kafeimask",
-                      "deku,kafeimask",
-                      "[zora],kafeimask",
+                      "roomkey,kafeimask"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -829,9 +828,7 @@
               {
                 "name": "Chest on a stump",
                 "access_rules": [
-				  "[beans],[songofstorms],[ocarina]",
-				  "bottlesanity_no,[beans],[bottle]",
-				  "bottlesanity_yes,[beans],[water]",
+				  "[$can_grow_magic_plant]",
                   "[hookshot]"
                 ],
                 "capture_item": true,
@@ -1183,16 +1180,9 @@
               {
                 "name": "Chest On Shed Roof",
                 "access_rules": [
-				  "{songofstorms,ocarina}",
-				  "bottlesanity_no,{bottle}",
-				  "bottlesanity_yes,{water}",
-				  "beans,songofstorms,ocarina",
-				  "bottlesanity_no,beans,bottle",
-				  "bottlesanity_yes,beans,water",
+				  "$can_grow_magic_plant",
                   "hookshot",
-				  "zoramask,[beans],[songofstorms],[ocarina]",
-				  "zoramask,bottlesanity_no,[beans],[bottle]",
-				  "zoramask,bottlesanity_yes,[beans],[water]",
+				  "zoramask,[$can_grow_magic_plant]",
 				  "zoramask,[hookshot]"
                 ],
                 "capture_item": true,
@@ -1430,7 +1420,8 @@
                 "name": "Gift From Saving Koume",
                 "access_rules": [
                   "bottlesanity_no,bottle",
-				  "bottlesanity_yes,redpotion"
+				  "bottlesanity_yes,redpotion",
+				  "bottlesanity_yes,bluepotion"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1548,12 +1539,7 @@
                       {
                         "name": "Use Deku Pipes in front of the monkey",
                         "access_rules": [
-						  "{songofstorms,ocarina}",
-						  "bottlesanity_no,{bottle}",
-						  "bottlesanity_yes,{water}",
-						  "beans,songofstorms,ocarina",
-						  "bottlesanity_no,beans,bottle",
-						  "bottlesanity_yes,beans,water"
+						  "ocarina,$can_grow_magic_plant"
                         ],
                         "capture_item": true,
                         "item_count": 1
@@ -1597,12 +1583,7 @@
                       {
                         "name": "Get to the chest",
                         "access_rules": [
-						  "{songofstorms,ocarina}",
-						  "bottlesanity_no,{bottle}",
-						  "bottlesanity_yes,{water}",
-						  "beans,songofstorms,ocarina",
-						  "bottlesanity_no,beans,bottle",
-						  "bottlesanity_yes,beans,water"
+						  "$can_grow_magic_plant"
                         ],
                         "capture_item": true,
                         "item_count": 1
@@ -1785,8 +1766,7 @@
                 "access_rules": [
                   "firearrows,adultwallet",
 				  "snowhead,adultwallet",
-                  "bottlesanity_no,$can_see_with_lens,bottle,goron,adultwallet",
-				  "bottlesanity_yes,hotspringwater,adultwallet"
+                  "$can_bottle_hotspringwater,adultwallet"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1818,7 +1798,7 @@
               {
                 "name": "Heal Darmani",
                 "access_rules": [
-                  "goron,ocarina,songofhealing,lens,magic"
+                  "ocarina,songofhealing,lens,magic"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1955,8 +1935,7 @@
                 "name": "Melt the ice",
                 "access_rules": [
                   "firearrows,$has_explosives",
-                  "bottlesanity_no,$can_see_with_lens,bottle,goron,$has_explosives",
-				  "bottlesanity_yes,hotspringwater,$has_explosives",
+                  "$can_bottle_hotspringwater,$has_explosives",
 				  "snowhead,$has_explosives"
                 ],
                 "capture_item": true,
@@ -2067,7 +2046,7 @@
               {
                 "name": "Buy Bomb Bag",
                 "access_rules": [
-                  "goron"
+                  "goron,adultwallet"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2127,7 +2106,7 @@
               {
                 "name": "Talk to Baby Goron",
                 "access_rules": [
-                  "goron"
+                  "ocarina,goron"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2358,12 +2337,7 @@
                   {
                     "name": "Great Bay Coast HP",
                     "access_rules": [
-                      "bottlesanity_no,hookshot,beans,bottle",
-                      "bottlesanity_yes,hookshot,beans,water",
-                      "hookshot,beans,songofstorms",
-                      "bottlesanity_no,{hookshot,bottle}",
-                      "bottlesanity_yes,{hookshot,water}",
-                      "{hookshot,songofstorms}"
+                      "hookshot,ocarina,$can_grow_magic_plant"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -2807,7 +2781,8 @@
                 "name": "Give him a red potion",
                 "access_rules": [
                   "bottlesanity_no,lens,magic,bottle",
-				  "bottlesanity_yes,lens,magic,redpotion"
+				  "bottlesanity_yes,lens,magic,redpotion",
+				  "bottlesanity_yes,lens,magic,bluepotion"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -3227,12 +3202,7 @@
                           {
                             "name": "Get there with beans",
                             "access_rules": [
-							  "{songofstorms,ocarina}",
-							  "bottlesanity_no,{bottle}",
-							  "bottlesanity_yes,{water}",
-							  "beans,songofstorms,ocarina",
-							  "bottlesanity_no,beans,bottle",
-							  "bottlesanity_yes,beans,water"
+							  "$can_grow_magic_plant"
                             ],
                             "capture_item": true,
                             "item_count": 3

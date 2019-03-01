@@ -23,6 +23,24 @@ function has_explosives()
   end
 end
 
+function can_break_rocks()
+  if has("goronmask")
+  then
+    return 1
+  else
+    return has_explosives()
+  end
+end
+
+function can_break_snowballs()
+  if (has("bow") and has("firearrows"))
+  then
+    return 1
+  else
+    return can_break_rocks()
+  end
+end
+
 function can_deal_damage()
   if has("sword1")
   or has("sticks")
@@ -30,21 +48,13 @@ function can_deal_damage()
   or has("fairysword")
   or has("goronmask")
   or has("zoramask")
+  or has("fiercedeity")
   then
     return 1
   elseif (has("dekumask") and has("magic")) then
     return 1, AccessibilityLevel.SequenceBreak
   else
-    return has_explosives()
-  end
-end
-
-function can_break_rocks()
-  if has("goronmask")
-  then
-    return 1
-  else
-    return has_explosives()
+    return has_explosives(), AccessibilityLevel.SequenceBreak
   end
 end
 
@@ -57,6 +67,39 @@ function has_projectile()
     return 1
   else
     return 0
+  end
+end
+
+function can_see_with_lens()
+   if has("lens") 
+  and has("magic") then
+    return 1
+  else
+    return 1, AccessibilityLevel.SequenceBreak
+  end
+end
+
+function can_grow_magic_plant()
+  if (has("bottlesanity_no")  and has("beans") and has("bottle"))
+  or (has("bottlesanity_yes") and has("beans") and has("water"))
+  or (has("bottlesanity_yes") and has("beans") and has("hotspringwater"))
+  or (has("beans") and has("songofstorms") and has(ocarina))
+  then
+    return 1
+  else
+    return 0
+  end
+end
+
+function can_bottle_hotspringwater()
+  if (has("bottlesanity_no") and has("bottle") and has("goron"))
+  then
+	return can_see_with_lens()
+  elseif (has("bottlesanity_yes") and has("hotspringwater"))
+  then
+	return 1
+  else
+	return 0
   end
 end
 
@@ -90,15 +133,6 @@ function can_IA()
     return 1
   else
     return 0
-  end
-end
-
-function can_see_with_lens()
-   if has("lens") 
-  and has("magic") then
-    return 1
-  else
-    return 1, AccessibilityLevel.SequenceBreak
   end
 end
 
