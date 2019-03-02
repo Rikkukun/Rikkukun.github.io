@@ -13,12 +13,12 @@
         "rows": [
           [ "stick", "nut", "bow", "firearrow", "icearrow", "lightarrow", "ocarina", "shield" ],
           [ "bomb", "bombchu", "keg", "hookshot", "lens", "magic", "fairysword", "kokirisword" ],
-          [ "songoftime_check", "healing_check", "epona_check", "soaring_check", "storms_check", "skulltulla_woodfall", "bottle1", "wallet" ],
-          [ "sonata_check", "lullaby_check", "bossanova_check", "elegy_check", "oath_check", "skulltulla_greatbay", "bottle2", "moontear" ],
-          [ "postman", "allnight", "blast", "stone", "fairymask", "deku", "bottle3", "roomkey" ],
-          [ "keaton", "bremen", "bunny", "dongero", "scents", "goron", "bottle4", "letter" ],
-          [ "romanimask", "troupe", "kafeimask", "couple", "mot", "zora", "bottle5", "box" ],
-          [ "kamaro", "gibdo", "garo", "captain", "giant", "fiercedeity", "bottle6", "beans" ]
+          [ "songoftime_check", "healing_check", "epona_check", "soaring_check", "storms_check", "wallet", "bottle1", "box" ],
+          [ "sonata_check", "lullaby_check", "bossanova_check", "elegy_check", "oath_check", "beans", "bottle2", "moontear" ],
+          [ "postman", "allnight", "blast", "stone", "fairymask", "deku", "bottle3", "deed1" ],
+          [ "keaton", "bremen", "bunny", "dongero", "scents", "goron", "bottle4", "deed2" ],
+          [ "romanimask", "troupe", "kafeimask", "couple", "mot", "zora", "bottle5", "deed3" ],
+          [ "kamaro", "gibdo", "garo", "captain", "giant", "fiercedeity", "bottle6", "deed4" ]
         ]
       },
 	  {
@@ -31,6 +31,36 @@
             "orientation": "horizontal",
             "margin": "0,0",
             "content": [
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "right",
+					"margin": "3,4",
+					"content": [
+					  {
+						"type": "item",
+						"item": "roomkey",
+						"margin": "0,0",
+						"width": 32,
+						"height": 32
+					  }
+					]
+				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "right",
+					"margin": "3,4",
+					"content": [
+					  {
+						"type": "item",
+						"item": "deliverytomama",
+						"margin": "0,0",
+						"width": 32,
+						"height": 32
+					  }
+					]
+				},
 				{
 					"type": "array",
 					"orientation": "horizontal",
@@ -104,6 +134,36 @@
 					  }
 					]
 				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "right",
+					"margin": "3,4",
+					"content": [
+					  {
+						"type": "item",
+						"item": "letter",
+						"margin": "0,0",
+						"width": 32,
+						"height": 32
+					  }
+					]
+				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "right",
+					"margin": "3,4",
+					"content": [
+					  {
+						"type": "item",
+						"item": "pendant",
+						"margin": "0,0",
+						"width": 32,
+						"height": 32
+					  }
+					]
+				}
 			]
 		  },
           {

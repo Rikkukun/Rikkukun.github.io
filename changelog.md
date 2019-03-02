@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.1.2
+
+* Added custom check icons for Masks, PoH, Heart Containers and Songs to the Map Tracker
+* Splitted all trade quest items into standalone icons
+* Added a different color to every area in Pinned Locations tab
+* Removed Skulltullas from the Item Trackers
+* Set Boss Remains their respective initial state (you can still loop through them)
+* Fixed Ikana Graveyard requirements
+* Fixed Great Bay Tingle requirements
+* Fixed Deku Shrine check name and location overlapping with Deku Palace PoH
+* Fixed Fisherman Island check name
+
 ## 2.1.1
 
 * Added Dungeon-Specific keys to the Item Capture grid!

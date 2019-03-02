@@ -7,7 +7,7 @@
 
       {
         "name": "Clock Town",
-        "color": "#18a50e",
+        "color": "#c475c1",
         "children": [
           {
             "name": "Clock Town South",
@@ -18,6 +18,8 @@
                 "sections": [
                   {
                     "name": "Clock Tower HP",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "capture_item": true,
                     "item_count": 1
                   }
@@ -36,6 +38,8 @@
                 "sections": [
                   {
                     "name": "Keaton Quiz Reward",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "keaton,sword1",
 					  "keaton,fairysword",
@@ -77,6 +81,8 @@
                 "sections": [
                   {
                     "name": "Postbox Item",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "postman"
                     ],
@@ -211,6 +217,8 @@
                 "sections": [
                   {
                     "name": "Night 1: 12:20",
+					"chest_unopened_img": "images/unknownmask.png",
+					"chest_opened_img": "images/unknownmask_grey.png",
                     "access_rules": [
                       "$can_deal_damage",
                       "deku"
@@ -254,6 +262,8 @@
                 "sections": [
                   {
                     "name": "North Clock Town Tree HP",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "capture_item": true,
                     "item_count": 1
                   }
@@ -272,6 +282,8 @@
                 "sections": [
                   {
                     "name": "Beat All Three Days",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "deku"
                     ],
@@ -293,6 +305,8 @@
                 "sections": [
                   {
                     "name": "Have Deku Mask",
+					"chest_unopened_img": "images/unknownmask.png",
+					"chest_opened_img": "images/unknownmask_grey.png",
                     "access_rules": [
 					  "{deku}",
                       "deku,clocktown_strayfairy"
@@ -361,6 +375,8 @@
                   },
                   {
                     "name": "Grandma Story Time - Day 1/2",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "allnightmask"
                     ],
@@ -369,6 +385,8 @@
                   },
                   {
                     "name": "Toilet Hand Gift - Midnight - 6 AM",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "towndeed",
                       "woodfall_deed",
@@ -382,11 +400,12 @@
                   },
                   {
                     "name": "Couple's Mask - Final Night 4:30 AM",
+					"chest_unopened_img": "images/unknownmask.png",
+					"chest_opened_img": "images/unknownmask_grey.png",
                     "access_rules": [
                       "{maskoftruth}",
-                      //"kafeimask,lettertokafei",
-                      "kafeimask,pendantofmemories,gibdomask,hookshot",
-                      "kafeimask,pendantofmemories,garomask,hookshot"
+                      "kafeimask,pendantofmemories,lettertokafei,ocarina,eponasong,gibdomask,hookshot",
+                      "kafeimask,pendantofmemories,lettertokafei,ocarina,eponasong,garomask,hookshot"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -405,6 +424,8 @@
                 "sections": [
                   {
                     "name": "Milk Bar Performance - Night 1/2 10 PM - 6 AM",
+					"chest_unopened_img": "images/unknownmask.png",
+					"chest_opened_img": "images/unknownmask_grey.png",
                     "access_rules": [
                       "deku,goron,zora,romanimask"
                     ],
@@ -433,11 +454,15 @@
                 "sections": [
                   {
                     "name": "Gift From Madame Aroma",
+					"chest_unopened_img": "images/unknownmask.png",
+					"chest_opened_img": "images/unknownmask_grey.png",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
                     "name": "Calm The Council",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "couple"
                     ],
@@ -458,6 +483,8 @@
                 "sections": [
                   {
                     "name": "Beat All Three Days",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "bomb,bow"
                     ],
@@ -487,6 +514,8 @@
                   },
                   {
                     "name": "Perfect Score",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "bow"
                     ],
@@ -551,6 +580,8 @@
                 "sections": [
                   {
                     "name": "Rosa Sisters Gift - Night 1/2",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "kamaro"
                     ],
@@ -577,6 +608,8 @@
                   },
                   {
                     "name": "1000 Rupees Deposit",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "[adultwallet]"
                     ],
@@ -597,6 +630,8 @@
                 "sections": [
                   {
                     "name": "Expert Swordsman Prize",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "sword1"
                     ],
@@ -617,6 +652,8 @@
                 "sections": [
                   {
                     "name": "Postman Counting Game - Day 1: 3 PM - Midnight, Day 2: 5 PM - Midnight",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "[bunnyhood]"
                     ],
@@ -625,6 +662,8 @@
                   },
                   {
                     "name": "Top Priority Delivery - Final Night",
+					"chest_unopened_img": "images/unknownmask.png",
+					"chest_opened_img": "images/unknownmask_grey.png",
                     "access_rules": [
                       "deliverytomama"
                     ],
@@ -745,6 +784,8 @@
                 "sections": [
                   {
                     "name": "500 Rupees Purchase - Final Night",
+					"chest_unopened_img": "images/unknownmask.png",
+					"chest_opened_img": "images/unknownmask_grey.png",
                     "access_rules": [
                       "giantwallet"
                     ],
@@ -766,6 +807,8 @@
                 "sections": [
                   {
                     "name": "Night 1 or 2",
+					"chest_unopened_img": "images/unknownmask.png",
+					"chest_opened_img": "images/unknownmask_grey.png",
                     "capture_item": true,
                     "item_count": 1
                   }
@@ -813,7 +856,7 @@
       },
       {
         "name": "Termina Field",
-        "color": "#18a50e",
+        "color": "#ffa449",
         "children": [
 		
           {
@@ -940,6 +983,8 @@
             "sections": [
               {
                 "name": "Shoot the Beehives",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
                   "$can_break_rocks,zora"
                 ],
@@ -962,6 +1007,8 @@
             "sections": [
               {
                 "name": "From Midnight to 6 AM",
+				"chest_unopened_img": "images/unknownmask.png",
+				"chest_opened_img": "images/unknownmask_grey.png",
                 "access_rules": [
                   "ocarina,songofhealing"
                 ],
@@ -984,6 +1031,8 @@
             "sections": [
               {
                 "name": "Follow Scrub With Telescope",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
                   "$has_projectile,adultwallet",
                   "[$has_projectile],deku,adultwallet",
@@ -1032,6 +1081,8 @@
             "sections": [
               {
                 "name": "Play Sonata/Lullaby/Bossanova in all four grottos",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
                   "$can_break_rocks,ocarina,deku,sonata",
                   "$can_break_rocks,ocarina,zora,bossanova",
@@ -1111,7 +1162,7 @@
 
       {
         "name": "Romani Ranch",
-        "color": "#18a50e",
+        "color": "#e0ef0e",
         "children": [
           {
             "name": "Milk Road Tingle Maps",
@@ -1149,6 +1200,8 @@
             "sections": [
               {
                 "name": "Win the race",
+				"chest_unopened_img": "images/unknownmask.png",
+				"chest_opened_img": "images/unknownmask_grey.png",
                 "access_rules": [
                   "ocarina,eponasong"
                 ],
@@ -1170,20 +1223,22 @@
             "short_name": "Doggo Racetrack",
             "sections": [
               {
-                "name": "Earn 150 Rupees From Racing",
-                "access_rules": [
-                  "[maskoftruth]"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
                 "name": "Chest On Shed Roof",
                 "access_rules": [
 				  "$can_grow_magic_plant",
                   "hookshot",
 				  "zoramask,[$can_grow_magic_plant]",
 				  "zoramask,[hookshot]"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Earn 150 Rupees From Racing",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
+                "access_rules": [
+                  "[maskoftruth]"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1203,6 +1258,8 @@
             "sections": [
               {
                 "name": "Day 1 or 2 - Romani Ranch Archery Training",
+				"chest_unopened_img": "images/unknownsong.png",
+				"chest_opened_img": "images/unknownsong_check.png",
                 "access_rules": [
                   "goron,powderkeg"
                 ],
@@ -1219,6 +1276,8 @@
               },
               {
                 "name": "Night 2: 6 PM - Escort Cremia after defeating Them",
+				"chest_unopened_img": "images/unknownmask.png",
+				"chest_opened_img": "images/unknownmask_grey.png",
                 "access_rules": [
                   "goron,powderkeg,bow"
                 ],
@@ -1240,6 +1299,8 @@
             "sections": [
               {
                 "name": "March with Bremen Mask",
+				"chest_unopened_img": "images/unknownmask.png",
+				"chest_opened_img": "images/unknownmask_grey.png",
                 "access_rules": [
                   "bremenmask"
                 ],
@@ -1261,7 +1322,7 @@
 
       {
         "name": "Swamp",
-        "color": "#18a50e",
+        "color": "#058e2e",
         "children": [
           {
             "name": "Swamp Path Bat Tree Heart Piece",
@@ -1269,6 +1330,8 @@
             "sections": [
               {
                 "name": "Kill the bat and climb",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
                   "$has_projectile",
                   "bombchus"
@@ -1349,6 +1412,8 @@
               },
               {
                 "name": "Perfect Score With Time Left Over",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
                   "bow"
                 ],
@@ -1378,18 +1443,20 @@
                 "item_count": 1
               },
               {
-                "name": "Use Flower",
+                "name": "Buy Magic Beans",
                 "access_rules": [
-                  "deku,towndeed",
-                  "goron,[deku],[towndeed]"
+                  "deku"
                 ],
                 "capture_item": true,
                 "item_count": 1
               },
               {
-                "name": "Buy Magic Beans",
+                "name": "Use Flower",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
-                  "deku"
+                  "deku,towndeed",
+                  "goron,[deku],[towndeed]"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1409,14 +1476,6 @@
             "short_name": "Tourist Center",
             "sections": [
               {
-                "name": "Show Photo of Tingle or Deku King",
-                "access_rules": [
-                  "pictobox"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
                 "name": "Gift From Saving Koume",
                 "access_rules": [
                   "bottlesanity_no,bottle",
@@ -1427,7 +1486,19 @@
                 "item_count": 1
               },
               {
+                "name": "Show Photo of Tingle or Deku King",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
+                "access_rules": [
+                  "pictobox"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
                 "name": "Post Woodfall Temple Archery Game",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
                   "bottlesanity_no,bottle,woodfall",
 				  "bottlesanity_yes,dekuprincess"
@@ -1538,6 +1609,8 @@
                     "sections": [
                       {
                         "name": "Use Deku Pipes in front of the monkey",
+						"chest_unopened_img": "images/unknownsong.png",
+						"chest_opened_img": "images/unknownsong_check.png",
                         "access_rules": [
 						  "ocarina,$can_grow_magic_plant"
                         ],
@@ -1559,6 +1632,8 @@
                     "sections": [
                       {
                         "name": "Get it",
+						"chest_unopened_img": "images/heartpiece.png",
+						"chest_opened_img": "images/heartpiece_grey.png",
                         "capture_item": true,
                         "item_count": 1
                       }
@@ -1606,6 +1681,8 @@
                 "sections": [
                   {
                     "name": "Learn it",
+					"chest_unopened_img": "images/unknownsong.png",
+					"chest_opened_img": "images/unknownsong_check.png",
                     "access_rules": [
                       "deku"
                     ],
@@ -1649,6 +1726,8 @@
                 "sections": [
                   {
                     "name": "Collect 30 Tokens",
+					"chest_unopened_img": "images/unknownmask.png",
+					"chest_opened_img": "images/unknownmask_grey.png",
                     "access_rules": [
                       "{maskoftruth}",
                       "bottlesanity_no,bottle,hookshot,deku,bow,firearrows",
@@ -1722,11 +1801,13 @@
               },*/
 
 			  {
-				"name": "Deku Shrine Mask of Scents",
+				"name": "Deku Shrine Race",
 				"short_name": "Deku Shrine",
 				"sections": [
 				  {
 					"name": "Race with Deku Butler",
+					"chest_unopened_img": "images/unknownmask.png",
+					"chest_opened_img": "images/unknownmask_grey.png",
 					"access_rules": [
 					  "bottlesanity_no,bottle,woodfall",
 					  "bottlesanity_yes,dekuprincess"
@@ -1738,7 +1819,7 @@
 				"map_locations": [
 				  {
 					"map": "termina",
-					"x": 521,
+					"x": 526,
 					"y": 556
 				  }
 				]
@@ -1750,7 +1831,7 @@
 
       {
         "name": "Mountain",
-        "color": "#18a50e",
+        "color": "#af0a0a",
         "access_rules": [
           "bow,$can_break_rocks",
           "bow,firearrows"
@@ -1797,6 +1878,8 @@
             "sections": [
               {
                 "name": "Heal Darmani",
+				"chest_unopened_img": "images/unknownmask.png",
+				"chest_opened_img": "images/unknownmask_grey.png",
                 "access_rules": [
                   "ocarina,songofhealing,lens,magic"
                 ],
@@ -1818,6 +1901,8 @@
             "sections": [
               {
                 "name": "Get it from Goron Shrine",
+				"chest_unopened_img": "images/unknownmask.png",
+				"chest_opened_img": "images/unknownmask_grey.png",
                 "access_rules": [
                   "goron,sticks",
                   "goron,bow,firearrows"
@@ -1841,6 +1926,8 @@
             "sections": [
               {
                 "name": "Gather the 5 frogs and beat Snowhead Temple",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
                   "{maskoftruth}",
                   "{dongero}",
@@ -2036,17 +2123,19 @@
                 "item_count": 1
               },
               {
-                "name": "Use Flower",
+                "name": "Buy Bomb Bag",
                 "access_rules": [
-                  "woodfall_deed,deku"
+                  "goron,adultwallet"
                 ],
                 "capture_item": true,
                 "item_count": 1
               },
               {
-                "name": "Buy Bomb Bag",
+                "name": "Use Flower",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
-                  "goron,adultwallet"
+                  "woodfall_deed,deku"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2105,6 +2194,8 @@
             "sections": [
               {
                 "name": "Talk to Baby Goron",
+				"chest_unopened_img": "images/unknownsong.png",
+				"chest_opened_img": "images/unknownsong_check.png",
                 "access_rules": [
                   "ocarina,goron"
                 ],
@@ -2181,17 +2272,19 @@
             "short_name": "Road to Snowhead",
             "sections": [
               {
-                "name": "Get the PoH",
+                "name": "Get in the secret grotto",
                 "access_rules": [
-                  "hookshot,ocarina,goron,$can_see_with_lens"
+                  "goron,$has_explosives"
                 ],
                 "capture_item": true,
                 "item_count": 1
               },
               {
-                "name": "Get in the secret grotto",
+                "name": "Get the PoH",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
-                  "goron,$has_explosives"
+                  "hookshot,ocarina,goron,$can_see_with_lens"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2244,7 +2337,7 @@
 
       {
         "name": "Great Bay",
-        "color": "#18a50e",
+        "color": "#3f46ff",
         "access_rules": [
           "ocarina,eponasong"
         ],
@@ -2308,6 +2401,8 @@
             "sections": [
               {
                 "name": "Heal Mikau",
+				"chest_unopened_img": "images/unknownmask.png",
+				"chest_opened_img": "images/unknownmask_grey.png",
                 "access_rules": [
                   "ocarina,songofhealing"
                 ],
@@ -2335,7 +2430,9 @@
                 "short_name": "Coast Ledge",
                 "sections": [
                   {
-                    "name": "Great Bay Coast HP",
+                    "name": "Great Bay Coast PoH",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "hookshot,ocarina,$can_grow_magic_plant"
                     ],
@@ -2358,7 +2455,8 @@
                   {
                     "name": "Map: Ocean",
                     "access_rules": [
-                      "$has_projectile"
+                      "bow",
+					  "hookshot"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -2366,7 +2464,8 @@
                   {
                     "name": "Map: Canyon",
                     "access_rules": [
-                      "$has_projectile"
+                      "bow",
+					  "hookshot"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -2387,6 +2486,8 @@
                 "sections": [
                   {
                     "name": "Feed The Fish",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "bottlesanity_no,bottle",
                       "bottlesanity_yes,fish"
@@ -2396,6 +2497,8 @@
                   },
                   {
                     "name": "Song From Zora Eggs",
+					"chest_unopened_img": "images/unknownsong.png",
+					"chest_opened_img": "images/unknownsong_check.png",
                     "access_rules": [
                       "bottlesanity_no,ocarina,bow,hookshot,zora,bottle",
                       "bottlesanity_yes,ocarina,zora,zoraegg"
@@ -2422,6 +2525,8 @@
                 "sections": [
                   {
                     "name": "> > v A A v > A < < > v v > < v On Ocarina - Third Room Down",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "ocarina"
                     ],
@@ -2438,6 +2543,8 @@
                   },
                   {
                     "name": "Use Ocean Scrub Flower - Fourth Room Down",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "goron,snowhead_deed,deku"
                     ],
@@ -2498,15 +2605,6 @@
                 "short_name": "PRock",
                 "sections": [
                   {
-                    "name": "Reunite The Seahorses",
-                    "access_rules": [
-                      "bottlesanity_no,bottle,pictobox",
-					  "bottlesanity_yes,seahorse"
-                    ],
-                    "capture_item": true,
-                    "item_count": 1
-                  },
-                  {
                     "name": "Sea Snake Eggs",
                     "capture_item": true,
                     "item_count": 3
@@ -2516,11 +2614,22 @@
                     "capture_item": true,
                     "item_count": 2
                   },
+                  {
+                    "name": "Reunite The Seahorses",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
+                    "access_rules": [
+                      "bottlesanity_no,bottle,pictobox",
+					  "bottlesanity_yes,seahorse"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
                 ],
                 "map_locations": [
                   {
                     "map": "termina",
-                    "x": 150,
+                    "x": 146,
                     "y": 300
                   }
                 ]
@@ -2561,7 +2670,9 @@
                     "item_count": 2
                   },
                   {
-                    "name": "PF Jail Room HP",
+                    "name": "PF Jail Room PoH",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "capture_item": true,
                     "item_count": 1
                   },
@@ -2652,6 +2763,8 @@
                 "sections": [
                   {
                     "name": "Zora Cape Like Like Treasure",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "capture_item": true,
                     "item_count": 1
                   },
@@ -2701,6 +2814,8 @@
               },
               {
                 "name": "Beaver Brothers Race Rematch",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "capture_item": true,
                 "item_count": 1
               },
@@ -2708,7 +2823,7 @@
             "map_locations": [
               {
                 "map": "termina",
-                "x": 350,
+                "x": 352,
                 "y": 420
               }
             ]
@@ -2744,10 +2859,12 @@
           },
           {
             "name": "Fisherman Island",
-            "short_name": "Fisherman Island",
+            "short_name": "Fisherman Game",
             "sections": [
               {
-                "name": "Great Bay Grotto Chest",
+                "name": "Win it",
+				"chest_unopened_img": "images/heartpiece.png",
+				"chest_opened_img": "images/heartpiece_grey.png",
                 "access_rules": [
                   "greatbay"
                 ],
@@ -2768,7 +2885,7 @@
 
       {
         "name": "Ikana",
-        "color": "#18a50e",
+        "color": "#ad7143",
         "access_rules": [
           "ocarina,eponasong"
         ],
@@ -2779,6 +2896,8 @@
             "sections": [
               {
                 "name": "Give him a red potion",
+				"chest_unopened_img": "images/unknownmask.png",
+				"chest_opened_img": "images/unknownmask_grey.png",
                 "access_rules": [
                   "bottlesanity_no,lens,magic,bottle",
 				  "bottlesanity_yes,lens,magic,redpotion",
@@ -2859,8 +2978,10 @@
               },
               {
                 "name": "Defeat Iron Knuckle",
+				"chest_unopened_img": "images/unknownsong.png",
+				"chest_opened_img": "images/unknownsong_check.png",
                 "access_rules": [
-                  "captainshat,$can_deal_damage,ocarina"
+                  "captainshat,bow,firearrows,ocarina"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2882,7 +3003,7 @@
               {
                 "name": "Defeat Iron Knuckle",
                 "access_rules": [
-                  "captainshat,$can_deal_damage"
+                  "captainshat,$can_see_with_lens,$has_explosives"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -2941,6 +3062,8 @@
                   },
                   {
                     "name": "Cross Canyon",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "access_rules": [
                       "great_bay_deed,zora,deku"
                     ],
@@ -3003,6 +3126,8 @@
                   },
                   {
                     "name": "Defeat all four minibosses",
+					"chest_unopened_img": "images/heartpiece.png",
+					"chest_opened_img": "images/heartpiece_grey.png",
                     "capture_item": true,
                     "item_count": 1
                   }
@@ -3053,6 +3178,8 @@
                     "sections": [
                       {
                         "name": "Heal Pamela's father",
+						"chest_unopened_img": "images/unknownmask.png",
+						"chest_opened_img": "images/unknownmask_grey.png",
                         "access_rules": [
                           "ocarina,songofhealing,songofstorms"
                         ],
@@ -3075,6 +3202,8 @@
                     "sections": [
                       {
                         "name": "Win it",
+						"chest_unopened_img": "images/heartpiece.png",
+						"chest_opened_img": "images/heartpiece_grey.png",
                         "capture_item": true,
                         "item_count": 1
                       }
@@ -3161,18 +3290,22 @@
                     "sections": [
                       {
                         "name": "Defeat Igos Du Ikana",
+						"chest_unopened_img": "images/unknownsong.png",
+						"chest_opened_img": "images/unknownsong_check.png",
                         "access_rules": [
-                          "firearrows,mirrorshield"
+                          "bow,firearrows,mirrorshield"
                         ],
                         "capture_item": true,
                         "item_count": 1
                       },
                       {
                         "name": "Castle PoH",
+						"chest_unopened_img": "images/heartpiece.png",
+						"chest_opened_img": "images/heartpiece_grey.png",
                         "access_rules": [
+                          //"[deku]",
                           "deku,bow",
-                          "deku,hookshot",
-                          "[deku]"
+                          "deku,hookshot"
                         ],
                         "capture_item": true,
                         "item_count": 1

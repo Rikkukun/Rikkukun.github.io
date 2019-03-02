@@ -4,8 +4,7 @@ Keep track of what's in the works the the pack in [our Trello](https://trello.co
 
 ## To-do
 
-* Adding Dungeon-specific Keys to the Item Capture
-* Adding custom check items for Chests, Songs, Heart pieces, Masks
+* Gossip Stones Locations
 * Dungeon Entrance Rando support
 
 ## Ideas
@@ -16,20 +15,18 @@ Keep track of what's in the works the the pack in [our Trello](https://trello.co
 
 ## To-do
 
-* Broadcast view beauty changes
+* New Song of Time icon
 
 ## Ideas
 
-* A cycle reset simulator in the tracker which unmarks all the items that you lose after playing Song of Time
 * Beans counter
-* New Song of Time icon
 * Maps and Compasses
 
 # Minimal Layout
 
 ## To-do
 
-* Broadcast view beauty changes
+ -
 
 ## Ideas
 

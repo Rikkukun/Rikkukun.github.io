@@ -19,8 +19,6 @@ If you have doubts on what a certain icon represents, hover your mouse on it for
 
 * **Standard** layout has six items set to active as default, this is based on Deathbasket's randomizer starting items (Sword, Shield, Ocarina, Magic, Song of Time and Song of Healing).
 
-* ![Woodfall Skulltulla](http://puu.sh/CLLLk/d86abe03e1.png) / ![Great Bay Skulltulla](http://puu.sh/CLLKX/70c5dda9f0.png) are to keep track respectively of Woodfall skulltullas and Great Bay skulltullas.
-
 * You can right click songs to mark which song checks you have done. This is useful when songs are just shuffled between them.
 
 * Small keys for Woodfall Temple and Great Bay Temple don't have a counter because they both contain only one, you either mark them or not.

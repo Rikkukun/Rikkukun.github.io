@@ -66,17 +66,21 @@
 
       {
         "name": "Odolwa",
+        "hosted_item": "woodfall",
+		"chest_unopened_img": "images/heartcontainer.png",
+		"chest_opened_img": "images/heartcontainer_grey.png",
         "access_rules": [
           "woodfall_boss_key,bow,deku",
 		  "woodfall_boss_key,bow,hookshot"
         ],
-        "hosted_item": "woodfall",
         "capture_item": true,
         "item_count": 1
       },
 
       {
         "name": "Oath to Order",
+		"chest_unopened_img": "images/unknownsong.png",
+		"chest_opened_img": "images/unknownsong_check.png",
         "access_rules": [
           "woodfall"
         ],
@@ -189,16 +193,20 @@
 
       {
         "name": "Goht",
+        "hosted_item": "snowhead",
+		"chest_unopened_img": "images/heartcontainer.png",
+		"chest_opened_img": "images/heartcontainer_grey.png",
         "access_rules": [
           "snowhead_boss_key,goron,bow,firearrows"
         ],
-        "hosted_item": "snowhead",
         "capture_item": true,
         "item_count": 1
       },
 
       {
         "name": "Oath to Order",
+		"chest_unopened_img": "images/unknownsong.png",
+		"chest_opened_img": "images/unknownsong_check.png",
         "access_rules": [
           "snowhead"
         ],
@@ -277,6 +285,8 @@
       {
         "name": "Gyorg",
         "hosted_item": "greatbay",
+		"chest_unopened_img": "images/heartcontainer.png",
+		"chest_opened_img": "images/heartcontainer_grey.png",
         "access_rules": [
           "greatbay_boss_key,bow,icearrows,zora,hookshot,deku,[soaring]",
 		  "greatbay_boss_key,bow,icearrows,zora,hookshot,deku,goron",
@@ -288,6 +298,8 @@
 
       {
         "name": "Oath to Order",
+		"chest_unopened_img": "images/unknownsong.png",
+		"chest_opened_img": "images/unknownsong_check.png",
         "access_rules": [
           "greatbay"
         ],
@@ -411,16 +423,20 @@
 
       {
         "name": "Twinmold",
+        "hosted_item": "stonetower",
+		"chest_unopened_img": "images/heartcontainer.png",
+		"chest_opened_img": "images/heartcontainer_grey.png",
         "access_rules": [
           "bow,lightarrows,hookshot,deku,stonetower_boss_key,stonetower_small_keys:2"
         ],
-        "hosted_item": "stonetower",
         "capture_item": true,
         "item_count": 1
       },
 
       {
         "name": "Oath to Order",
+		"chest_unopened_img": "images/unknownsong.png",
+		"chest_opened_img": "images/unknownsong_check.png",
         "access_rules": [
           "stonetower"
         ],

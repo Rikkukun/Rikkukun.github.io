@@ -1183,8 +1183,9 @@
     "img": "images/twinmold.png",
     "codes": "twinmold,twinmoldremains,twin,twinmold_remains,twinremains"
   },
+
   
-  // Moon Tear Trade Sequence
+/*// Moon Tear Trade Sequence
   {
     "name": "Moon Tear Trade",
     "type": "progressive",
@@ -1248,7 +1249,7 @@
         "inherit_codes": false
       }
     ]
-  },
+  },*/
   
   // Woodfall Label
   {
@@ -1293,6 +1294,7 @@
     "name": "Woodfall Prize",
     "type": "progressive_toggle",
     "loop": true,
+	"initial_stage_idx": 1,
     "stages": [
       {
         "img": "images/unknown.png",
@@ -1362,6 +1364,7 @@
     "name": "Snowhead Prize",
     "type": "progressive_toggle",
     "loop": true,
+	"initial_stage_idx": 2,
     "stages": [
       {
         "img": "images/unknown.png",
@@ -1434,6 +1437,7 @@
     "name": "Great Bay Prize",
     "type": "progressive_toggle",
     "loop": true,
+	"initial_stage_idx": 3,
     "stages": [
       {
         "img": "images/unknown.png",
@@ -1503,6 +1507,7 @@
     "name": "Stone Tower Prize",
     "type": "progressive_toggle",
     "loop": true,
+	"initial_stage_idx": 4,
     "stages": [
       {
         "img": "images/unknown.png",
@@ -2004,7 +2009,7 @@
     "name": "Moon Tear",
     "type": "toggle",
     "img": "images/tear.png",
-    "codes": "moontear_static,tear_static,moonstear_static,moon_tear_static"
+    "codes": "moontear,tear,moonstear,moon_tear"
   },
   
   // Town Title Deed Static
@@ -2012,7 +2017,7 @@
     "name": "Town Title Deed",
     "type": "toggle",
     "img": "images/deed1.png",
-    "codes": "deed1_static,towndeed_static,clockdeed_static,clocktowndeed_static"
+    "codes": "deed1,towndeed,clockdeed,clocktowndeed"
   },
   
   // Swamp Title Deed Static
@@ -2020,7 +2025,7 @@
     "name": "Swamp Title Deed",
     "type": "toggle",
     "img": "images/deed2.png",
-    "codes": "deed2_static,dekudeed_static,woodfalldeed_static,woodfall_deed_static,swampdeed_static"
+    "codes": "deed2,dekudeed,woodfalldeed,woodfall_deed,swampdeed"
   },
   
   // Mountain Title Deed Static
@@ -2028,7 +2033,7 @@
     "name": "Mountain Title Deed",
     "type": "toggle",
     "img": "images/deed3.png",
-    "codes": "deed3_static,snowheaddeed_static,snowhead_deed_static,mountaindeed_static"
+    "codes": "deed3,snowheaddeed,snowhead_deed,mountaindeed"
   },
   
   // Ocean Title Deed Static
@@ -2036,7 +2041,7 @@
     "name": "Ocean Title Deed",
     "type": "toggle",
     "img": "images/deed4.png",
-    "codes": "deed4_static,baydeed_static,greatbaydeed_static,great_bay_deed_static,zoradeed_static,oceandeed_static"
+    "codes": "deed4,baydeed,greatbaydeed,great_bay_deed,zoradeed,oceandeed"
   },
   
   // Room Key Static
@@ -2044,7 +2049,7 @@
     "name": "Room Key Static",
     "type": "toggle",
     "img": "images/roomkey.png",
-    "codes": "roomkey_static,anjukey_static,room_key_static"
+    "codes": "roomkey,anjukey,room_key"
   },
   
   // Special Delivery Static
@@ -2052,7 +2057,7 @@
     "name": "Special Delivery",
     "type": "toggle",
     "img": "images/delivery.png",
-    "codes": "delivery_static,deliverytomama_static,delivery_to_mama_static,specialdelivery_static,special_delivery_static"
+    "codes": "delivery,deliverytomama,delivery_to_mama,specialdelivery,special_delivery"
   },
   
   // Letter to Kafei Static
@@ -2060,7 +2065,7 @@
     "name": "Letter to Kafei",
     "type": "toggle",
     "img": "images/letter.png",
-    "codes": "letter_static,letterkafei_static,lettertokafei_static,anjuletter_static,anjusletter_static,letter_to_kafei_static"
+    "codes": "letter,letterkafei,lettertokafei,anjuletter,anjusletter,letter_to_kafei"
   },
   
   // Pendant Static
@@ -2068,7 +2073,7 @@
     "name": "Pendant of Memories",
     "type": "toggle",
     "img": "images/pendant.png",
-    "codes": "pendant_static,pendantofmemories_static,pom_static,pendant_of_memories_static,kafeipendant_static,pendantkafei_static"
+    "codes": "pendant,pendantofmemories,pom,pendant_of_memories,kafeipendant,pendantkafei"
   },
   
   // Adult Wallet Static
